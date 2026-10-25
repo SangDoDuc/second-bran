@@ -12,8 +12,7 @@
 
 - **Sang Duc Do**, 18 Jahre, Oberstufe Gymnasium in Rheinland-Pfalz, wohnt in Altenkirchen (Westerwald)
 - Muttersprache Deutsch → **Kommunikation mit mir auf Deutsch**
-- **Abitur im Januar:** schriftlich in den LKs **Mathe, Physik, Erdkunde**, **Englisch mündlich** als viertes Prüfungsfach
-  - ⚠️ Widerspruch in meinen Notizen: an anderer Stelle steht „Physik ist Grundfach nach rheinland-pfälzischem Lehrplan (Bausteine-System), Lehrer wiederholt jede Woche einen Abitur-Baustein". Bitte einmal bei mir nachfragen und dann korrigieren.
+- **Abitur im Januar:** schriftlich in den LKs **Mathe, Physik, Erdkunde**, **Englisch mündlich** als viertes Prüfungsfach (Physik = LK, von mir bestätigt am 25.10.2026)
 - Fokus liegt auf den drei schriftlichen Fächern; Englisch ist für mich eher Bonus
 - Ich mache das Abi pragmatisch. Grundkurs-Klassenarbeiten lerne ich spontan.
 - **Sehr wenig Lernzeit:** Ich arbeite ca. 30 Std./Woche im Uhren- und Schmuckgeschäft meines Onkels (Produktfotos, Social Media, Website, Werbung) plus Sonntagabend-Minijob. → Ich brauche **effiziente Lernwege ohne viel Auswendiglernen.**
@@ -77,6 +76,8 @@
 | Sprechen: Code-Switching ins Deutsche | Umschreiben statt Wechseln |
 | Sprechen: Past Tense in Erzählungen nicht durchgehalten | Bei Geschichten konsequent Vergangenheit |
 | Sprechen: „I will" in hypothetischen Sätzen | → „I would" |
+| „the" bei allgemeinen Aussagen (*in the recent years*, *the social habits*) – Germanismus | Allgemein gemeinter Plural/Abstraktes ohne „the": *in recent years*, *social habits* |
+| Doppelte Satzverknüpfung (*While …, but …*) | Nur eine Verknüpfung: *While X, Y.* oder *X, but Y.* |
 
 #### Lückentext-Check (Wortart bestimmen)
 | Vor / neben der Lücke steht … | Du brauchst … |
@@ -133,6 +134,7 @@ Bei Englisch-Aufgaben **zuerst die passende Datei lesen**, dann antworten.
 | Climate Change – Ursachen, Lösungen, Muster-Assessment | [`englisch/climate-causes-assessment.md`](englisch/climate-causes-assessment.md) |
 | Sprechen – Fehlerliste & Lernplan | [`englisch/sprechen-fehlerliste.md`](englisch/sprechen-fehlerliste.md) |
 | Vokabel-HÜ Unit 4 – meine Ergebnisse | [`uebungen/englisch-unit4-vokabel-hue.md`](uebungen/englisch-unit4-vokabel-hue.md) |
+| Assessment Climate Change (HA 25.10.) – mein Teil, Korrektur, Fortsetzung | [`uebungen/englisch-assessment-climate-causes.md`](uebungen/englisch-assessment-climate-causes.md) |
 
 ---
 
@@ -142,7 +144,7 @@ Bei Englisch-Aufgaben **zuerst die passende Datei lesen**, dann antworten.
 - **Sozialkunde (SkG):** Frieden/Konflikt international, UN-Reform, Senghaas' zivilisatorisches Hexagon, Völkerrecht, Konflikt Iran–Israel–USA
 - **Erdkunde (LK):** internationale Migration, Push-Pull-Modelle, Chord-Diagramme, Geographie Indiens (dazu interaktive HTML/SVG-Weltkarte erstellt)
 - **Mathe (LK):** e-Funktionen, Ketten-/Produktregel, Logarithmusgleichungen, Integralrechnung, Stochastik, Vektorgeometrie
-- **Physik:** statische elektrische und magnetische Felder, Feldlinienregeln, Superposition – Aufbau von Grundlagen (dazu interaktive HTML-Lernblätter mit SVG-Diagrammen)
+- **Physik (LK):** statische elektrische und magnetische Felder, Feldlinienregeln, Superposition – Aufbau von Grundlagen (dazu interaktive HTML-Lernblätter mit SVG-Diagrammen)
 - **Ethik:** Selbstjustiz-Fall, Straftheorien (Hoerster, Kant)
 - **Bildende Kunst:** Dadaismus, Futurismus
 - **Informatik:** ER-Modellierung + relationales Schema für ein Rezeptportal (ASCII-ER-Diagramme als Fallback)
