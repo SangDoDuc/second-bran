@@ -147,7 +147,7 @@ Bei Englisch-Aufgaben **zuerst die passende Datei lesen**, dann antworten.
 - **Physik (LK):** statische elektrische und magnetische Felder, Feldlinienregeln, Superposition – Aufbau von Grundlagen (dazu interaktive HTML-Lernblätter mit SVG-Diagrammen)
 - **Ethik:** Selbstjustiz-Fall, Straftheorien (Hoerster, Kant)
 - **Bildende Kunst:** Dadaismus, Futurismus
-- **Informatik:** ER-Modellierung + relationales Schema für ein Rezeptportal (ASCII-ER-Diagramme als Fallback)
+- **Informatik:** ER-Modellierung + relationales Schema für ein Rezeptportal (ASCII-ER-Diagramme als Fallback); Rechnernetze mit Filius (IP-Adresse, Netzmaske, ping, Switch) → `informatik/`
 
 ---
 
@@ -193,6 +193,7 @@ Kürzel: SpoS = Sport · SkG = Sozialkunde · Ek = Erdkunde · BK = Bildende Kun
 ├── erdkunde/
 ├── deutsch/
 ├── sozialkunde/
+├── informatik/                # Filius-Arbeitsblätter, Lösungen
 └── uebungen/                  # Probe-HÜs, Lückentexte, meine Antworten + Korrekturen
 ```
 
@@ -200,4 +201,4 @@ Kürzel: SpoS = Sport · SkG = Sozialkunde · Ek = Erdkunde · BK = Bildende Kun
 - Neue **Fachinhalte** (Zusammenfassungen, Musterlösungen, Vokabeln) in den passenden Fachordner – **nicht** in diese Datei. CLAUDE.md wird in jeder Sitzung komplett geladen.
 - Neue **Fehlermuster** dagegen hier in **Abschnitt 3** ergänzen – die sollen immer präsent sein.
 - **Bei neuen Übungen:** meine Antworten und deine Korrekturen in `uebungen/` ablegen, damit Fehlermuster über die Zeit sichtbar werden. Dateiname `fach-thema.md` (z. B. `mathe-kettenregel.md`), jede Runde mit Datum als Überschrift.
-- Fächer ohne eigenen Ordner (Ethik, BK, Informatik, Sport) bei Bedarf anlegen.
+- Fächer ohne eigenen Ordner (Ethik, BK, Sport) bei Bedarf anlegen.
