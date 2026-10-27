@@ -157,6 +157,7 @@ Bei Englisch-Aufgaben **zuerst die passende Datei lesen**, dann antworten.
 - **Probe-HÜs** mit Punkteauswertung und Lösungen am Ende
 - **Spickzettel** mit Stichworten EN + Erklärung DE
 - **Korrektur-Tabellen** mit Fehlermuster-Diagnose
+- **Handschrift als `.goodnotes`-Datei** (bearbeitbare Kuli-Striche, Stichpunkte): Import klappt bei mir (Stand 27.10.2026). Wichtig: GoodNotes rechnet Seite + Striche in Einheiten = Punkte × 132/72; A4 also 1091 × 1543 Einheiten. Strichbreite passend zu meinem Stift ca. 1,05–1,14 pt.
 
 ---
 
