@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" font-family="Helvetica, Arial, sans-serif" font-size="22">
+  <rect width="1100" height="620" fill="white"/>
+  <text x="30" y="40" font-size="26" font-weight="bold">Baumdiagramm: zwei Zahlencodes, T = „enthält die Ziffernfolge“</text>
+  <text x="30" y="72" fill="#555">1. Stufe = erster Code, 2. Stufe = zweiter Code. Pfadwahrscheinlichkeit = Produkt der Äste.</text>
+
+  <!-- Wurzel -->
+  <circle cx="110" cy="340" r="6" fill="black"/>
+
+  <!-- Stufe 1 -->
+  <line x1="110" y1="340" x2="330" y2="200" stroke="black" stroke-width="3"/>
+  <line x1="110" y1="340" x2="330" y2="480" stroke="black" stroke-width="3"/>
+  <text x="190" y="250" fill="#0a5fd1" font-weight="bold">p</text>
+  <text x="170" y="440" fill="#0a5fd1" font-weight="bold">1 − p</text>
+  <text x="340" y="207" font-weight="bold">T</text>
+  <text x="340" y="487" font-weight="bold">T̄</text>
+
+  <!-- Stufe 2 oben -->
+  <line x1="370" y1="200" x2="560" y2="130" stroke="black" stroke-width="3"/>
+  <line x1="370" y1="200" x2="560" y2="270" stroke="black" stroke-width="3"/>
+  <text x="450" y="150" fill="#0a5fd1" font-weight="bold">p</text>
+  <text x="435" y="255" fill="#0a5fd1" font-weight="bold">1 − p</text>
+  <text x="570" y="137" font-weight="bold">T</text>
+  <text x="570" y="277" font-weight="bold">T̄</text>
+
+  <!-- Stufe 2 unten -->
+  <line x1="370" y1="480" x2="560" y2="410" stroke="black" stroke-width="3"/>
+  <line x1="370" y1="480" x2="560" y2="550" stroke="black" stroke-width="3"/>
+  <text x="450" y="430" fill="#0a5fd1" font-weight="bold">p</text>
+  <text x="435" y="535" fill="#0a5fd1" font-weight="bold">1 − p</text>
+  <text x="570" y="417" font-weight="bold">T</text>
+  <text x="570" y="557" font-weight="bold">T̄</text>
+
+  <!-- Pfadprodukte -->
+  <text x="640" y="137">p · p = p²</text>
+  <text x="640" y="277">p · (1 − p)</text>
+  <text x="640" y="417">(1 − p) · p</text>
+  <text x="640" y="557">(1 − p) · (1 − p) = (1 − p)²</text>
+
+  <!-- Bedeutung -->
+  <text x="870" y="137" fill="#555" font-size="19">beide enthalten</text>
+  <text x="870" y="277" fill="#1a8a2e" font-size="19" font-weight="bold">genau einer</text>
+  <text x="870" y="417" fill="#1a8a2e" font-size="19" font-weight="bold">genau einer</text>
+  <text x="870" y="557" fill="#c0392b" font-size="19">keiner</text>
+
+  <!-- Markierungen -->
+  <rect x="630" y="250" width="225" height="190" fill="none" stroke="#1a8a2e" stroke-width="3" stroke-dasharray="8 6" rx="10"/>
+  <text x="640" y="245" fill="#1a8a2e" font-size="18">Zähler: A ∩ B = „genau einer“</text>
+  <line x1="635" y1="565" x2="880" y2="540" stroke="#c0392b" stroke-width="4"/>
+  <text x="640" y="598" fill="#c0392b" font-size="18">fällt weg: Bedingung „mindestens einer“</text>
+
+  <!-- Nenner -->
+  <rect x="630" y="105" width="225" height="335" fill="none" stroke="#0a5fd1" stroke-width="2" rx="10"/>
+  <text x="640" y="98" fill="#0a5fd1" font-size="18">Nenner: A = „mindestens einer“ = 1 − (1 − p)²</text>
+</svg>
