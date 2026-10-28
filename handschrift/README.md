@@ -39,6 +39,18 @@ Erzeugen: `cd handschrift/vorlage && python3 make_vorlage.py AUSGABEORDNER/`
 
 Benötigt werden reportlab und lz4, PyMuPDF nur für die Vorschaubilder.
 
+## Kurzfassung SP-k1 (1 Seite, ca. 8 Minuten) – die verschickte Version
+
+Sang hatte für die lange Fassung keine Zeit (28.10.2026). Deshalb gibt es die Kurzfassung:
+- 3 Sätze (darunter ein Pangramm mit allen Buchstaben, ä ö ü ß)
+- A–Z, 0–9 und 18 Zeichen je 1×
+- 6 Mathe-Ausdrücke (Spaltenvektor, Bruch, Vektorpfeil, Wurzelstrich, Ebene, Punkt, e-Funktion)
+- 11 Wörter
+
+Insgesamt 74 Felder. Erzeugen mit `SP_KOMPAKT=1 python3 make_vorlage.py OUT/`, Schlüssel ist `vorlage/layout_kompakt.json`.
+
+Grenze: Jedes Zeichen gibt es nur 1×, deshalb gibt es kaum Abwechslung, und viele Buchstabenverbindungen kommen nur aus den 3 Sätzen. Die lange Fassung SP-v2 kann später ergänzt werden.
+
 ## Inhalt der Vorlage SP-v2 (6 Seiten, 364 Felder, 488 Schreibvorgänge)
 
 | Teil | Inhalt | Wozu |

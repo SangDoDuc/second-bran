@@ -10,7 +10,7 @@ v2 nach Prüfung (Usability, Extraktion, Abdeckung) am 28.10.2026:
 - Mathe in Klausur-Form gedruckt (Spaltenvektor, Bruch, Pfeil, Wurzelstrich, Integralgrenzen, Binomialkoeffizient)
 - hohe Felder +-3 Kästchen mit Bezug "mittlere Zeile auf der Linie", Kalibrierpunkte, Vorlagen-ID in der Kopfzeile
 
-cd handschrift/vorlage && python3 make_vorlage.py OUT_DIR    (braucht reportlab, lz4; PyMuPDF nur für Vorschaubilder)
+cd handschrift/vorlage && [SP_KOMPAKT=1] python3 make_vorlage.py OUT_DIR   (SP_KOMPAKT=1: 1-Seiten-Kurzfassung)    (braucht reportlab, lz4; PyMuPDF nur für Vorschaubilder)
 """
 import hashlib
 import io
@@ -27,12 +27,14 @@ from reportlab.pdfbase.ttfonts import TTFont  # noqa: E402
 from reportlab.pdfgen.canvas import Canvas  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__)) + "/"
-TEMPLATE_ID = "SP-v2"
+COMPACT = os.environ.get("SP_KOMPAKT") == "1"
+TEMPLATE_ID = "SP-k1" if COMPACT else "SP-v2"
+BASENAME = "Schriftprobe_Sang_kompakt" if COMPACT else "Schriftprobe_Sang_Vorlage"
 PW, PH = A4
 SX, SY = PW / 1414, PH / 2000
 CELL = 38 * SX
 COL0, COL1 = 1, 35            # nutzbare Rasterspalten
-ROW_LAST = 49                 # letzte erlaubte Grundlinie (Rasterzeile)
+ROW_LAST = 50 if os.environ.get("SP_KOMPAKT") == "1" else 49   # letzte erlaubte Grundlinie (Rasterzeile)
 BLUE = (0.16, 0.38, 0.78)
 NAME = (0.42, 0.48, 0.62)
 LIGHT = (0.55, 0.70, 0.95)
@@ -420,6 +422,51 @@ def build():
     return L.pages
 
 
+# ----------------------------------------------------------------------------- kompakte Variante (1 Seite, ca. 8 Min.)
+K_INSTR = [
+    "Kugelschreiber, Schwarz, so klein und schnell wie im Unterricht. Nie einen roten Korrekturvorschlag antippen, am Strichende nicht stehen bleiben.",
+    "Rechts neben die blaue Vorlage auf die hellblaue Linie schreiben. Verschrieben → Rückgängig (2 Finger tippen) und neu.",
+    "Fertig: Teilen → Exportieren → PDF „Bearbeitbar“ und einmal als GoodNotes → beide an Claude.",
+]
+K_SENT = [
+    "Zwölf Boxkämpfer jagen Viktor quer über den großen Sylter Deich.",
+    "– Warum liegen A und C gegenüber? AC geht durch M, also keine Kante → Diagonale.",
+    "Laut Abb. 3 steigt der Anteil seit 2019 (ca. 43 %), z.B. in den USA.",
+]
+K_SIGNS = list(DIGITS) + ["(", ")", "|", "+", "−", "=", "·", "→", "√", "?", "!", "%", "/", "-", "„", "“", ",", ":"]
+K_MATH_TALL = [("vec_ac", "^AC = V{−4;−8;8}", 8), ("frac", "x = F{1}{2}", 4), ("abs", "|^AC| = √{144} = 12", 8)]
+K_MATH_FLAT = [("plane", "H: 2x₁ + x₂ + 2x₃ = 6", 11), ("points", "C(−3|−6|9)", 7), ("exp", "f(x) = 3·e⁻²ˣ", 7)]
+K_WORDS = "und ist nicht mit für dass Würfel Vektor Funktion Richtung Gleichung".split()
+
+
+def build_compact():
+    L = Layout()
+    pg = L.page
+    pg["draw"].append(("title",))
+    for k, t in enumerate(K_INSTR):
+        pg["draw"].append(("instr", f"{k + 1}. {t}", 4 + k))
+    L.calib("calib_p1", gx(33), gy(2) + 2)
+    L.row = 4 + len(K_INSTR) - 1
+    L.heading("Sätze", "einmal normal auf die Linie darunter abschreiben", gap=3)
+    for k, s in enumerate(K_SENT):
+        L.sentence(f"sent_{k}", s)
+    L.heading("Zeichen", "jedes Zeichen 1-mal")
+    for ch in UPPER:
+        L.slot(f"upper_{ch}", "2", "letter", ch, 1)
+    for ch in K_SIGNS:
+        kind = "digit" if ch.isdigit() else "punct"
+        L.slot(f"{kind}_U+{ord(ch):04X}", "2", kind, ch, 1, text=ch)
+    L.heading("Mathe und Wörter", "genau so abschreiben")
+    for sid, m, wc in K_MATH_TALL:
+        L.slot(f"math_{sid}", "3", "math", "§M" + m, write_cols=wc, tall=True, text=plain(m))
+    L.next_line(5)
+    for sid, m, wc in K_MATH_FLAT:
+        L.slot(f"math_{sid}", "3", "math", "§M" + m, write_cols=wc, text=plain(m))
+    for w in K_WORDS:
+        L.slot(f"word_{w}", "4", "word", w, write_cols=max(3, math.ceil(0.5 * len(w) + 1)))
+    return L.pages
+
+
 # ----------------------------------------------------------------------------- Zeichnen
 def draw_grid(c):
     c.setStrokeGray(0.80)
@@ -508,7 +555,7 @@ def draw_page(c, pg, n_pages):
 def render(pages, out_dir):
     os.makedirs(out_dir, exist_ok=True)
     n = len(pages)
-    c = Canvas(out_dir + "Schriftprobe_Sang_Vorlage.pdf", pagesize=A4, invariant=1)
+    c = Canvas(out_dir + BASENAME + ".pdf", pagesize=A4, invariant=1)
     c.setTitle("Schriftprobe für deine Handschrift")
     c.setAuthor("Sang Duc Do")
     single = []
@@ -537,19 +584,19 @@ def render(pages, out_dir):
                    "bg_sha256": hashlib.sha256(single[k]).hexdigest(), "printed": p["printed"], "items": p["items"]}
                   for k, p in enumerate(pages)],
     }
-    json.dump(layout, open(out_dir + "layout.json", "w"), ensure_ascii=False, indent=1)
+    json.dump(layout, open(out_dir + ("layout_kompakt.json" if COMPACT else "layout.json"), "w"), ensure_ascii=False, indent=1)
     return single
 
 
 if __name__ == "__main__":
     out = sys.argv[1] if len(sys.argv) > 1 else HERE + "out/"
-    pages = build()
+    pages = build_compact() if COMPACT else build()
     single = render(pages, out)
     import gn_writer  # noqa: E402
     from PIL import Image  # noqa: E402
     try:
         import fitz  # noqa: E402
-        doc = fitz.open(out + "Schriftprobe_Sang_Vorlage.pdf")
+        doc = fitz.open(out + BASENAME + ".pdf")
         pix = doc[0].get_pixmap(dpi=40)
         im = Image.frombytes("RGB", (pix.width, pix.height), pix.samples).resize((298, 421))
     except ImportError:
@@ -557,10 +604,10 @@ if __name__ == "__main__":
     tb = io.BytesIO()
     im.save(tb, "JPEG", quality=85)
     gp = [(PW, PH, [], pdf) for pdf in single]
-    res = gn_writer.write(out + "Schriftprobe_Sang_Vorlage.goodnotes", "Schriftprobe Sang", gp, None, tb.getvalue(),
+    res = gn_writer.write(out + BASENAME + ".goodnotes", "Schriftprobe Sang", gp, None, tb.getvalue(),
                           1.05, (0.07, 0.07, 0.09))
     for k in range(len(doc)):
-        doc[k].get_pixmap(dpi=110).save(out + f"preview_p{k + 1}.png")
+        doc[k].get_pixmap(dpi=110).save(out + f"{BASENAME}_p{k + 1}.png")
     items = [i for p in pages for i in p["items"]]
     writes = sum(i["reps"] for i in items if i["kind"] != "calib")
     print(len(pages), "Seiten,", len(items), "Felder,", writes, "Schreibvorgänge", res)
