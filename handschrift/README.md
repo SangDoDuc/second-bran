@@ -40,6 +40,23 @@ Stand: 28.10.2026
   - Helle Striche werden um den Faktor 1,35 verstärkt.
   - Bei „=“ werden die Striche auf mindestens 5 px Abstand gezogen. Sonst verschmelzen sie bei der Kuli-Umwandlung.
 
+## Fließtext-Methode seit 28.10.2026 (`werkzeug/render_font.py`)
+
+- Sangs Feedback zur ersten Englisch-Fassung:
+  - Buchstaben und Wörter zu weit auseinander
+  - nicht gerade auf der Linie
+  - teilweise unleserlich
+- Neue Methode: Statt Wortstücke aneinanderzuhängen, wird **jeder Buchstabe einzeln** gesetzt.
+  - Der Buchstabenkörper sitzt genau auf der Grundlinie.
+  - Maße: x-Höhe 13 px, Oberlänge und Großbuchstaben 19 px.
+  - Abstände: zwischen Buchstaben 1 px, zwischen Wörtern ~15 px.
+- `font.py` holt die Kandidaten:
+  - Kleinbuchstaben aus der alten Foto-Bibliothek (mit Buchstabengrenzen)
+  - Großbuchstaben, Ziffern und Zeichen sowie a b d e i k m n o r t x aus SP-k1
+  - v und z aus V und Z auf x-Höhe; i bekommt einen Punkt, wo er fehlt
+- `PICK` in `render_font.py` sind die Varianten, die **nach der Kuli-Umwandlung** noch lesbar sind (geprüft mit `conv_test.py`). Dicke Proben verlieren sonst Details: Das Auge im e läuft zu, der Bogen im h verschwindet.
+- Abhängigkeit: `hw/lib2.pkl` (alte Bibliothek) liegt nur im Arbeitsordner der Sitzung. Für eine dauerhafte Fassung fehlt eine Probe mit a–z, ä, ö, ü, ß.
+
 ## Für Sang: Ablauf
 
 1. Datei `Schriftprobe_Sang_Vorlage.goodnotes` in GoodNotes öffnen. Falls das nicht klappt: die PDF importieren.

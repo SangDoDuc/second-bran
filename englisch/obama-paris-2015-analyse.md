@@ -9,17 +9,13 @@ Alle Zitate und Zeilenangaben sind am Buchfoto geprüft.
 
 ---
 
-## 1. Dangers of climate change (Outline – keine Zitate, keine Zeilen)
+## 1. Dangers of climate change (Summary/Outline – Fließtext, keine Zitate, keine Zeilen)
 
 In his speech at the UN climate conference in Paris in 2015, Barack Obama describes the dangers of climate change and asks world leaders to act together.
 
-- Climate change could shape this century more than any other problem, and no country is safe from it.
-- The earth is getting warmer. Most of the warmest years on record have happened since 2000.
-- In Alaska the sea is already destroying villages and coasts, the frozen soil is melting, the tundra is burning and glaciers are melting very fast.
-- In the future, whole countries could disappear under water, cities could be abandoned and fields could stop producing food.
-- This could lead to political problems and new conflicts, and many people would have to flee to other countries.
-- Weak states and economies would not be able to cope with these problems.
-- If the world acts too late, the next generation will suffer most.
+First, he explains that climate change could shape this century more than any other problem and that no country is safe from it. The earth is already getting warmer, because most of the warmest years on record have happened since 2000. In Alaska he has seen the effects himself: the sea is destroying villages and coasts, the frozen soil is melting, the tundra is burning and glaciers are melting very fast.
+
+Then he warns about the future. Whole countries could disappear under water, cities could be abandoned and fields could stop producing food. This could lead to political problems and new conflicts, and many people would have to flee to other countries. Weak states and economies would not be able to cope with these problems, and the next generation would suffer most.
 
 However, Obama also says that it is not too late if all nations act together now.
 
@@ -29,7 +25,7 @@ Obama uses many rhetorical devices to show how dangerous climate change is, to g
 
 | Mittel | Zitat (Zeile) | Wirkung (einfach) |
 |---|---|---|
-| Facts and numbers | “fourteen of the fifteen warmest years on record have occurred since the year 2000” (ll. 15–16) | The danger is real, not an opinion. He seems serious and trustworthy. |
+| Facts and numbers | “fourteen of the fifteen warmest years on record have occurred since the year 2000” (ll. 15–16) | The danger is real, not only an opinion. He seems serious and trustworthy. |
 | Imagery / personification | “the sea is already swallowing villages” (ll. 22–23) | The sea is like a monster. The audience can imagine the danger. |
 | Short sentences | “Submerged countries. Abandoned cities.” (ll. 30–31) | A dark picture of the future. They work like a warning and create fear. |
 | Repetition | “Right here. Right now.” (ll. 39–40) | They must act immediately, and it gives hope: the future can still be changed. |

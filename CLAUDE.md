@@ -32,6 +32,7 @@
 - **Schritt für Schritt, linear.** Antworten, die hin- und herspringen, kann ich schlecht nachvollziehen.
 - **Tabellen und Stichpunkte** statt Fließtext, wo möglich. Wenn ich „kürzer" sage, deutlich kürzen.
 - Zu jedem Inhalt zusätzlich eine **klausurfertige Kurzversion**.
+- **Summaries (Englisch/Deutsch) als Fließtext mit Absätzen**, nicht in Stichpunkten (Wunsch 28.10.2026).
 - Musterlösungen immer mit kurzer Erklärung: **warum so**, **was bringt Punkte**, **typische Fehler**.
 - **Übersetzungen EN → DE** auf Nachfrage – direkt unter dem jeweiligen englischen Absatz.
 - **Spickzettel / Skripte** (z. B. für Rollenspiele, Referate):
@@ -159,7 +160,7 @@ Bei Englisch-Aufgaben **zuerst die passende Datei lesen**, dann antworten.
 - **Spickzettel** mit Stichworten EN + Erklärung DE
 - **Korrektur-Tabellen** mit Fehlermuster-Diagnose
 - **Handschrift als `.goodnotes`-Datei** (bearbeitbare Kuli-Striche, Stichpunkte): Import klappt bei mir (Stand 27.10.2026). Wichtig: GoodNotes rechnet Seite + Striche in Einheiten = Punkte × 132/72; A4 also 1091 × 1543 Einheiten. Strichbreite passend zu meinem Stift ca. 1,05–1,14 pt.
-- **Handschrift-Bibliothek:** Die alte stammt aus 1 Foto (170 englische Wörter), ca. 22 Zeichen waren künstlich gezeichnet → wirkte fremd (mein Feedback 28.10.2026). Seit 28.10.2026 gibt es die **neue Bibliothek aus meiner Kurzfassung SP-k1** → `handschrift/bibliothek/` (README dort). **Nur noch die verwenden.** Mathe-Lösungswege gehen gut, lange Fließtexte noch nicht, weil Kleinbuchstaben fehlen. Bei Mathe-Handschrift: **nur den Lösungsweg** in Handschrift, die Erklärung schreibst du mir im Chat. Für Fließtext (z. B. Englisch) wird kombiniert: Kleinbuchstaben aus der alten Foto-Bibliothek, Großbuchstaben/Ziffern/Zeichen aus der neuen Probe. Striche werden geglättet (`handschrift/werkzeug/smooth_outputs.py`), weil ich die Mathe-Datei „pixelig“ fand.
+- **Handschrift-Bibliothek:** Die alte stammt aus 1 Foto (170 englische Wörter), ca. 22 Zeichen waren künstlich gezeichnet → wirkte fremd (mein Feedback 28.10.2026). Seit 28.10.2026 gibt es die **neue Bibliothek aus meiner Kurzfassung SP-k1** → `handschrift/bibliothek/` (README dort). **Nur noch die verwenden.** Mathe-Lösungswege gehen gut, lange Fließtexte noch nicht, weil Kleinbuchstaben fehlen. Bei Mathe-Handschrift: **nur den Lösungsweg** in Handschrift, die Erklärung schreibst du mir im Chat. Für Fließtext (z. B. Englisch) wird kombiniert: Kleinbuchstaben aus der alten Foto-Bibliothek, Großbuchstaben/Ziffern/Zeichen aus der neuen Probe. Striche werden geglättet (`handschrift/werkzeug/smooth_outputs.py`), weil ich die Mathe-Datei „pixelig“ fand. **Fließtext seit 28.10.2026 mit `render_font.py`:** einzelne, geprüfte Buchstaben genau auf der Grundlinie, enge Abstände (Buchstaben 1 px, Wörter ~15 px). Das wollte ich so: gerade auf der Linie, nah beieinander, sauber und lesbar, aber in meinem Stil. Vorher waren die Wortteile zu weit auseinander und nicht gerade.
 
 ---
 
