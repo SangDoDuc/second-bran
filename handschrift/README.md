@@ -30,7 +30,7 @@ Stand: 28.10.2026
 - In der Bibliothek:
   - A–Z, 0–9 und Zeichen einzeln
   - Mathe-Teile aus Sangs Ausdrücken (Pfeil, große Klammern, Wurzel mit Strich, Bruchstrich, ½, ₁₂₃, ², Malpunkt)
-  - Kleinbuchstaben a b c d e g h i k l m n o p r s t u x ä ö und der Punkt, aus Wörtern geschnitten (c g h l p s u ä ö . ergänzt am 28.10. abends für die Stochastik-Lösung; e: 3 Varianten aus keine, Deich, geht)
+  - Kleinbuchstaben a b c d e g h i k l m n o p r s t u x ä ö und der Punkt, aus Wörtern geschnitten (c g h l p s u ä ö . ergänzt am 28.10. abends für die Stochastik-Lösung; e: 5 Varianten aus keine, liegen ×2, seit, quer)
   - ganze Wörter: und, gegenüber, Diagonale, der, Würfel, Vektor, Richtung, also, keine, Kante, durch, in, den
 - Ablauf: `cd handschrift/bibliothek && python3 extract_sample.py && python3 split_words.py && python3 glyphs.py && python3 render_stochastik.py` (oder `render_loesung.py`)
   - Ergebnis: `stoch_p1_alpha.npy` (bzw. `loes_p1_alpha.npy`), dazu ein Vorschau-PNG.
