@@ -10,6 +10,36 @@ Stand: 28.10.2026
 | Ursache | Die alte Bibliothek stammt aus **einem Foto** mit 170 englischen Wörtern (Climate-Assessment). Rund 22 Zeichen kamen darin nicht vor: fast alle Großbuchstaben, z, k, j, v, ß, viele Ziffern, Klammern und Mathe-Zeichen. Claude hat sie künstlich gezeichnet. Außerdem lag die alte Bibliothek nur im temporären Arbeitsordner einer Sitzung. |
 | Lösung | Sang füllt die Schriftprobe **SP-v2** einmal in GoodNotes aus. Daraus entsteht eine neue Bibliothek aus Vektorstrichen. Sie wird **hier im Repo** gespeichert und ersetzt die alte für alle künftigen Handschrift-Dateien. |
 
+## Aktueller Stand: Bibliothek aus der Kurzfassung SP-k1 (28.10.2026)
+
+- Sang hat die Kurzfassung ausgefüllt und als **Bild** geschickt (1414 × 2000 px, also genau das Seitenraster), nicht als PDF/GoodNotes-Export. Das reicht: Die Felder werden über `vorlage/layout_kompakt.json` ausgeschnitten.
+- Ordner `bibliothek/`:
+
+| Datei | Zweck |
+|---|---|
+| `schriftprobe_SP-k1.jpg` | Sangs ausgefüllte Probe (Rohdaten) |
+| `extract_sample.py` | schneidet die schwarze Tinte je Feld aus (blaue Vorlage und Raster fallen weg) |
+| `split_words.py` | zerlegt die 3 Sätze in Wörter |
+| `comps.py`, `cc_view.py` | Strichteile eines Feldes auflisten bzw. vergrößert mit Nummern anzeigen |
+| `glyphs.py` | **die Bibliothek**: 79 Zeichen, 113 Varianten, 13 ganze Wörter |
+| `render_loesung.py` | setzt Zeilen daraus zusammen (Spaltenvektor, Pfeil, Wurzelstrich, Bruch, Hoch-/Tiefzahlen) |
+| `zeichenuebersicht.png` | Übersicht aller Zeichen |
+
+- In der Bibliothek:
+  - A–Z, 0–9 und Zeichen einzeln
+  - Mathe-Teile aus Sangs Ausdrücken (Pfeil, große Klammern, Wurzel mit Strich, Bruchstrich, ½, ₁₂₃, ², Malpunkt)
+  - Kleinbuchstaben a b d e i k m n o r t x, aus Wörtern geschnitten
+  - ganze Wörter: und, gegenüber, Diagonale, der, Würfel, Vektor, Richtung, also, keine, Kante, durch, in, den
+- Ablauf: `cd handschrift/bibliothek && python3 extract_sample.py && python3 split_words.py && python3 glyphs.py && python3 render_loesung.py`
+  - Ergebnis: `loes_p1_alpha.npy`. Daraus macht die Kuli-Umwandlung (uniform/strokes, liegt noch im Arbeitsordner der Sitzung) GoodNotes und PDF.
+- Grenzen:
+  - Viele Kleinbuchstaben gibt es nur 1×.
+  - Für fehlende Kleinbuchstaben (c f g h l p s u v w y z ä ö ü ß) einzeln ist noch kein Schnitt angelegt. Lange Fließtexte gehen deshalb noch nicht.
+  - Mathe-Lösungswege gehen gut.
+- Erfahrungen:
+  - Helle Striche werden um den Faktor 1,35 verstärkt.
+  - Bei „=“ werden die Striche auf mindestens 5 px Abstand gezogen. Sonst verschmelzen sie bei der Kuli-Umwandlung.
+
 ## Für Sang: Ablauf
 
 1. Datei `Schriftprobe_Sang_Vorlage.goodnotes` in GoodNotes öffnen. Falls das nicht klappt: die PDF importieren.

@@ -158,7 +158,7 @@ Bei Englisch-Aufgaben **zuerst die passende Datei lesen**, dann antworten.
 - **Spickzettel** mit Stichworten EN + Erklärung DE
 - **Korrektur-Tabellen** mit Fehlermuster-Diagnose
 - **Handschrift als `.goodnotes`-Datei** (bearbeitbare Kuli-Striche, Stichpunkte): Import klappt bei mir (Stand 27.10.2026). Wichtig: GoodNotes rechnet Seite + Striche in Einheiten = Punkte × 132/72; A4 also 1091 × 1543 Einheiten. Strichbreite passend zu meinem Stift ca. 1,05–1,14 pt.
-- **Handschrift-Bibliothek:** Die alte stammt aus 1 Foto (170 englische Wörter), ca. 22 Zeichen waren künstlich gezeichnet → wirkte fremd (mein Feedback 28.10.2026). Neue **Schriftprobe SP-v2** (6 Seiten, GoodNotes) → `handschrift/` (README: Ablauf und Auswertung). Sobald ich sie ausgefüllt zurückschicke: neue Bibliothek in `handschrift/bibliothek/` speichern und nur noch die verwenden.
+- **Handschrift-Bibliothek:** Die alte stammt aus 1 Foto (170 englische Wörter), ca. 22 Zeichen waren künstlich gezeichnet → wirkte fremd (mein Feedback 28.10.2026). Seit 28.10.2026 gibt es die **neue Bibliothek aus meiner Kurzfassung SP-k1** → `handschrift/bibliothek/` (README dort). **Nur noch die verwenden.** Mathe-Lösungswege gehen gut, lange Fließtexte noch nicht, weil Kleinbuchstaben fehlen. Bei Mathe-Handschrift: **nur den Lösungsweg** in Handschrift, die Erklärung schreibst du mir im Chat.
 
 ---
 
