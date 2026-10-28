@@ -132,6 +132,7 @@ Bei Englisch-Aufgaben **zuerst die passende Datei lesen**, dann antworten.
 | Kap. 7 – Rollenspiel Mark Conrad (RWE-Sprecher) | [`englisch/kap7-ecological/rollenspiel-rwe.md`](englisch/kap7-ecological/rollenspiel-rwe.md) |
 | Foer – „We Are the Weather“ (Workbook S. 54–55) | [`englisch/foer-we-are-the-weather.md`](englisch/foer-we-are-the-weather.md) |
 | Climate Change – Ursachen, Lösungen, Muster-Assessment | [`englisch/climate-causes-assessment.md`](englisch/climate-causes-assessment.md) |
+| Obama, Rede Paris 2015 (S. 116–117) – Outline der Gefahren + Analyse | [`englisch/obama-paris-2015-analyse.md`](englisch/obama-paris-2015-analyse.md) |
 | Sprechen – Fehlerliste & Lernplan | [`englisch/sprechen-fehlerliste.md`](englisch/sprechen-fehlerliste.md) |
 | Vokabel-HÜ Unit 4 – meine Ergebnisse | [`uebungen/englisch-unit4-vokabel-hue.md`](uebungen/englisch-unit4-vokabel-hue.md) |
 | Assessment Climate Change (HA 25.10.) – mein Teil, Korrektur, Fortsetzung | [`uebungen/englisch-assessment-climate-causes.md`](uebungen/englisch-assessment-climate-causes.md) |
@@ -158,7 +159,7 @@ Bei Englisch-Aufgaben **zuerst die passende Datei lesen**, dann antworten.
 - **Spickzettel** mit Stichworten EN + Erklärung DE
 - **Korrektur-Tabellen** mit Fehlermuster-Diagnose
 - **Handschrift als `.goodnotes`-Datei** (bearbeitbare Kuli-Striche, Stichpunkte): Import klappt bei mir (Stand 27.10.2026). Wichtig: GoodNotes rechnet Seite + Striche in Einheiten = Punkte × 132/72; A4 also 1091 × 1543 Einheiten. Strichbreite passend zu meinem Stift ca. 1,05–1,14 pt.
-- **Handschrift-Bibliothek:** Die alte stammt aus 1 Foto (170 englische Wörter), ca. 22 Zeichen waren künstlich gezeichnet → wirkte fremd (mein Feedback 28.10.2026). Seit 28.10.2026 gibt es die **neue Bibliothek aus meiner Kurzfassung SP-k1** → `handschrift/bibliothek/` (README dort). **Nur noch die verwenden.** Mathe-Lösungswege gehen gut, lange Fließtexte noch nicht, weil Kleinbuchstaben fehlen. Bei Mathe-Handschrift: **nur den Lösungsweg** in Handschrift, die Erklärung schreibst du mir im Chat.
+- **Handschrift-Bibliothek:** Die alte stammt aus 1 Foto (170 englische Wörter), ca. 22 Zeichen waren künstlich gezeichnet → wirkte fremd (mein Feedback 28.10.2026). Seit 28.10.2026 gibt es die **neue Bibliothek aus meiner Kurzfassung SP-k1** → `handschrift/bibliothek/` (README dort). **Nur noch die verwenden.** Mathe-Lösungswege gehen gut, lange Fließtexte noch nicht, weil Kleinbuchstaben fehlen. Bei Mathe-Handschrift: **nur den Lösungsweg** in Handschrift, die Erklärung schreibst du mir im Chat. Für Fließtext (z. B. Englisch) wird kombiniert: Kleinbuchstaben aus der alten Foto-Bibliothek, Großbuchstaben/Ziffern/Zeichen aus der neuen Probe. Striche werden geglättet (`handschrift/werkzeug/smooth_outputs.py`), weil ich die Mathe-Datei „pixelig“ fand.
 
 ---
 
