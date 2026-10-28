@@ -23,22 +23,28 @@ Stand: 28.10.2026
 | `comps.py`, `cc_view.py` | Strichteile eines Feldes auflisten bzw. vergrößert mit Nummern anzeigen |
 | `glyphs.py` | **die Bibliothek**: 79 Zeichen, 113 Varianten, 13 ganze Wörter |
 | `render_loesung.py` | setzt Zeilen daraus zusammen (Spaltenvektor, Pfeil, Wurzelstrich, Bruch, Hoch-/Tiefzahlen) |
-| `zeichenuebersicht.png` | Übersicht aller Zeichen |
+| `render_stochastik.py` | IQB 2026 Stochastik (Zahlencodes): zusätzlich T̄ (Überstrich), `_{A}` (tiefgestellt), Baum-Skizze mit Linien |
+| `zeichenuebersicht.png` | Übersicht aller Zeichen (Stand vor der Ergänzung vom 28.10. abends) |
+| `../werkzeug/kuli.py` | **Kuli-Umwandlung**: Tinten-Alpha (`*_alpha.npy`) → Mittellinien-Striche → `.goodnotes` + PDF + Vorschau-PNG |
 
 - In der Bibliothek:
   - A–Z, 0–9 und Zeichen einzeln
   - Mathe-Teile aus Sangs Ausdrücken (Pfeil, große Klammern, Wurzel mit Strich, Bruchstrich, ½, ₁₂₃, ², Malpunkt)
-  - Kleinbuchstaben a b d e i k m n o r t x, aus Wörtern geschnitten
+  - Kleinbuchstaben a b c d e g h i k l m n o p r s t u x ä ö und der Punkt, aus Wörtern geschnitten (c g h l p s u ä ö . ergänzt am 28.10. abends für die Stochastik-Lösung; e: 3 Varianten aus keine, Deich, geht)
   - ganze Wörter: und, gegenüber, Diagonale, der, Würfel, Vektor, Richtung, also, keine, Kante, durch, in, den
-- Ablauf: `cd handschrift/bibliothek && python3 extract_sample.py && python3 split_words.py && python3 glyphs.py && python3 render_loesung.py`
-  - Ergebnis: `loes_p1_alpha.npy`. Daraus macht die Kuli-Umwandlung (uniform/strokes, liegt noch im Arbeitsordner der Sitzung) GoodNotes und PDF.
+- Ablauf: `cd handschrift/bibliothek && python3 extract_sample.py && python3 split_words.py && python3 glyphs.py && python3 render_stochastik.py` (oder `render_loesung.py`)
+  - Ergebnis: `stoch_p1_alpha.npy` (bzw. `loes_p1_alpha.npy`), dazu ein Vorschau-PNG.
+  - Dann: `python3 ../werkzeug/kuli.py --out ../../mathe/NAME --title "Titel" stoch_p1_alpha.npy` → `NAME.goodnotes`, `NAME.pdf`, `NAME_p1.png`. Benötigt numpy, scipy, Pillow, lz4, reportlab.
+  - Prüfen: `gnverify.py` ist nur eine Decoder-Bibliothek (kein Aufruf); Beispiel-Prüfschleife siehe Git-Historie dieser Sitzung (Striche zählen, LZ4/TPL dekodieren, Koordinatenbereich).
 - Grenzen:
-  - Viele Kleinbuchstaben gibt es nur 1×.
-  - Für fehlende Kleinbuchstaben (c f g h l p s u v w y z ä ö ü ß) einzeln ist noch kein Schnitt angelegt. Lange Fließtexte gehen deshalb noch nicht.
-  - Mathe-Lösungswege gehen gut.
+  - Viele Kleinbuchstaben gibt es nur 1–3×.
+  - Noch kein Schnitt für f j q v w y z ü ß (ü nur in ganzen Wörtern: über, gegenüber, für, Würfel). Lange Fließtexte gehen deshalb noch nicht.
+  - Mathe-Lösungswege gehen gut. Sangs „m“ (aus „mit“) sieht wie ein „w“ aus, das ist aber seine Form.
 - Erfahrungen:
   - Helle Striche werden um den Faktor 1,35 verstärkt.
   - Bei „=“ werden die Striche auf mindestens 5 px Abstand gezogen. Sonst verschmelzen sie bei der Kuli-Umwandlung.
+  - Kuli-Umwandlung: **jede Tintenfläche vor dem Ausdünnen 3× bilinear vergrößern** (Schwelle 0,5). Ohne das verschmelzen h-Bogen und Schaft, e-Schleifen und r/k-Häkchen zu Klumpen und das Skelett verliert sie. Danach Zhang-Suen-Skelett, Pfade an Verzweigungen nach geradliniger Fortsetzung verbinden (max. 55°), Sporen < 4 px weg, i-Punkte/Malpunkte als Punktstriche, 2× glätten, Douglas-Peucker 0,35 px. Ergibt ca. 600 Striche je A4-Seite.
+  - Ausschnitte nur über `xr` (ohne `ranks`) nehmen alles im x-Bereich mit, auch Ein-/Ausläufe benachbarter Buchstaben. Vorher mit `cc_view.py` oder einem Zoom mit Pixel-Lineal prüfen.
 
 ## Fließtext-Methode seit 28.10.2026 (`werkzeug/render_font.py`)
 

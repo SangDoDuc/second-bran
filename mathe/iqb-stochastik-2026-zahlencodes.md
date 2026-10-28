@@ -2,7 +2,7 @@
 
 Aufgabe: IQB-Pool 2026, erhöhtes Niveau, Prüfungsteil A, Stochastik, Aufgabengruppe 2 (Datei 2026_M_erhoeht_A_Stochastik_2_2).
 Quelle: https://www.iqb.hu-berlin.de/media/exercise_files/Abituraufgaben_Mathematik/2026MerhoehtAStochastik22_Aufgabe.pdf
-Handschriftliche Fassung (GoodNotes): noch offen, wartet auf die neue Handschrift-Bibliothek (siehe `handschrift/README.md`). Das Skript dafür steht unten in Abschnitt 4.
+Handschriftliche Fassung: `Mathe_IQB2026_Stochastik_Zahlencodes_A4.goodnotes` (1 Seite, Karo, mit Baumdiagramm; daneben als PDF und Vorschau-PNG), erzeugt am 28.10.2026 mit `handschrift/bibliothek/render_stochastik.py` und `handschrift/werkzeug/kuli.py`. Der Wortlaut steht in Abschnitt 4.
 
 ---
 
@@ -97,9 +97,9 @@ P(A) = 1 − (1 − p)²
 P(A ∩ B) = P(genau einer) = p(1 − p) + (1 − p)p
 P_A(B) = [p(1 − p) + (1 − p)p] / [1 − (1 − p)²]
 
-## 4. Skript für die Handschrift-Fassung (GoodNotes, A4 Karo, 1 Seite)
+## 4. Wortlaut der Handschrift-Fassung (GoodNotes, A4 Karo, 1 Seite)
 
-Zeile für Zeile so schreiben:
+So steht es auf der Seite („A und B“ statt „A ∩ B“, weil das Zeichen nicht in der Schriftprobe war):
 
 ```
 IQB 2026  Stochastik 2.2        Zahlencodes
@@ -120,10 +120,9 @@ b)  Bedingung A: mind. einer enthält Folge
     A ∩ B = genau einer
     P(A ∩ B) = p(1−p) + (1−p)p
 
-    P_A(B) = P(A ∩ B) / P(A)
-           = [p(1−p) + (1−p)p] / [1 − (1−p)²]
+    P_A(B) = [p · (1−p) + (1−p) · p] / [1 − (1−p)²]      (als Bruch geschrieben)
 
-    (Probe p = 0,1: 0,18 / 0,19 ≈ 0,947)
+    Probe (p = 0,1): 0,18 / 0,19 = 0,947 (gerundet)
 ```
 
-Kleiner Baum rechts neben den Pfaden skizzieren: Wurzel, zwei Äste p / 1−p, je zwei Äste p / 1−p, Pfad T̄ T̄ durchstreichen (fällt durch die Bedingung weg).
+Unter „Baum:“ steht das Baumdiagramm: Wurzel, zwei Äste p / 1−p zu T / T̄, je zwei Äste p / 1−p, rechts die Pfadprodukte p², p·(1−p), (1−p)·p, (1−p)².

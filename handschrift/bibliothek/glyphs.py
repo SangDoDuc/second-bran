@@ -84,7 +84,6 @@ def build():
     add("b", _cut("sent0_w05", [2]))
     add("d", _cut("sent2_w04", [0], (243, 255)))
     add("e", _cut("sent1_w11", [2]))
-    add("e", _cut("sent0_w05", [3], (505, 514)))
     add("i", _cut("word_ist", [0, 1]))
     add("k", _cut("sent1_w11", [0], (793, 804)))
     add("m", _cut("word_mit", [0], (32, 52)))
@@ -92,6 +91,35 @@ def build():
     add("o", _cut("sent1_w10", [3]))
     add("r", _cut("sent0_w03", [3]))
     add("t", _cut("word_mit", [2]))
+    # Ergänzung 28.10.2026 (Stochastik-Lösung): p c g h l s u ä ö, weitere e, Punkt. Aus den Sätzen geschnitten;
+    # x-Bereiche so gewählt, dass Ein-/Ausläufe der Nachbarbuchstaben draußen bleiben (geprüft über ein Glyph-Blatt)
+    add("e", _cut("sent1_w01", [2], (125, 134)))          # li-e-gen
+    add("e", _cut("sent1_w01", [4], (144, 154)))          # lieg-e-n
+    add("e", _cut("sent2_w06", [0], (385, 396)))          # s-e-it
+    add("e", _cut("sent0_w04", [1], (434, 443)))          # qu-e-r
+    add("p", _cut("sent0_w01", [3], (162, 171)))          # Boxkäm-p-fer
+    add("ä", _cut("sent0_w01", [2], (136, 146)))          # Boxk-ä-mpfer
+    add("c", _cut("sent0_w09", [0], (834, 844)))          # Dei-c-h
+    add("c", _cut("sent1_w09", [1], (652, 661)))          # dur-c-h
+    add("c", _cut("word_Gleichung", [4], (95, 106)))      # Glei-c-hung
+    add("h", _cut("sent0_w09", [0], (847, 865)))          # Deic-h
+    add("h", _cut("sent1_w09", [1], (663, 679)))          # durc-h
+    add("h", _cut("sent1_w08", [0], (569, 582)))          # ge-h-t
+    add("h", _cut("word_Gleichung", [4], (108, 120)))     # Gleic-h-ung
+    add("g", _cut("sent1_w01", [3]))                      # lie-g-en
+    add("g", _cut("sent1_w08", [0], (544, 557)))          # g-eht
+    add("g", _cut("word_Gleichung", [5], (146, 163)))     # Gleichun-g
+    add("l", _cut("sent1_w01", [0]))                      # l-iegen
+    add("l", _cut("word_Gleichung", [1]))                 # G-l-eichung
+    add("s", _cut("word_dass", [2]))                      # das-s
+    add("s", _cut("word_dass", [1], (52, 62)))            # da-s-s
+    add("s", _cut("sent2_w06", [0], (373, 384)))          # s-eit
+    add("u", _cut("sent0_w04", [1], (421, 432)))          # q-u-er
+    add("u", _cut("sent1_w09", [0], (629, 642)))          # d-u-rch
+    add("u", _cut("word_Gleichung", [5], (120, 134)))     # Gleich-u-ng
+    add("ö", _cut("sent0_w00", [1, 2]))                   # Zw-ö-lf
+    add(".", _cut("sent0_w09", [2]))                      # Deich-.
+    add(".", _cut("sent2_w08", [2]))                      # ca-.
     # ganze Wörter
     W = {"und": _cut("word_und"), "gegenüber": _cut("sent1_w05"), "Diagonale": _cut("sent1_w14", [0, 1, 2, 3, 4]),
          "der": _cut("sent2_w04"), "Würfel": _cut("word_Würfel"), "Vektor": _cut("word_Vektor"),
