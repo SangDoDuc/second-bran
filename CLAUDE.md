@@ -141,7 +141,7 @@ Bei Englisch-Aufgaben **zuerst die passende Datei lesen**, dann antworten.
 ## 5. Andere Fächer – Stand (aus früheren Sitzungen)
 
 - **Deutsch:** Epochenzuordnung, Gedichtanalyse (Rilke, Eichendorff), Romanzusammenfassung Suter *Die dunkle Seite des Mondes*
-- **Sozialkunde (SkG):** Frieden/Konflikt international, UN-Reform, Senghaas' zivilisatorisches Hexagon, Völkerrecht, Konflikt Iran–Israel–USA; NATO (Mindmap S. 260) → `sozialkunde/nato-mindmap.md`
+- **Sozialkunde (SkG):** Frieden/Konflikt international, UN-Reform, Senghaas' zivilisatorisches Hexagon, Völkerrecht, Konflikt Iran–Israel–USA; NATO (Mindmap S. 260) → `sozialkunde/nato-mindmap.md`; Iran-Krieg 2026 und NATO-Bündnisfall (Art. 5/6, Arbeitsblatt Schroedel) → `sozialkunde/iran-krieg-nato.md`
 - **Erdkunde (LK):** internationale Migration, Push-Pull-Modelle, Chord-Diagramme, Geographie Indiens (dazu interaktive HTML/SVG-Weltkarte erstellt)
 - **Mathe (LK):** e-Funktionen, Ketten-/Produktregel, Logarithmusgleichungen, Integralrechnung, Stochastik, Vektorgeometrie
 - **Physik (LK):** statische elektrische und magnetische Felder, Feldlinienregeln, Superposition – Aufbau von Grundlagen (dazu interaktive HTML-Lernblätter mit SVG-Diagrammen)
