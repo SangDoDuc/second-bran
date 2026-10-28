@@ -1,0 +1,1044 @@
+{
+"items": [
+{
+"text": "der",
+"reps": 2,
+"group": "de"
+},
+{
+"text": "die",
+"reps": 2,
+"group": "de"
+},
+{
+"text": "das",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "und",
+"reps": 2,
+"group": "de"
+},
+{
+"text": "ist",
+"reps": 2,
+"group": "de"
+},
+{
+"text": "nicht",
+"reps": 2,
+"group": "de"
+},
+{
+"text": "mit",
+"reps": 2,
+"group": "de"
+},
+{
+"text": "von",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "zu",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "auf",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "für",
+"reps": 2,
+"group": "de"
+},
+{
+"text": "ein",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "eine",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "sich",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "auch",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "wird",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "werden",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "sind",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "den",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "dem",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "des",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "im",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "als",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "bei",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "nach",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "oder",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "wie",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "aus",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "es",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "an",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "so",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "dass",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "wenn",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "aber",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "noch",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "man",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "kann",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "muss",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "hat",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "haben",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "war",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "wir",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "ich",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "du",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "sie",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "er",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "zum",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "zur",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "über",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "durch",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "hier",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "also",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "weil",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "sehr",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "mehr",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "gibt",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "immer",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "schon",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "nur",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Funktion",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Ableitung",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Integral",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Gleichung",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Ebene",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Gerade",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Wahrscheinlichkeit",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Feldlinien",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Ladung",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Spannung",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Kraft",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Energie",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Physik",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Fläche",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Stärke",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Migration",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Klimawandel",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Begründung",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Ergebnis",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Lösung",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Frequenz",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Quadrat",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Januar",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "China",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Änderung",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Ökologie",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Übung",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Vektor",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Oktaeder",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Tourismus",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Urteil",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Zahlen",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "richtige",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Antwort",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Probe",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "jetzt",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Informatik",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Skizze",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "verläuft",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Name",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Bahn",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Arbeitsblatt",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Brücke",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Fazit",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Subjekt",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "wählt",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "liegt",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Völkerrecht",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "zwei",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Spitze",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Der",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Das",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Es",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "In",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Warum",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Koordinaten",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Kante",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Winkel",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Schritt",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Seite",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Magnetfeld",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Normalenvektor",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Europa",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Ursache",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Beispiel",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Entwicklung",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "einfach",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Punkt",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "senkrecht",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "zusammen",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Angriff",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "groß",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "heißt",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Würfel",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Länge",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Richtung",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Abstand",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Erdkunde",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Sozialkunde",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Englisch",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Deutsch",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "Mathe",
+"reps": 1,
+"group": "de"
+},
+{
+"text": "ca.",
+"reps": 1,
+"group": "abbr"
+},
+{
+"text": "(Z. 12–15)",
+"reps": 1,
+"group": "abbr"
+},
+{
+"text": "S. 260",
+"reps": 1,
+"group": "abbr"
+},
+{
+"text": "bzw.",
+"reps": 1,
+"group": "abbr"
+},
+{
+"text": "usw.",
+"reps": 1,
+"group": "abbr"
+},
+{
+"text": "Mio.",
+"reps": 1,
+"group": "abbr"
+},
+{
+"text": "Mrd.",
+"reps": 1,
+"group": "abbr"
+},
+{
+"text": "Nr. 7",
+"reps": 1,
+"group": "abbr"
+},
+{
+"text": "z.B.",
+"reps": 1,
+"group": "abbr"
+},
+{
+"text": "d.h.",
+"reps": 1,
+"group": "abbr"
+},
+{
+"text": "NATO",
+"reps": 1,
+"group": "caps"
+},
+{
+"text": "USA",
+"reps": 1,
+"group": "caps"
+},
+{
+"text": "EU",
+"reps": 1,
+"group": "caps"
+},
+{
+"text": "UN",
+"reps": 1,
+"group": "caps"
+},
+{
+"text": "CO₂",
+"reps": 1,
+"group": "caps"
+},
+{
+"text": "ABCD",
+"reps": 1,
+"group": "caps"
+},
+{
+"text": "IQB",
+"reps": 1,
+"group": "caps"
+},
+{
+"text": "x-Achse",
+"reps": 1,
+"group": "caps"
+},
+{
+"text": "Push-Pull-Modell",
+"reps": 1,
+"group": "caps"
+},
+{
+"text": "US-Dollar",
+"reps": 1,
+"group": "caps"
+},
+{
+"text": "EU-Mission",
+"reps": 1,
+"group": "caps"
+},
+{
+"text": "the",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "and",
+"reps": 2,
+"group": "en"
+},
+{
+"text": "of",
+"reps": 2,
+"group": "en"
+},
+{
+"text": "to",
+"reps": 2,
+"group": "en"
+},
+{
+"text": "is",
+"reps": 2,
+"group": "en"
+},
+{
+"text": "that",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "it",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "for",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "as",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "with",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "are",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "this",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "be",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "on",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "by",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "which",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "not",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "or",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "have",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "because",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "would",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "they",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "their",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "there",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "however",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "although",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "should",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "while",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "people",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "control",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "extreme",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "pollution",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "keep",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "against",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "difficulty",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "expensive",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "said",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "approach",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "evidence",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "The",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "While",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "change",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "technology",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "something",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "using",
+"reps": 1,
+"group": "en"
+},
+{
+"text": "used",
+"reps": 1,
+"group": "en"
+}
+]
+}

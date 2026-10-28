@@ -1,0 +1,11769 @@
+{
+ "template_id": "SP-v2",
+ "created": "2026-10-28",
+ "page_size_pt": [
+  595.2755905511812,
+  841.8897637795277
+ ],
+ "gn_scale": 1.8333333333333333,
+ "page_size_gn": [
+  1091.3385826771655,
+  1543.464566929134
+ ],
+ "origin": "oben links, y nach unten, Einheit pt (PDF-Export 1:1, .goodnotes = pt * gn_scale)",
+ "grid": {
+  "cell_pt": 15.997505262337258,
+  "x0_pt": 15.576518281749436,
+  "y0_pt": 15.574960629921263,
+  "px_per_page": [
+   1414,
+   2000
+  ]
+ },
+ "assignment_rule": "Strich -> Feld: x-Überlappung >= 50 % mit label_box ∪ boxes und bogenlängen-gewichteter Schwerpunkt im Band [band0, band1); hohe Felder zuerst; sonst nächste Grundlinie (Abstand oberhalb x 0.5) innerhalb 1 Kästchen, sonst melden. Mehrere boxes: nach x-Lücken in reps Gruppen teilen, kleine Striche (Punkte, Querstriche) zur Gruppe mit größter x-Überlappung. Geometrie aus PDF-Export 'Bearbeitbar' (/Ink /InkList), .goodnotes nur für Stiftart, Farbe, Reihenfolge. Stifte außer Kugelschreiber, Breite > 3 pt, Formen melden.",
+ "pages": [
+  {
+   "index": 1,
+   "header": "Schriftprobe Sang · SP-v2 · Seite 1/6",
+   "bg_sha256": "62a5f1db266726630d08d3da32f07ea70a70375deab70ed17f5554f77c6fc1d0",
+   "printed": [
+    {
+     "kind": "heading",
+     "text": "Teil 1: Sätze",
+     "baseline": 223.52
+    },
+    {
+     "kind": "heading",
+     "text": "Kopfzeile und Überschrift",
+     "baseline": 607.42
+    },
+    {
+     "kind": "heading",
+     "text": "Teil 2: Buchstaben, Ziffern, Zeichen",
+     "baseline": 719.39
+    }
+   ],
+   "items": [
+    {
+     "id": "calib_p1",
+     "part": "K",
+     "kind": "calib",
+     "text": "Kalibrierpunkt",
+     "center": [
+      543.49,
+      49.57
+     ],
+     "boxes": [
+      [
+       531.49,
+       37.57,
+       555.49,
+       61.57
+      ]
+     ],
+     "label": "",
+     "name": "",
+     "reps": 1,
+     "baseline": 49.57,
+     "band": [
+      37.57,
+      61.57
+     ],
+     "anchor": "center",
+     "label_box": null,
+     "tall": false
+    },
+    {
+     "id": "sent_0",
+     "part": "1",
+     "kind": "sentence",
+     "text": "Zwölf Boxkämpfer jagen Viktor quer über den großen Sylter Deich.",
+     "label": "Zwölf Boxkämpfer jagen Viktor quer über den großen Sylter Deich.",
+     "name": "",
+     "reps": 1,
+     "baseline": 271.51,
+     "band": [
+      247.51,
+      279.51
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       31.57,
+       247.51,
+       595.28,
+       279.51
+      ]
+     ],
+     "label_box": null,
+     "tall": false
+    },
+    {
+     "id": "sent_1",
+     "part": "1",
+     "kind": "sentence",
+     "text": "– Wenn die Spannung steigt, wird das Feld stärker, weil E = U/d gilt.",
+     "label": "– Wenn die Spannung steigt, wird das Feld stärker, weil E = U/d gilt.",
+     "name": "",
+     "reps": 1,
+     "baseline": 319.5,
+     "band": [
+      295.5,
+      327.5
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       31.57,
+       295.5,
+       595.28,
+       327.5
+      ]
+     ],
+     "label_box": null,
+     "tall": false
+    },
+    {
+     "id": "sent_2",
+     "part": "1",
+     "kind": "sentence",
+     "text": "– Warum liegen A und C gegenüber? AC geht durch M, also keine Kante → Diagonale.",
+     "label": "– Warum liegen A und C gegenüber? AC geht durch M, also keine Kante → Diagonale.",
+     "name": "",
+     "reps": 1,
+     "baseline": 367.48,
+     "band": [
+      343.49,
+      375.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       31.57,
+       343.49,
+       595.28,
+       375.48
+      ]
+     ],
+     "label_box": null,
+     "tall": false
+    },
+    {
+     "id": "sent_3",
+     "part": "1",
+     "kind": "sentence",
+     "text": "Laut Abb. 3 steigt der Anteil seit 2019 (ca. 43 %), z.B. in den USA.",
+     "label": "Laut Abb. 3 steigt der Anteil seit 2019 (ca. 43 %), z.B. in den USA.",
+     "name": "",
+     "reps": 1,
+     "baseline": 415.47,
+     "band": [
+      391.48,
+      423.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       31.57,
+       391.48,
+       595.28,
+       423.47
+      ]
+     ],
+     "label_box": null,
+     "tall": false
+    },
+    {
+     "id": "sent_4",
+     "part": "1",
+     "kind": "sentence",
+     "text": "Bei einem Angriff auf ein NATO-Mitglied gilt Art. 5, d.h. alle helfen.",
+     "label": "Bei einem Angriff auf ein NATO-Mitglied gilt Art. 5, d.h. alle helfen.",
+     "name": "",
+     "reps": 1,
+     "baseline": 463.46,
+     "band": [
+      439.46,
+      471.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       31.57,
+       439.46,
+       595.28,
+       471.46
+      ]
+     ],
+     "label_box": null,
+     "tall": false
+    },
+    {
+     "id": "sent_5",
+     "part": "1",
+     "kind": "sentence",
+     "text": "I think it's clear: technology helps, but the causes haven't changed.",
+     "label": "I think it's clear: technology helps, but the causes haven't changed.",
+     "name": "",
+     "reps": 1,
+     "baseline": 511.45,
+     "band": [
+      487.45,
+      519.45
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       31.57,
+       487.45,
+       595.28,
+       519.45
+      ]
+     ],
+     "label_box": null,
+     "tall": false
+    },
+    {
+     "id": "sent_6",
+     "part": "1",
+     "kind": "sentence",
+     "text": "Also gilt: |→AC| = a = 12, und E(3|0|9) liegt 6 von H entfernt.",
+     "label": "Also gilt: |^AC| = a = 12, und E(3|0|9) liegt 6 von H entfernt.",
+     "name": "",
+     "reps": 1,
+     "baseline": 559.44,
+     "band": [
+      535.44,
+      567.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       31.57,
+       535.44,
+       595.28,
+       567.43
+      ]
+     ],
+     "label_box": null,
+     "tall": false
+    },
+    {
+     "id": "special_header",
+     "part": "1",
+     "kind": "special",
+     "text": "Mathe          29.10.26",
+     "label": "Mathe          29.10.26",
+     "name": "",
+     "reps": 1,
+     "baseline": 639.42,
+     "band": [
+      615.42,
+      647.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       143.56,
+       615.42,
+       335.53,
+       647.41
+      ]
+     ],
+     "label_box": [
+      31.57,
+      615.42,
+      143.56,
+      647.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "special_underline",
+     "part": "1",
+     "kind": "special",
+     "text": "Schritt 1: Mittelpunkt M   (unterstreichen)",
+     "label": "Schritt 1: Mittelpunkt M   (unterstreichen)",
+     "name": "",
+     "reps": 1,
+     "baseline": 671.41,
+     "band": [
+      647.41,
+      679.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       239.54,
+       647.41,
+       431.51,
+       679.41
+      ]
+     ],
+     "label_box": [
+      31.57,
+      647.41,
+      239.54,
+      679.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_A",
+     "part": "2",
+     "kind": "letter",
+     "text": "A",
+     "label": "A",
+     "name": "",
+     "reps": 2,
+     "baseline": 751.39,
+     "band": [
+      727.39,
+      759.39
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       727.39,
+       79.57,
+       759.39
+      ],
+      [
+       79.57,
+       727.39,
+       111.56,
+       759.39
+      ]
+     ],
+     "label_box": [
+      31.57,
+      727.39,
+      47.57,
+      759.39
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_B",
+     "part": "2",
+     "kind": "letter",
+     "text": "B",
+     "label": "B",
+     "name": "",
+     "reps": 2,
+     "baseline": 751.39,
+     "band": [
+      727.39,
+      759.39
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       727.39,
+       159.55,
+       759.39
+      ],
+      [
+       159.55,
+       727.39,
+       191.55,
+       759.39
+      ]
+     ],
+     "label_box": [
+      111.56,
+      727.39,
+      127.56,
+      759.39
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_C",
+     "part": "2",
+     "kind": "letter",
+     "text": "C",
+     "label": "C",
+     "name": "",
+     "reps": 2,
+     "baseline": 751.39,
+     "band": [
+      727.39,
+      759.39
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       727.39,
+       239.54,
+       759.39
+      ],
+      [
+       239.54,
+       727.39,
+       271.54,
+       759.39
+      ]
+     ],
+     "label_box": [
+      191.55,
+      727.39,
+      207.55,
+      759.39
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_D",
+     "part": "2",
+     "kind": "letter",
+     "text": "D",
+     "label": "D",
+     "name": "",
+     "reps": 2,
+     "baseline": 751.39,
+     "band": [
+      727.39,
+      759.39
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       287.53,
+       727.39,
+       319.53,
+       759.39
+      ],
+      [
+       319.53,
+       727.39,
+       351.52,
+       759.39
+      ]
+     ],
+     "label_box": [
+      271.54,
+      727.39,
+      287.53,
+      759.39
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_E",
+     "part": "2",
+     "kind": "letter",
+     "text": "E",
+     "label": "E",
+     "name": "",
+     "reps": 2,
+     "baseline": 751.39,
+     "band": [
+      727.39,
+      759.39
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       727.39,
+       399.52,
+       759.39
+      ],
+      [
+       399.52,
+       727.39,
+       431.51,
+       759.39
+      ]
+     ],
+     "label_box": [
+      351.52,
+      727.39,
+      367.52,
+      759.39
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_F",
+     "part": "2",
+     "kind": "letter",
+     "text": "F",
+     "label": "F",
+     "name": "",
+     "reps": 2,
+     "baseline": 751.39,
+     "band": [
+      727.39,
+      759.39
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       447.51,
+       727.39,
+       479.5,
+       759.39
+      ],
+      [
+       479.5,
+       727.39,
+       511.5,
+       759.39
+      ]
+     ],
+     "label_box": [
+      431.51,
+      727.39,
+      447.51,
+      759.39
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_G",
+     "part": "2",
+     "kind": "letter",
+     "text": "G",
+     "label": "G",
+     "name": "",
+     "reps": 2,
+     "baseline": 783.38,
+     "band": [
+      759.38,
+      791.38
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       759.38,
+       79.57,
+       791.38
+      ],
+      [
+       79.57,
+       759.38,
+       111.56,
+       791.38
+      ]
+     ],
+     "label_box": [
+      31.57,
+      759.38,
+      47.57,
+      791.38
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_H",
+     "part": "2",
+     "kind": "letter",
+     "text": "H",
+     "label": "H",
+     "name": "",
+     "reps": 2,
+     "baseline": 783.38,
+     "band": [
+      759.38,
+      791.38
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       759.38,
+       159.55,
+       791.38
+      ],
+      [
+       159.55,
+       759.38,
+       191.55,
+       791.38
+      ]
+     ],
+     "label_box": [
+      111.56,
+      759.38,
+      127.56,
+      791.38
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_I",
+     "part": "2",
+     "kind": "letter",
+     "text": "I",
+     "label": "I",
+     "name": "",
+     "reps": 2,
+     "baseline": 783.38,
+     "band": [
+      759.38,
+      791.38
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       759.38,
+       239.54,
+       791.38
+      ],
+      [
+       239.54,
+       759.38,
+       271.54,
+       791.38
+      ]
+     ],
+     "label_box": [
+      191.55,
+      759.38,
+      207.55,
+      791.38
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_J",
+     "part": "2",
+     "kind": "letter",
+     "text": "J",
+     "label": "J",
+     "name": "",
+     "reps": 2,
+     "baseline": 783.38,
+     "band": [
+      759.38,
+      791.38
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       287.53,
+       759.38,
+       319.53,
+       791.38
+      ],
+      [
+       319.53,
+       759.38,
+       351.52,
+       791.38
+      ]
+     ],
+     "label_box": [
+      271.54,
+      759.38,
+      287.53,
+      791.38
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_K",
+     "part": "2",
+     "kind": "letter",
+     "text": "K",
+     "label": "K",
+     "name": "",
+     "reps": 2,
+     "baseline": 783.38,
+     "band": [
+      759.38,
+      791.38
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       759.38,
+       399.52,
+       791.38
+      ],
+      [
+       399.52,
+       759.38,
+       431.51,
+       791.38
+      ]
+     ],
+     "label_box": [
+      351.52,
+      759.38,
+      367.52,
+      791.38
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_L",
+     "part": "2",
+     "kind": "letter",
+     "text": "L",
+     "label": "L",
+     "name": "",
+     "reps": 2,
+     "baseline": 783.38,
+     "band": [
+      759.38,
+      791.38
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       447.51,
+       759.38,
+       479.5,
+       791.38
+      ],
+      [
+       479.5,
+       759.38,
+       511.5,
+       791.38
+      ]
+     ],
+     "label_box": [
+      431.51,
+      759.38,
+      447.51,
+      791.38
+     ],
+     "tall": false
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "header": "Schriftprobe Sang · SP-v2 · Seite 2/6",
+   "bg_sha256": "bbcd930bfd8a95fad9c74490db864e83d354fa824044541b49cab0add507daf4",
+   "printed": [
+    {
+     "kind": "heading",
+     "text": "Zahlen",
+     "baseline": 543.44
+    },
+    {
+     "kind": "heading",
+     "text": "Teil 3: Mathe-Zeichen",
+     "baseline": 687.4
+    }
+   ],
+   "items": [
+    {
+     "id": "upper_M",
+     "part": "2",
+     "kind": "letter",
+     "text": "M",
+     "label": "M",
+     "name": "",
+     "reps": 2,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       87.55,
+       79.57,
+       119.55
+      ],
+      [
+       79.57,
+       87.55,
+       111.56,
+       119.55
+      ]
+     ],
+     "label_box": [
+      31.57,
+      87.55,
+      47.57,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_N",
+     "part": "2",
+     "kind": "letter",
+     "text": "N",
+     "label": "N",
+     "name": "",
+     "reps": 2,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       87.55,
+       159.55,
+       119.55
+      ],
+      [
+       159.55,
+       87.55,
+       191.55,
+       119.55
+      ]
+     ],
+     "label_box": [
+      111.56,
+      87.55,
+      127.56,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_O",
+     "part": "2",
+     "kind": "letter",
+     "text": "O",
+     "label": "O",
+     "name": "",
+     "reps": 2,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       87.55,
+       239.54,
+       119.55
+      ],
+      [
+       239.54,
+       87.55,
+       271.54,
+       119.55
+      ]
+     ],
+     "label_box": [
+      191.55,
+      87.55,
+      207.55,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_P",
+     "part": "2",
+     "kind": "letter",
+     "text": "P",
+     "label": "P",
+     "name": "",
+     "reps": 2,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       287.53,
+       87.55,
+       319.53,
+       119.55
+      ],
+      [
+       319.53,
+       87.55,
+       351.52,
+       119.55
+      ]
+     ],
+     "label_box": [
+      271.54,
+      87.55,
+      287.53,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_Q",
+     "part": "2",
+     "kind": "letter",
+     "text": "Q",
+     "label": "Q",
+     "name": "",
+     "reps": 2,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       87.55,
+       399.52,
+       119.55
+      ],
+      [
+       399.52,
+       87.55,
+       431.51,
+       119.55
+      ]
+     ],
+     "label_box": [
+      351.52,
+      87.55,
+      367.52,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_R",
+     "part": "2",
+     "kind": "letter",
+     "text": "R",
+     "label": "R",
+     "name": "",
+     "reps": 2,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       447.51,
+       87.55,
+       479.5,
+       119.55
+      ],
+      [
+       479.5,
+       87.55,
+       511.5,
+       119.55
+      ]
+     ],
+     "label_box": [
+      431.51,
+      87.55,
+      447.51,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_S",
+     "part": "2",
+     "kind": "letter",
+     "text": "S",
+     "label": "S",
+     "name": "",
+     "reps": 2,
+     "baseline": 143.54,
+     "band": [
+      119.55,
+      151.54
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       119.55,
+       79.57,
+       151.54
+      ],
+      [
+       79.57,
+       119.55,
+       111.56,
+       151.54
+      ]
+     ],
+     "label_box": [
+      31.57,
+      119.55,
+      47.57,
+      151.54
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_T",
+     "part": "2",
+     "kind": "letter",
+     "text": "T",
+     "label": "T",
+     "name": "",
+     "reps": 2,
+     "baseline": 143.54,
+     "band": [
+      119.55,
+      151.54
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       119.55,
+       159.55,
+       151.54
+      ],
+      [
+       159.55,
+       119.55,
+       191.55,
+       151.54
+      ]
+     ],
+     "label_box": [
+      111.56,
+      119.55,
+      127.56,
+      151.54
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_U",
+     "part": "2",
+     "kind": "letter",
+     "text": "U",
+     "label": "U",
+     "name": "",
+     "reps": 2,
+     "baseline": 143.54,
+     "band": [
+      119.55,
+      151.54
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       119.55,
+       239.54,
+       151.54
+      ],
+      [
+       239.54,
+       119.55,
+       271.54,
+       151.54
+      ]
+     ],
+     "label_box": [
+      191.55,
+      119.55,
+      207.55,
+      151.54
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_V",
+     "part": "2",
+     "kind": "letter",
+     "text": "V",
+     "label": "V",
+     "name": "",
+     "reps": 2,
+     "baseline": 143.54,
+     "band": [
+      119.55,
+      151.54
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       287.53,
+       119.55,
+       319.53,
+       151.54
+      ],
+      [
+       319.53,
+       119.55,
+       351.52,
+       151.54
+      ]
+     ],
+     "label_box": [
+      271.54,
+      119.55,
+      287.53,
+      151.54
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_W",
+     "part": "2",
+     "kind": "letter",
+     "text": "W",
+     "label": "W",
+     "name": "",
+     "reps": 2,
+     "baseline": 143.54,
+     "band": [
+      119.55,
+      151.54
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       119.55,
+       399.52,
+       151.54
+      ],
+      [
+       399.52,
+       119.55,
+       431.51,
+       151.54
+      ]
+     ],
+     "label_box": [
+      351.52,
+      119.55,
+      367.52,
+      151.54
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_X",
+     "part": "2",
+     "kind": "letter",
+     "text": "X",
+     "label": "X",
+     "name": "",
+     "reps": 2,
+     "baseline": 143.54,
+     "band": [
+      119.55,
+      151.54
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       447.51,
+       119.55,
+       479.5,
+       151.54
+      ],
+      [
+       479.5,
+       119.55,
+       511.5,
+       151.54
+      ]
+     ],
+     "label_box": [
+      431.51,
+      119.55,
+      447.51,
+      151.54
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_Y",
+     "part": "2",
+     "kind": "letter",
+     "text": "Y",
+     "label": "Y",
+     "name": "",
+     "reps": 2,
+     "baseline": 175.53,
+     "band": [
+      151.54,
+      183.53
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       151.54,
+       79.57,
+       183.53
+      ],
+      [
+       79.57,
+       151.54,
+       111.56,
+       183.53
+      ]
+     ],
+     "label_box": [
+      31.57,
+      151.54,
+      47.57,
+      183.53
+     ],
+     "tall": false
+    },
+    {
+     "id": "upper_Z",
+     "part": "2",
+     "kind": "letter",
+     "text": "Z",
+     "label": "Z",
+     "name": "",
+     "reps": 2,
+     "baseline": 175.53,
+     "band": [
+      151.54,
+      183.53
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       151.54,
+       159.55,
+       183.53
+      ],
+      [
+       159.55,
+       151.54,
+       191.55,
+       183.53
+      ]
+     ],
+     "label_box": [
+      111.56,
+      151.54,
+      127.56,
+      183.53
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_a",
+     "part": "2",
+     "kind": "letter",
+     "text": "a",
+     "label": "a",
+     "name": "",
+     "reps": 2,
+     "baseline": 207.53,
+     "band": [
+      183.53,
+      215.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       183.53,
+       79.57,
+       215.52
+      ],
+      [
+       79.57,
+       183.53,
+       111.56,
+       215.52
+      ]
+     ],
+     "label_box": [
+      31.57,
+      183.53,
+      47.57,
+      215.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_b",
+     "part": "2",
+     "kind": "letter",
+     "text": "b",
+     "label": "b",
+     "name": "",
+     "reps": 2,
+     "baseline": 207.53,
+     "band": [
+      183.53,
+      215.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       183.53,
+       159.55,
+       215.52
+      ],
+      [
+       159.55,
+       183.53,
+       191.55,
+       215.52
+      ]
+     ],
+     "label_box": [
+      111.56,
+      183.53,
+      127.56,
+      215.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_c",
+     "part": "2",
+     "kind": "letter",
+     "text": "c",
+     "label": "c",
+     "name": "",
+     "reps": 2,
+     "baseline": 207.53,
+     "band": [
+      183.53,
+      215.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       183.53,
+       239.54,
+       215.52
+      ],
+      [
+       239.54,
+       183.53,
+       271.54,
+       215.52
+      ]
+     ],
+     "label_box": [
+      191.55,
+      183.53,
+      207.55,
+      215.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_d",
+     "part": "2",
+     "kind": "letter",
+     "text": "d",
+     "label": "d",
+     "name": "",
+     "reps": 2,
+     "baseline": 207.53,
+     "band": [
+      183.53,
+      215.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       287.53,
+       183.53,
+       319.53,
+       215.52
+      ],
+      [
+       319.53,
+       183.53,
+       351.52,
+       215.52
+      ]
+     ],
+     "label_box": [
+      271.54,
+      183.53,
+      287.53,
+      215.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_e",
+     "part": "2",
+     "kind": "letter",
+     "text": "e",
+     "label": "e",
+     "name": "",
+     "reps": 2,
+     "baseline": 207.53,
+     "band": [
+      183.53,
+      215.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       183.53,
+       399.52,
+       215.52
+      ],
+      [
+       399.52,
+       183.53,
+       431.51,
+       215.52
+      ]
+     ],
+     "label_box": [
+      351.52,
+      183.53,
+      367.52,
+      215.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_f",
+     "part": "2",
+     "kind": "letter",
+     "text": "f",
+     "label": "f",
+     "name": "",
+     "reps": 2,
+     "baseline": 207.53,
+     "band": [
+      183.53,
+      215.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       447.51,
+       183.53,
+       479.5,
+       215.52
+      ],
+      [
+       479.5,
+       183.53,
+       511.5,
+       215.52
+      ]
+     ],
+     "label_box": [
+      431.51,
+      183.53,
+      447.51,
+      215.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_g",
+     "part": "2",
+     "kind": "letter",
+     "text": "g",
+     "label": "g",
+     "name": "",
+     "reps": 2,
+     "baseline": 239.52,
+     "band": [
+      215.52,
+      247.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       215.52,
+       79.57,
+       247.52
+      ],
+      [
+       79.57,
+       215.52,
+       111.56,
+       247.52
+      ]
+     ],
+     "label_box": [
+      31.57,
+      215.52,
+      47.57,
+      247.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_h",
+     "part": "2",
+     "kind": "letter",
+     "text": "h",
+     "label": "h",
+     "name": "",
+     "reps": 2,
+     "baseline": 239.52,
+     "band": [
+      215.52,
+      247.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       215.52,
+       159.55,
+       247.52
+      ],
+      [
+       159.55,
+       215.52,
+       191.55,
+       247.52
+      ]
+     ],
+     "label_box": [
+      111.56,
+      215.52,
+      127.56,
+      247.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_i",
+     "part": "2",
+     "kind": "letter",
+     "text": "i",
+     "label": "i",
+     "name": "",
+     "reps": 2,
+     "baseline": 239.52,
+     "band": [
+      215.52,
+      247.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       215.52,
+       239.54,
+       247.52
+      ],
+      [
+       239.54,
+       215.52,
+       271.54,
+       247.52
+      ]
+     ],
+     "label_box": [
+      191.55,
+      215.52,
+      207.55,
+      247.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_j",
+     "part": "2",
+     "kind": "letter",
+     "text": "j",
+     "label": "j",
+     "name": "",
+     "reps": 2,
+     "baseline": 239.52,
+     "band": [
+      215.52,
+      247.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       287.53,
+       215.52,
+       319.53,
+       247.52
+      ],
+      [
+       319.53,
+       215.52,
+       351.52,
+       247.52
+      ]
+     ],
+     "label_box": [
+      271.54,
+      215.52,
+      287.53,
+      247.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_k",
+     "part": "2",
+     "kind": "letter",
+     "text": "k",
+     "label": "k",
+     "name": "",
+     "reps": 2,
+     "baseline": 239.52,
+     "band": [
+      215.52,
+      247.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       215.52,
+       399.52,
+       247.52
+      ],
+      [
+       399.52,
+       215.52,
+       431.51,
+       247.52
+      ]
+     ],
+     "label_box": [
+      351.52,
+      215.52,
+      367.52,
+      247.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_l",
+     "part": "2",
+     "kind": "letter",
+     "text": "l",
+     "label": "l",
+     "name": "",
+     "reps": 2,
+     "baseline": 239.52,
+     "band": [
+      215.52,
+      247.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       447.51,
+       215.52,
+       479.5,
+       247.52
+      ],
+      [
+       479.5,
+       215.52,
+       511.5,
+       247.52
+      ]
+     ],
+     "label_box": [
+      431.51,
+      215.52,
+      447.51,
+      247.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_m",
+     "part": "2",
+     "kind": "letter",
+     "text": "m",
+     "label": "m",
+     "name": "",
+     "reps": 2,
+     "baseline": 271.51,
+     "band": [
+      247.51,
+      279.51
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       247.51,
+       79.57,
+       279.51
+      ],
+      [
+       79.57,
+       247.51,
+       111.56,
+       279.51
+      ]
+     ],
+     "label_box": [
+      31.57,
+      247.51,
+      47.57,
+      279.51
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_n",
+     "part": "2",
+     "kind": "letter",
+     "text": "n",
+     "label": "n",
+     "name": "",
+     "reps": 2,
+     "baseline": 271.51,
+     "band": [
+      247.51,
+      279.51
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       247.51,
+       159.55,
+       279.51
+      ],
+      [
+       159.55,
+       247.51,
+       191.55,
+       279.51
+      ]
+     ],
+     "label_box": [
+      111.56,
+      247.51,
+      127.56,
+      279.51
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_o",
+     "part": "2",
+     "kind": "letter",
+     "text": "o",
+     "label": "o",
+     "name": "",
+     "reps": 2,
+     "baseline": 271.51,
+     "band": [
+      247.51,
+      279.51
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       247.51,
+       239.54,
+       279.51
+      ],
+      [
+       239.54,
+       247.51,
+       271.54,
+       279.51
+      ]
+     ],
+     "label_box": [
+      191.55,
+      247.51,
+      207.55,
+      279.51
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_p",
+     "part": "2",
+     "kind": "letter",
+     "text": "p",
+     "label": "p",
+     "name": "",
+     "reps": 2,
+     "baseline": 271.51,
+     "band": [
+      247.51,
+      279.51
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       287.53,
+       247.51,
+       319.53,
+       279.51
+      ],
+      [
+       319.53,
+       247.51,
+       351.52,
+       279.51
+      ]
+     ],
+     "label_box": [
+      271.54,
+      247.51,
+      287.53,
+      279.51
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_q",
+     "part": "2",
+     "kind": "letter",
+     "text": "q",
+     "label": "q",
+     "name": "",
+     "reps": 2,
+     "baseline": 271.51,
+     "band": [
+      247.51,
+      279.51
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       247.51,
+       399.52,
+       279.51
+      ],
+      [
+       399.52,
+       247.51,
+       431.51,
+       279.51
+      ]
+     ],
+     "label_box": [
+      351.52,
+      247.51,
+      367.52,
+      279.51
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_r",
+     "part": "2",
+     "kind": "letter",
+     "text": "r",
+     "label": "r",
+     "name": "",
+     "reps": 2,
+     "baseline": 271.51,
+     "band": [
+      247.51,
+      279.51
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       447.51,
+       247.51,
+       479.5,
+       279.51
+      ],
+      [
+       479.5,
+       247.51,
+       511.5,
+       279.51
+      ]
+     ],
+     "label_box": [
+      431.51,
+      247.51,
+      447.51,
+      279.51
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_s",
+     "part": "2",
+     "kind": "letter",
+     "text": "s",
+     "label": "s",
+     "name": "",
+     "reps": 2,
+     "baseline": 303.5,
+     "band": [
+      279.51,
+      311.5
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       279.51,
+       79.57,
+       311.5
+      ],
+      [
+       79.57,
+       279.51,
+       111.56,
+       311.5
+      ]
+     ],
+     "label_box": [
+      31.57,
+      279.51,
+      47.57,
+      311.5
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_t",
+     "part": "2",
+     "kind": "letter",
+     "text": "t",
+     "label": "t",
+     "name": "",
+     "reps": 2,
+     "baseline": 303.5,
+     "band": [
+      279.51,
+      311.5
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       279.51,
+       159.55,
+       311.5
+      ],
+      [
+       159.55,
+       279.51,
+       191.55,
+       311.5
+      ]
+     ],
+     "label_box": [
+      111.56,
+      279.51,
+      127.56,
+      311.5
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_u",
+     "part": "2",
+     "kind": "letter",
+     "text": "u",
+     "label": "u",
+     "name": "",
+     "reps": 2,
+     "baseline": 303.5,
+     "band": [
+      279.51,
+      311.5
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       279.51,
+       239.54,
+       311.5
+      ],
+      [
+       239.54,
+       279.51,
+       271.54,
+       311.5
+      ]
+     ],
+     "label_box": [
+      191.55,
+      279.51,
+      207.55,
+      311.5
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_v",
+     "part": "2",
+     "kind": "letter",
+     "text": "v",
+     "label": "v",
+     "name": "",
+     "reps": 2,
+     "baseline": 303.5,
+     "band": [
+      279.51,
+      311.5
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       287.53,
+       279.51,
+       319.53,
+       311.5
+      ],
+      [
+       319.53,
+       279.51,
+       351.52,
+       311.5
+      ]
+     ],
+     "label_box": [
+      271.54,
+      279.51,
+      287.53,
+      311.5
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_w",
+     "part": "2",
+     "kind": "letter",
+     "text": "w",
+     "label": "w",
+     "name": "",
+     "reps": 2,
+     "baseline": 303.5,
+     "band": [
+      279.51,
+      311.5
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       279.51,
+       399.52,
+       311.5
+      ],
+      [
+       399.52,
+       279.51,
+       431.51,
+       311.5
+      ]
+     ],
+     "label_box": [
+      351.52,
+      279.51,
+      367.52,
+      311.5
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_x",
+     "part": "2",
+     "kind": "letter",
+     "text": "x",
+     "label": "x",
+     "name": "",
+     "reps": 2,
+     "baseline": 303.5,
+     "band": [
+      279.51,
+      311.5
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       447.51,
+       279.51,
+       479.5,
+       311.5
+      ],
+      [
+       479.5,
+       279.51,
+       511.5,
+       311.5
+      ]
+     ],
+     "label_box": [
+      431.51,
+      279.51,
+      447.51,
+      311.5
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_y",
+     "part": "2",
+     "kind": "letter",
+     "text": "y",
+     "label": "y",
+     "name": "",
+     "reps": 2,
+     "baseline": 335.49,
+     "band": [
+      311.5,
+      343.49
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       311.5,
+       79.57,
+       343.49
+      ],
+      [
+       79.57,
+       311.5,
+       111.56,
+       343.49
+      ]
+     ],
+     "label_box": [
+      31.57,
+      311.5,
+      47.57,
+      343.49
+     ],
+     "tall": false
+    },
+    {
+     "id": "lower_z",
+     "part": "2",
+     "kind": "letter",
+     "text": "z",
+     "label": "z",
+     "name": "",
+     "reps": 2,
+     "baseline": 335.49,
+     "band": [
+      311.5,
+      343.49
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       311.5,
+       159.55,
+       343.49
+      ],
+      [
+       159.55,
+       311.5,
+       191.55,
+       343.49
+      ]
+     ],
+     "label_box": [
+      111.56,
+      311.5,
+      127.56,
+      343.49
+     ],
+     "tall": false
+    },
+    {
+     "id": "digit_0",
+     "part": "2",
+     "kind": "digit",
+     "text": "0",
+     "label": "0",
+     "name": "",
+     "reps": 2,
+     "baseline": 367.48,
+     "band": [
+      343.49,
+      375.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       343.49,
+       79.57,
+       375.48
+      ],
+      [
+       79.57,
+       343.49,
+       111.56,
+       375.48
+      ]
+     ],
+     "label_box": [
+      31.57,
+      343.49,
+      47.57,
+      375.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "digit_1",
+     "part": "2",
+     "kind": "digit",
+     "text": "1",
+     "label": "1",
+     "name": "",
+     "reps": 2,
+     "baseline": 367.48,
+     "band": [
+      343.49,
+      375.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       343.49,
+       159.55,
+       375.48
+      ],
+      [
+       159.55,
+       343.49,
+       191.55,
+       375.48
+      ]
+     ],
+     "label_box": [
+      111.56,
+      343.49,
+      127.56,
+      375.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "digit_2",
+     "part": "2",
+     "kind": "digit",
+     "text": "2",
+     "label": "2",
+     "name": "",
+     "reps": 2,
+     "baseline": 367.48,
+     "band": [
+      343.49,
+      375.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       343.49,
+       239.54,
+       375.48
+      ],
+      [
+       239.54,
+       343.49,
+       271.54,
+       375.48
+      ]
+     ],
+     "label_box": [
+      191.55,
+      343.49,
+      207.55,
+      375.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "digit_3",
+     "part": "2",
+     "kind": "digit",
+     "text": "3",
+     "label": "3",
+     "name": "",
+     "reps": 2,
+     "baseline": 367.48,
+     "band": [
+      343.49,
+      375.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       287.53,
+       343.49,
+       319.53,
+       375.48
+      ],
+      [
+       319.53,
+       343.49,
+       351.52,
+       375.48
+      ]
+     ],
+     "label_box": [
+      271.54,
+      343.49,
+      287.53,
+      375.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "digit_4",
+     "part": "2",
+     "kind": "digit",
+     "text": "4",
+     "label": "4",
+     "name": "",
+     "reps": 2,
+     "baseline": 367.48,
+     "band": [
+      343.49,
+      375.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       343.49,
+       399.52,
+       375.48
+      ],
+      [
+       399.52,
+       343.49,
+       431.51,
+       375.48
+      ]
+     ],
+     "label_box": [
+      351.52,
+      343.49,
+      367.52,
+      375.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "digit_5",
+     "part": "2",
+     "kind": "digit",
+     "text": "5",
+     "label": "5",
+     "name": "",
+     "reps": 2,
+     "baseline": 367.48,
+     "band": [
+      343.49,
+      375.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       447.51,
+       343.49,
+       479.5,
+       375.48
+      ],
+      [
+       479.5,
+       343.49,
+       511.5,
+       375.48
+      ]
+     ],
+     "label_box": [
+      431.51,
+      343.49,
+      447.51,
+      375.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "digit_6",
+     "part": "2",
+     "kind": "digit",
+     "text": "6",
+     "label": "6",
+     "name": "",
+     "reps": 2,
+     "baseline": 399.48,
+     "band": [
+      375.48,
+      407.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       375.48,
+       79.57,
+       407.48
+      ],
+      [
+       79.57,
+       375.48,
+       111.56,
+       407.48
+      ]
+     ],
+     "label_box": [
+      31.57,
+      375.48,
+      47.57,
+      407.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "digit_7",
+     "part": "2",
+     "kind": "digit",
+     "text": "7",
+     "label": "7",
+     "name": "",
+     "reps": 2,
+     "baseline": 399.48,
+     "band": [
+      375.48,
+      407.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       375.48,
+       159.55,
+       407.48
+      ],
+      [
+       159.55,
+       375.48,
+       191.55,
+       407.48
+      ]
+     ],
+     "label_box": [
+      111.56,
+      375.48,
+      127.56,
+      407.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "digit_8",
+     "part": "2",
+     "kind": "digit",
+     "text": "8",
+     "label": "8",
+     "name": "",
+     "reps": 2,
+     "baseline": 399.48,
+     "band": [
+      375.48,
+      407.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       375.48,
+       239.54,
+       407.48
+      ],
+      [
+       239.54,
+       375.48,
+       271.54,
+       407.48
+      ]
+     ],
+     "label_box": [
+      191.55,
+      375.48,
+      207.55,
+      407.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "digit_9",
+     "part": "2",
+     "kind": "digit",
+     "text": "9",
+     "label": "9",
+     "name": "",
+     "reps": 2,
+     "baseline": 399.48,
+     "band": [
+      375.48,
+      407.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       287.53,
+       375.48,
+       319.53,
+       407.48
+      ],
+      [
+       319.53,
+       375.48,
+       351.52,
+       407.48
+      ]
+     ],
+     "label_box": [
+      271.54,
+      375.48,
+      287.53,
+      407.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "punct_U+002E",
+     "part": "2",
+     "kind": "punct",
+     "text": ".",
+     "label": ".",
+     "name": "",
+     "reps": 2,
+     "baseline": 431.47,
+     "band": [
+      407.47,
+      439.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       407.47,
+       79.57,
+       439.47
+      ],
+      [
+       79.57,
+       407.47,
+       111.56,
+       439.47
+      ]
+     ],
+     "label_box": [
+      31.57,
+      407.47,
+      47.57,
+      439.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "punct_U+002C",
+     "part": "2",
+     "kind": "punct",
+     "text": ",",
+     "label": ",",
+     "name": "",
+     "reps": 2,
+     "baseline": 431.47,
+     "band": [
+      407.47,
+      439.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       407.47,
+       159.55,
+       439.47
+      ],
+      [
+       159.55,
+       407.47,
+       191.55,
+       439.47
+      ]
+     ],
+     "label_box": [
+      111.56,
+      407.47,
+      127.56,
+      439.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "punct_U+003A",
+     "part": "2",
+     "kind": "punct",
+     "text": ":",
+     "label": ":",
+     "name": "",
+     "reps": 2,
+     "baseline": 431.47,
+     "band": [
+      407.47,
+      439.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       407.47,
+       239.54,
+       439.47
+      ],
+      [
+       239.54,
+       407.47,
+       271.54,
+       439.47
+      ]
+     ],
+     "label_box": [
+      191.55,
+      407.47,
+      207.55,
+      439.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "punct_U+003F",
+     "part": "2",
+     "kind": "punct",
+     "text": "?",
+     "label": "?",
+     "name": "",
+     "reps": 2,
+     "baseline": 431.47,
+     "band": [
+      407.47,
+      439.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       287.53,
+       407.47,
+       319.53,
+       439.47
+      ],
+      [
+       319.53,
+       407.47,
+       351.52,
+       439.47
+      ]
+     ],
+     "label_box": [
+      271.54,
+      407.47,
+      287.53,
+      439.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "punct_U+0021",
+     "part": "2",
+     "kind": "punct",
+     "text": "!",
+     "label": "!",
+     "name": "",
+     "reps": 2,
+     "baseline": 431.47,
+     "band": [
+      407.47,
+      439.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       407.47,
+       399.52,
+       439.47
+      ],
+      [
+       399.52,
+       407.47,
+       431.51,
+       439.47
+      ]
+     ],
+     "label_box": [
+      351.52,
+      407.47,
+      367.52,
+      439.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "punct_U+002D",
+     "part": "2",
+     "kind": "punct",
+     "text": "-",
+     "label": "-",
+     "name": "Bindestrich",
+     "reps": 2,
+     "baseline": 431.47,
+     "band": [
+      407.47,
+      439.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       479.5,
+       407.47,
+       511.5,
+       439.47
+      ],
+      [
+       511.5,
+       407.47,
+       543.49,
+       439.47
+      ]
+     ],
+     "label_box": [
+      431.51,
+      407.47,
+      479.5,
+      439.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "punct_U+0028",
+     "part": "2",
+     "kind": "punct",
+     "text": "(",
+     "label": "(",
+     "name": "",
+     "reps": 2,
+     "baseline": 463.46,
+     "band": [
+      439.46,
+      471.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       439.46,
+       79.57,
+       471.46
+      ],
+      [
+       79.57,
+       439.46,
+       111.56,
+       471.46
+      ]
+     ],
+     "label_box": [
+      31.57,
+      439.46,
+      47.57,
+      471.46
+     ],
+     "tall": false
+    },
+    {
+     "id": "punct_U+0029",
+     "part": "2",
+     "kind": "punct",
+     "text": ")",
+     "label": ")",
+     "name": "",
+     "reps": 2,
+     "baseline": 463.46,
+     "band": [
+      439.46,
+      471.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       439.46,
+       159.55,
+       471.46
+      ],
+      [
+       159.55,
+       439.46,
+       191.55,
+       471.46
+      ]
+     ],
+     "label_box": [
+      111.56,
+      439.46,
+      127.56,
+      471.46
+     ],
+     "tall": false
+    },
+    {
+     "id": "punct_U+201E",
+     "part": "2",
+     "kind": "punct",
+     "text": "„",
+     "label": "„",
+     "name": "unten",
+     "reps": 2,
+     "baseline": 463.46,
+     "band": [
+      439.46,
+      471.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       223.54,
+       439.46,
+       255.54,
+       471.46
+      ],
+      [
+       255.54,
+       439.46,
+       287.53,
+       471.46
+      ]
+     ],
+     "label_box": [
+      191.55,
+      439.46,
+      223.54,
+      471.46
+     ],
+     "tall": false
+    },
+    {
+     "id": "punct_U+201C",
+     "part": "2",
+     "kind": "punct",
+     "text": "“",
+     "label": "“",
+     "name": "oben",
+     "reps": 2,
+     "baseline": 463.46,
+     "band": [
+      439.46,
+      471.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       319.53,
+       439.46,
+       351.52,
+       471.46
+      ],
+      [
+       351.52,
+       439.46,
+       383.52,
+       471.46
+      ]
+     ],
+     "label_box": [
+      287.53,
+      439.46,
+      319.53,
+      471.46
+     ],
+     "tall": false
+    },
+    {
+     "id": "punct_U+0027",
+     "part": "2",
+     "kind": "punct",
+     "text": "'",
+     "label": "'",
+     "name": "Apostroph",
+     "reps": 2,
+     "baseline": 463.46,
+     "band": [
+      439.46,
+      471.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       431.51,
+       439.46,
+       463.51,
+       471.46
+      ],
+      [
+       463.51,
+       439.46,
+       495.5,
+       471.46
+      ]
+     ],
+     "label_box": [
+      383.52,
+      439.46,
+      431.51,
+      471.46
+     ],
+     "tall": false
+    },
+    {
+     "id": "punct_U+002F",
+     "part": "2",
+     "kind": "punct",
+     "text": "/",
+     "label": "/",
+     "name": "",
+     "reps": 2,
+     "baseline": 463.46,
+     "band": [
+      439.46,
+      471.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       511.5,
+       439.46,
+       543.49,
+       471.46
+      ],
+      [
+       543.49,
+       439.46,
+       575.49,
+       471.46
+      ]
+     ],
+     "label_box": [
+      495.5,
+      439.46,
+      511.5,
+      471.46
+     ],
+     "tall": false
+    },
+    {
+     "id": "punct_U+0025",
+     "part": "2",
+     "kind": "punct",
+     "text": "%",
+     "label": "%",
+     "name": "",
+     "reps": 2,
+     "baseline": 495.45,
+     "band": [
+      471.46,
+      503.45
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       471.46,
+       79.57,
+       503.45
+      ],
+      [
+       79.57,
+       471.46,
+       111.56,
+       503.45
+      ]
+     ],
+     "label_box": [
+      31.57,
+      471.46,
+      47.57,
+      503.45
+     ],
+     "tall": false
+    },
+    {
+     "id": "num_00",
+     "part": "2",
+     "kind": "number",
+     "text": "29.10.26",
+     "label": "29.10.26",
+     "name": "",
+     "reps": 1,
+     "baseline": 575.43,
+     "band": [
+      551.44,
+      583.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       79.57,
+       551.44,
+       175.55,
+       583.43
+      ]
+     ],
+     "label_box": [
+      31.57,
+      551.44,
+      79.57,
+      583.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "num_01",
+     "part": "2",
+     "kind": "number",
+     "text": "1954",
+     "label": "1954",
+     "name": "",
+     "reps": 1,
+     "baseline": 575.43,
+     "band": [
+      551.44,
+      583.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       551.44,
+       271.54,
+       583.43
+      ]
+     ],
+     "label_box": [
+      175.55,
+      551.44,
+      207.55,
+      583.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "num_02",
+     "part": "2",
+     "kind": "number",
+     "text": "1990",
+     "label": "1990",
+     "name": "",
+     "reps": 1,
+     "baseline": 575.43,
+     "band": [
+      551.44,
+      583.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       303.53,
+       551.44,
+       367.52,
+       583.43
+      ]
+     ],
+     "label_box": [
+      271.54,
+      551.44,
+      303.53,
+      583.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "num_03",
+     "part": "2",
+     "kind": "number",
+     "text": "2019",
+     "label": "2019",
+     "name": "",
+     "reps": 1,
+     "baseline": 575.43,
+     "band": [
+      551.44,
+      583.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       399.52,
+       551.44,
+       463.51,
+       583.43
+      ]
+     ],
+     "label_box": [
+      367.52,
+      551.44,
+      399.52,
+      583.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "num_04",
+     "part": "2",
+     "kind": "number",
+     "text": "2024",
+     "label": "2024",
+     "name": "",
+     "reps": 1,
+     "baseline": 575.43,
+     "band": [
+      551.44,
+      583.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       495.5,
+       551.44,
+       559.49,
+       583.43
+      ]
+     ],
+     "label_box": [
+      463.51,
+      551.44,
+      495.5,
+      583.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "num_05",
+     "part": "2",
+     "kind": "number",
+     "text": "43 %",
+     "label": "43 %",
+     "name": "",
+     "reps": 1,
+     "baseline": 607.42,
+     "band": [
+      583.43,
+      615.42
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       583.43,
+       127.56,
+       615.42
+      ]
+     ],
+     "label_box": [
+      31.57,
+      583.43,
+      63.57,
+      615.42
+     ],
+     "tall": false
+    },
+    {
+     "id": "num_06",
+     "part": "2",
+     "kind": "number",
+     "text": "7,5",
+     "label": "7,5",
+     "name": "",
+     "reps": 1,
+     "baseline": 607.42,
+     "band": [
+      583.43,
+      615.42
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       159.55,
+       583.43,
+       207.55,
+       615.42
+      ]
+     ],
+     "label_box": [
+      127.56,
+      583.43,
+      159.55,
+      615.42
+     ],
+     "tall": false
+    },
+    {
+     "id": "num_07",
+     "part": "2",
+     "kind": "number",
+     "text": "0,25",
+     "label": "0,25",
+     "name": "",
+     "reps": 1,
+     "baseline": 607.42,
+     "band": [
+      583.43,
+      615.42
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       239.54,
+       583.43,
+       303.53,
+       615.42
+      ]
+     ],
+     "label_box": [
+      207.55,
+      583.43,
+      239.54,
+      615.42
+     ],
+     "tall": false
+    },
+    {
+     "id": "num_08",
+     "part": "2",
+     "kind": "number",
+     "text": "9,81",
+     "label": "9,81",
+     "name": "",
+     "reps": 1,
+     "baseline": 607.42,
+     "band": [
+      583.43,
+      615.42
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       335.53,
+       583.43,
+       399.52,
+       615.42
+      ]
+     ],
+     "label_box": [
+      303.53,
+      583.43,
+      335.53,
+      615.42
+     ],
+     "tall": false
+    },
+    {
+     "id": "num_09",
+     "part": "2",
+     "kind": "number",
+     "text": "−17",
+     "label": "−17",
+     "name": "",
+     "reps": 1,
+     "baseline": 607.42,
+     "band": [
+      583.43,
+      615.42
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       431.51,
+       583.43,
+       479.5,
+       615.42
+      ]
+     ],
+     "label_box": [
+      399.52,
+      583.43,
+      431.51,
+      615.42
+     ],
+     "tall": false
+    },
+    {
+     "id": "num_10",
+     "part": "2",
+     "kind": "number",
+     "text": "1,6 · 10⁻¹⁹",
+     "label": "1,6 · 10⁻¹⁹",
+     "name": "",
+     "reps": 1,
+     "baseline": 639.42,
+     "band": [
+      615.42,
+      647.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       95.56,
+       615.42,
+       207.55,
+       647.41
+      ]
+     ],
+     "label_box": [
+      31.57,
+      615.42,
+      95.56,
+      647.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "num_11",
+     "part": "2",
+     "kind": "number",
+     "text": "3,14",
+     "label": "3,14",
+     "name": "",
+     "reps": 1,
+     "baseline": 639.42,
+     "band": [
+      615.42,
+      647.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       239.54,
+       615.42,
+       303.53,
+       647.41
+      ]
+     ],
+     "label_box": [
+      207.55,
+      615.42,
+      239.54,
+      647.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+002B",
+     "part": "3",
+     "kind": "symbol",
+     "text": "+",
+     "label": "+",
+     "name": "",
+     "reps": 2,
+     "baseline": 719.39,
+     "band": [
+      695.4,
+      727.39
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       695.4,
+       79.57,
+       727.39
+      ],
+      [
+       79.57,
+       695.4,
+       111.56,
+       727.39
+      ]
+     ],
+     "label_box": [
+      31.57,
+      695.4,
+      47.57,
+      727.39
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+2212",
+     "part": "3",
+     "kind": "symbol",
+     "text": "−",
+     "label": "−",
+     "name": "Minus",
+     "reps": 2,
+     "baseline": 719.39,
+     "band": [
+      695.4,
+      727.39
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       159.55,
+       695.4,
+       191.55,
+       727.39
+      ],
+      [
+       191.55,
+       695.4,
+       223.54,
+       727.39
+      ]
+     ],
+     "label_box": [
+      111.56,
+      695.4,
+      159.55,
+      727.39
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+00B7",
+     "part": "3",
+     "kind": "symbol",
+     "text": "·",
+     "label": "·",
+     "name": "Malpunkt",
+     "reps": 2,
+     "baseline": 719.39,
+     "band": [
+      695.4,
+      727.39
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       271.54,
+       695.4,
+       303.53,
+       727.39
+      ],
+      [
+       303.53,
+       695.4,
+       335.53,
+       727.39
+      ]
+     ],
+     "label_box": [
+      223.54,
+      695.4,
+      271.54,
+      727.39
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+00D7",
+     "part": "3",
+     "kind": "symbol",
+     "text": "×",
+     "label": "×",
+     "name": "Kreuzprodukt",
+     "reps": 2,
+     "baseline": 719.39,
+     "band": [
+      695.4,
+      727.39
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       399.52,
+       695.4,
+       431.51,
+       727.39
+      ],
+      [
+       431.51,
+       695.4,
+       463.51,
+       727.39
+      ]
+     ],
+     "label_box": [
+      335.53,
+      695.4,
+      399.52,
+      727.39
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+003D",
+     "part": "3",
+     "kind": "symbol",
+     "text": "=",
+     "label": "=",
+     "name": "",
+     "reps": 2,
+     "baseline": 719.39,
+     "band": [
+      695.4,
+      727.39
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       479.5,
+       695.4,
+       511.5,
+       727.39
+      ],
+      [
+       511.5,
+       695.4,
+       543.49,
+       727.39
+      ]
+     ],
+     "label_box": [
+      463.51,
+      695.4,
+      479.5,
+      727.39
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+2248",
+     "part": "3",
+     "kind": "symbol",
+     "text": "≈",
+     "label": "≈",
+     "name": "",
+     "reps": 2,
+     "baseline": 751.39,
+     "band": [
+      727.39,
+      759.39
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       727.39,
+       79.57,
+       759.39
+      ],
+      [
+       79.57,
+       727.39,
+       111.56,
+       759.39
+      ]
+     ],
+     "label_box": [
+      31.57,
+      727.39,
+      47.57,
+      759.39
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+2260",
+     "part": "3",
+     "kind": "symbol",
+     "text": "≠",
+     "label": "≠",
+     "name": "",
+     "reps": 2,
+     "baseline": 751.39,
+     "band": [
+      727.39,
+      759.39
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       727.39,
+       159.55,
+       759.39
+      ],
+      [
+       159.55,
+       727.39,
+       191.55,
+       759.39
+      ]
+     ],
+     "label_box": [
+      111.56,
+      727.39,
+      127.56,
+      759.39
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+00B1",
+     "part": "3",
+     "kind": "symbol",
+     "text": "±",
+     "label": "±",
+     "name": "",
+     "reps": 2,
+     "baseline": 751.39,
+     "band": [
+      727.39,
+      759.39
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       727.39,
+       239.54,
+       759.39
+      ],
+      [
+       239.54,
+       727.39,
+       271.54,
+       759.39
+      ]
+     ],
+     "label_box": [
+      191.55,
+      727.39,
+      207.55,
+      759.39
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+003C",
+     "part": "3",
+     "kind": "symbol",
+     "text": "<",
+     "label": "<",
+     "name": "",
+     "reps": 2,
+     "baseline": 751.39,
+     "band": [
+      727.39,
+      759.39
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       287.53,
+       727.39,
+       319.53,
+       759.39
+      ],
+      [
+       319.53,
+       727.39,
+       351.52,
+       759.39
+      ]
+     ],
+     "label_box": [
+      271.54,
+      727.39,
+      287.53,
+      759.39
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+003E",
+     "part": "3",
+     "kind": "symbol",
+     "text": ">",
+     "label": ">",
+     "name": "",
+     "reps": 2,
+     "baseline": 751.39,
+     "band": [
+      727.39,
+      759.39
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       727.39,
+       399.52,
+       759.39
+      ],
+      [
+       399.52,
+       727.39,
+       431.51,
+       759.39
+      ]
+     ],
+     "label_box": [
+      351.52,
+      727.39,
+      367.52,
+      759.39
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+2264",
+     "part": "3",
+     "kind": "symbol",
+     "text": "≤",
+     "label": "≤",
+     "name": "",
+     "reps": 2,
+     "baseline": 751.39,
+     "band": [
+      727.39,
+      759.39
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       447.51,
+       727.39,
+       479.5,
+       759.39
+      ],
+      [
+       479.5,
+       727.39,
+       511.5,
+       759.39
+      ]
+     ],
+     "label_box": [
+      431.51,
+      727.39,
+      447.51,
+      759.39
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+2265",
+     "part": "3",
+     "kind": "symbol",
+     "text": "≥",
+     "label": "≥",
+     "name": "",
+     "reps": 2,
+     "baseline": 783.38,
+     "band": [
+      759.38,
+      791.38
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       759.38,
+       79.57,
+       791.38
+      ],
+      [
+       79.57,
+       759.38,
+       111.56,
+       791.38
+      ]
+     ],
+     "label_box": [
+      31.57,
+      759.38,
+      47.57,
+      791.38
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+2192",
+     "part": "3",
+     "kind": "symbol",
+     "text": "→",
+     "label": "→",
+     "name": "Pfeil",
+     "reps": 4,
+     "baseline": 783.38,
+     "band": [
+      759.38,
+      791.38
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       143.56,
+       759.38,
+       175.55,
+       791.38
+      ],
+      [
+       175.55,
+       759.38,
+       207.55,
+       791.38
+      ],
+      [
+       207.55,
+       759.38,
+       239.54,
+       791.38
+      ],
+      [
+       239.54,
+       759.38,
+       271.54,
+       791.38
+      ]
+     ],
+     "label_box": [
+      111.56,
+      759.38,
+      143.56,
+      791.38
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+21D2",
+     "part": "3",
+     "kind": "symbol",
+     "text": "⇒",
+     "label": "⇒",
+     "name": "",
+     "reps": 2,
+     "baseline": 783.38,
+     "band": [
+      759.38,
+      791.38
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       287.53,
+       759.38,
+       319.53,
+       791.38
+      ],
+      [
+       319.53,
+       759.38,
+       351.52,
+       791.38
+      ]
+     ],
+     "label_box": [
+      271.54,
+      759.38,
+      287.53,
+      791.38
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+21D4",
+     "part": "3",
+     "kind": "symbol",
+     "text": "⇔",
+     "label": "⇔",
+     "name": "",
+     "reps": 2,
+     "baseline": 783.38,
+     "band": [
+      759.38,
+      791.38
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       759.38,
+       399.52,
+       791.38
+      ],
+      [
+       399.52,
+       759.38,
+       431.51,
+       791.38
+      ]
+     ],
+     "label_box": [
+      351.52,
+      759.38,
+      367.52,
+      791.38
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+00B0",
+     "part": "3",
+     "kind": "symbol",
+     "text": "°",
+     "label": "°",
+     "name": "Grad",
+     "reps": 2,
+     "baseline": 783.38,
+     "band": [
+      759.38,
+      791.38
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       463.51,
+       759.38,
+       495.5,
+       791.38
+      ],
+      [
+       495.5,
+       759.38,
+       527.5,
+       791.38
+      ]
+     ],
+     "label_box": [
+      431.51,
+      759.38,
+      463.51,
+      791.38
+     ],
+     "tall": false
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "header": "Schriftprobe Sang · SP-v2 · Seite 3/6",
+   "bg_sha256": "3ac6e4b26f1aeaa51ae150dee02263461f0456af7fe23998a67aed8300a717f8",
+   "printed": [
+    {
+     "kind": "heading",
+     "text": "Mathe-Ausdrücke",
+     "baseline": 255.51
+    }
+   ],
+   "items": [
+    {
+     "id": "sym_U+007C",
+     "part": "3",
+     "kind": "symbol",
+     "text": "|",
+     "label": "|",
+     "name": "Strich",
+     "reps": 2,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       87.55,
+       95.56,
+       119.55
+      ],
+      [
+       95.56,
+       87.55,
+       127.56,
+       119.55
+      ]
+     ],
+     "label_box": [
+      31.57,
+      87.55,
+      63.57,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+221A",
+     "part": "3",
+     "kind": "symbol",
+     "text": "√",
+     "label": "√",
+     "name": "",
+     "reps": 2,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       143.56,
+       87.55,
+       175.55,
+       119.55
+      ],
+      [
+       175.55,
+       87.55,
+       207.55,
+       119.55
+      ]
+     ],
+     "label_box": [
+      127.56,
+      87.55,
+      143.56,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+03C0",
+     "part": "3",
+     "kind": "symbol",
+     "text": "π",
+     "label": "π",
+     "name": "",
+     "reps": 2,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       223.54,
+       87.55,
+       255.54,
+       119.55
+      ],
+      [
+       255.54,
+       87.55,
+       287.53,
+       119.55
+      ]
+     ],
+     "label_box": [
+      207.55,
+      87.55,
+      223.54,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+221E",
+     "part": "3",
+     "kind": "symbol",
+     "text": "∞",
+     "label": "∞",
+     "name": "",
+     "reps": 2,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       303.53,
+       87.55,
+       335.53,
+       119.55
+      ],
+      [
+       335.53,
+       87.55,
+       367.52,
+       119.55
+      ]
+     ],
+     "label_box": [
+      287.53,
+      87.55,
+      303.53,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+222B",
+     "part": "3",
+     "kind": "symbol",
+     "text": "∫",
+     "label": "∫",
+     "name": "",
+     "reps": 2,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       383.52,
+       87.55,
+       415.51,
+       119.55
+      ],
+      [
+       415.51,
+       87.55,
+       447.51,
+       119.55
+      ]
+     ],
+     "label_box": [
+      367.52,
+      87.55,
+      383.52,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+0394",
+     "part": "3",
+     "kind": "symbol",
+     "text": "Δ",
+     "label": "Δ",
+     "name": "",
+     "reps": 2,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       463.51,
+       87.55,
+       495.5,
+       119.55
+      ],
+      [
+       495.5,
+       87.55,
+       527.5,
+       119.55
+      ]
+     ],
+     "label_box": [
+      447.51,
+      87.55,
+      463.51,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+2208",
+     "part": "3",
+     "kind": "symbol",
+     "text": "∈",
+     "label": "∈",
+     "name": "Element",
+     "reps": 2,
+     "baseline": 143.54,
+     "band": [
+      119.55,
+      151.54
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       79.57,
+       119.55,
+       111.56,
+       151.54
+      ],
+      [
+       111.56,
+       119.55,
+       143.56,
+       151.54
+      ]
+     ],
+     "label_box": [
+      31.57,
+      119.55,
+      79.57,
+      151.54
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+211D",
+     "part": "3",
+     "kind": "symbol",
+     "text": "ℝ",
+     "label": "ℝ",
+     "name": "",
+     "reps": 2,
+     "baseline": 143.54,
+     "band": [
+      119.55,
+      151.54
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       159.55,
+       119.55,
+       191.55,
+       151.54
+      ],
+      [
+       191.55,
+       119.55,
+       223.54,
+       151.54
+      ]
+     ],
+     "label_box": [
+      143.56,
+      119.55,
+      159.55,
+      151.54
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+22A5",
+     "part": "3",
+     "kind": "symbol",
+     "text": "⊥",
+     "label": "⊥",
+     "name": "senkrecht",
+     "reps": 2,
+     "baseline": 143.54,
+     "band": [
+      119.55,
+      151.54
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       271.54,
+       119.55,
+       303.53,
+       151.54
+      ],
+      [
+       303.53,
+       119.55,
+       335.53,
+       151.54
+      ]
+     ],
+     "label_box": [
+      223.54,
+      119.55,
+      271.54,
+      151.54
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+2225",
+     "part": "3",
+     "kind": "symbol",
+     "text": "∥",
+     "label": "∥",
+     "name": "parallel",
+     "reps": 2,
+     "baseline": 143.54,
+     "band": [
+      119.55,
+      151.54
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       383.52,
+       119.55,
+       415.51,
+       151.54
+      ],
+      [
+       415.51,
+       119.55,
+       447.51,
+       151.54
+      ]
+     ],
+     "label_box": [
+      335.53,
+      119.55,
+      383.52,
+      151.54
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+2229",
+     "part": "3",
+     "kind": "symbol",
+     "text": "∩",
+     "label": "∩",
+     "name": "",
+     "reps": 2,
+     "baseline": 143.54,
+     "band": [
+      119.55,
+      151.54
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       463.51,
+       119.55,
+       495.5,
+       151.54
+      ],
+      [
+       495.5,
+       119.55,
+       527.5,
+       151.54
+      ]
+     ],
+     "label_box": [
+      447.51,
+      119.55,
+      463.51,
+      151.54
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+222A",
+     "part": "3",
+     "kind": "symbol",
+     "text": "∪",
+     "label": "∪",
+     "name": "",
+     "reps": 2,
+     "baseline": 175.53,
+     "band": [
+      151.54,
+      183.53
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       151.54,
+       79.57,
+       183.53
+      ],
+      [
+       79.57,
+       151.54,
+       111.56,
+       183.53
+      ]
+     ],
+     "label_box": [
+      31.57,
+      151.54,
+      47.57,
+      183.53
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+03B1",
+     "part": "3",
+     "kind": "symbol",
+     "text": "α",
+     "label": "α",
+     "name": "",
+     "reps": 2,
+     "baseline": 175.53,
+     "band": [
+      151.54,
+      183.53
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       151.54,
+       159.55,
+       183.53
+      ],
+      [
+       159.55,
+       151.54,
+       191.55,
+       183.53
+      ]
+     ],
+     "label_box": [
+      111.56,
+      151.54,
+      127.56,
+      183.53
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+03B2",
+     "part": "3",
+     "kind": "symbol",
+     "text": "β",
+     "label": "β",
+     "name": "",
+     "reps": 2,
+     "baseline": 175.53,
+     "band": [
+      151.54,
+      183.53
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       151.54,
+       239.54,
+       183.53
+      ],
+      [
+       239.54,
+       151.54,
+       271.54,
+       183.53
+      ]
+     ],
+     "label_box": [
+      191.55,
+      151.54,
+      207.55,
+      183.53
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+03B3",
+     "part": "3",
+     "kind": "symbol",
+     "text": "γ",
+     "label": "γ",
+     "name": "",
+     "reps": 2,
+     "baseline": 175.53,
+     "band": [
+      151.54,
+      183.53
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       287.53,
+       151.54,
+       319.53,
+       183.53
+      ],
+      [
+       319.53,
+       151.54,
+       351.52,
+       183.53
+      ]
+     ],
+     "label_box": [
+      271.54,
+      151.54,
+      287.53,
+      183.53
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+03B5",
+     "part": "3",
+     "kind": "symbol",
+     "text": "ε",
+     "label": "ε",
+     "name": "",
+     "reps": 2,
+     "baseline": 175.53,
+     "band": [
+      151.54,
+      183.53
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       151.54,
+       399.52,
+       183.53
+      ],
+      [
+       399.52,
+       151.54,
+       431.51,
+       183.53
+      ]
+     ],
+     "label_box": [
+      351.52,
+      151.54,
+      367.52,
+      183.53
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+03BB",
+     "part": "3",
+     "kind": "symbol",
+     "text": "λ",
+     "label": "λ",
+     "name": "",
+     "reps": 2,
+     "baseline": 175.53,
+     "band": [
+      151.54,
+      183.53
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       447.51,
+       151.54,
+       479.5,
+       183.53
+      ],
+      [
+       479.5,
+       151.54,
+       511.5,
+       183.53
+      ]
+     ],
+     "label_box": [
+      431.51,
+      151.54,
+      447.51,
+      183.53
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+03BC",
+     "part": "3",
+     "kind": "symbol",
+     "text": "μ",
+     "label": "μ",
+     "name": "",
+     "reps": 2,
+     "baseline": 207.53,
+     "band": [
+      183.53,
+      215.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       183.53,
+       79.57,
+       215.52
+      ],
+      [
+       79.57,
+       183.53,
+       111.56,
+       215.52
+      ]
+     ],
+     "label_box": [
+      31.57,
+      183.53,
+      47.57,
+      215.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+03C3",
+     "part": "3",
+     "kind": "symbol",
+     "text": "σ",
+     "label": "σ",
+     "name": "",
+     "reps": 2,
+     "baseline": 207.53,
+     "band": [
+      183.53,
+      215.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       183.53,
+       159.55,
+       215.52
+      ],
+      [
+       159.55,
+       183.53,
+       191.55,
+       215.52
+      ]
+     ],
+     "label_box": [
+      111.56,
+      183.53,
+      127.56,
+      215.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+03C6",
+     "part": "3",
+     "kind": "symbol",
+     "text": "φ",
+     "label": "φ",
+     "name": "",
+     "reps": 2,
+     "baseline": 207.53,
+     "band": [
+      183.53,
+      215.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       183.53,
+       239.54,
+       215.52
+      ],
+      [
+       239.54,
+       183.53,
+       271.54,
+       215.52
+      ]
+     ],
+     "label_box": [
+      191.55,
+      183.53,
+      207.55,
+      215.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+03C9",
+     "part": "3",
+     "kind": "symbol",
+     "text": "ω",
+     "label": "ω",
+     "name": "",
+     "reps": 2,
+     "baseline": 207.53,
+     "band": [
+      183.53,
+      215.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       287.53,
+       183.53,
+       319.53,
+       215.52
+      ],
+      [
+       319.53,
+       183.53,
+       351.52,
+       215.52
+      ]
+     ],
+     "label_box": [
+      271.54,
+      183.53,
+      287.53,
+      215.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "sym_U+03A9",
+     "part": "3",
+     "kind": "symbol",
+     "text": "Ω",
+     "label": "Ω",
+     "name": "",
+     "reps": 2,
+     "baseline": 207.53,
+     "band": [
+      183.53,
+      215.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       183.53,
+       399.52,
+       215.52
+      ],
+      [
+       399.52,
+       183.53,
+       431.51,
+       215.52
+      ]
+     ],
+     "label_box": [
+      351.52,
+      183.53,
+      367.52,
+      215.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "math_vec_ac",
+     "part": "3",
+     "kind": "math",
+     "text": "→AC = (−4|−8|8)",
+     "label": "§M^AC = V{−4;−8;8}",
+     "name": "",
+     "reps": 1,
+     "baseline": 335.49,
+     "band": [
+      287.5,
+      383.49
+     ],
+     "anchor": "middle_row_on_baseline",
+     "boxes": [
+      [
+       95.56,
+       287.5,
+       239.54,
+       383.49
+      ]
+     ],
+     "label_box": [
+      31.57,
+      287.5,
+      95.56,
+      383.49
+     ],
+     "tall": true
+    },
+    {
+     "id": "math_vec_n",
+     "part": "3",
+     "kind": "math",
+     "text": "→n = (2|1|2)",
+     "label": "§M^n = V{2;1;2}",
+     "name": "",
+     "reps": 1,
+     "baseline": 335.49,
+     "band": [
+      287.5,
+      383.49
+     ],
+     "anchor": "middle_row_on_baseline",
+     "boxes": [
+      [
+       287.53,
+       287.5,
+       415.51,
+       383.49
+      ]
+     ],
+     "label_box": [
+      239.54,
+      287.5,
+      287.53,
+      383.49
+     ],
+     "tall": true
+    },
+    {
+     "id": "math_vec_om",
+     "part": "3",
+     "kind": "math",
+     "text": "→OM = (1)/(2)·(1−3|2−6|1+9)",
+     "label": "§M^OM = F{1}{2}·V{1−3;2−6;1+9}",
+     "name": "",
+     "reps": 1,
+     "baseline": 431.47,
+     "band": [
+      383.48,
+      479.46
+     ],
+     "anchor": "middle_row_on_baseline",
+     "boxes": [
+      [
+       127.56,
+       383.48,
+       303.53,
+       479.46
+      ]
+     ],
+     "label_box": [
+      31.57,
+      383.48,
+      127.56,
+      479.46
+     ],
+     "tall": true
+    },
+    {
+     "id": "math_frac",
+     "part": "3",
+     "kind": "math",
+     "text": "x = (1)/(2)    y = (a)/(2)",
+     "label": "§Mx = F{1}{2}    y = F{a}{2}",
+     "name": "",
+     "reps": 1,
+     "baseline": 431.47,
+     "band": [
+      383.48,
+      479.46
+     ],
+     "anchor": "middle_row_on_baseline",
+     "boxes": [
+      [
+       383.52,
+       383.48,
+       527.5,
+       479.46
+      ]
+     ],
+     "label_box": [
+      303.53,
+      383.48,
+      383.52,
+      479.46
+     ],
+     "tall": true
+    },
+    {
+     "id": "math_integral",
+     "part": "3",
+     "kind": "math",
+     "text": "∫_0^2 x² dx = [(1)/(3)x³]_0^2",
+     "label": "§MI{0}{2} x² dx = [F{1}{3}x³]G{0}{2}",
+     "name": "",
+     "reps": 1,
+     "baseline": 527.44,
+     "band": [
+      479.45,
+      575.44
+     ],
+     "anchor": "middle_row_on_baseline",
+     "boxes": [
+      [
+       127.56,
+       479.45,
+       319.53,
+       575.44
+      ]
+     ],
+     "label_box": [
+      31.57,
+      479.45,
+      127.56,
+      575.44
+     ],
+     "tall": true
+    },
+    {
+     "id": "math_binom",
+     "part": "3",
+     "kind": "math",
+     "text": "P = (5 über 3) · 0,5⁵",
+     "label": "§MP = B{5}{3} · 0,5⁵",
+     "name": "",
+     "reps": 1,
+     "baseline": 527.44,
+     "band": [
+      479.45,
+      575.44
+     ],
+     "anchor": "middle_row_on_baseline",
+     "boxes": [
+      [
+       399.52,
+       479.45,
+       543.49,
+       575.44
+      ]
+     ],
+     "label_box": [
+      319.53,
+      479.45,
+      399.52,
+      575.44
+     ],
+     "tall": true
+    },
+    {
+     "id": "math_plane",
+     "part": "3",
+     "kind": "math",
+     "text": "H: 2x₁ + x₂ + 2x₃ = 6",
+     "label": "§MH: 2x₁ + x₂ + 2x₃ = 6",
+     "name": "",
+     "reps": 1,
+     "baseline": 607.42,
+     "band": [
+      583.43,
+      615.42
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       143.56,
+       583.43,
+       335.53,
+       615.42
+      ]
+     ],
+     "label_box": [
+      31.57,
+      583.43,
+      143.56,
+      615.42
+     ],
+     "tall": false
+    },
+    {
+     "id": "math_points",
+     "part": "3",
+     "kind": "math",
+     "text": "C(−3|−6|9)    M(−1|−2|5)",
+     "label": "§MC(−3|−6|9)    M(−1|−2|5)",
+     "name": "",
+     "reps": 1,
+     "baseline": 639.42,
+     "band": [
+      615.42,
+      647.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       159.55,
+       615.42,
+       367.52,
+       647.41
+      ]
+     ],
+     "label_box": [
+      31.57,
+      615.42,
+      159.55,
+      647.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "math_abs",
+     "part": "3",
+     "kind": "math",
+     "text": "|→AC| = √(144) = 12",
+     "label": "§M|^AC| = √{144} = 12",
+     "name": "",
+     "reps": 1,
+     "baseline": 671.41,
+     "band": [
+      647.41,
+      679.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       647.41,
+       287.53,
+       679.41
+      ]
+     ],
+     "label_box": [
+      31.57,
+      647.41,
+      127.56,
+      679.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "math_sqrt_sum",
+     "part": "3",
+     "kind": "math",
+     "text": "√(16 + 64 + 64)",
+     "label": "§M√{16 + 64 + 64}",
+     "name": "",
+     "reps": 1,
+     "baseline": 671.41,
+     "band": [
+      647.41,
+      679.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       647.41,
+       511.5,
+       679.41
+      ]
+     ],
+     "label_box": [
+      287.53,
+      647.41,
+      367.52,
+      679.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "math_mid",
+     "part": "3",
+     "kind": "math",
+     "text": "→OM = 1/2·(→OA + →OC)",
+     "label": "§M^OM = 1/2·(^OA + ^OC)",
+     "name": "",
+     "reps": 1,
+     "baseline": 703.4,
+     "band": [
+      679.4,
+      711.4
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       143.56,
+       679.4,
+       335.53,
+       711.4
+      ]
+     ],
+     "label_box": [
+      31.57,
+      679.4,
+      143.56,
+      711.4
+     ],
+     "tall": false
+    },
+    {
+     "id": "math_edge",
+     "part": "3",
+     "kind": "math",
+     "text": "|→AB| = a/√2 = 6·√2",
+     "label": "§M|^AB| = a/√2 = 6·√2",
+     "name": "",
+     "reps": 1,
+     "baseline": 735.39,
+     "band": [
+      711.39,
+      743.39
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       711.39,
+       303.53,
+       743.39
+      ]
+     ],
+     "label_box": [
+      31.57,
+      711.39,
+      127.56,
+      743.39
+     ],
+     "tall": false
+    },
+    {
+     "id": "math_func",
+     "part": "3",
+     "kind": "math",
+     "text": "f(x) = 2x² − 3x + 1",
+     "label": "§Mf(x) = 2x² − 3x + 1",
+     "name": "",
+     "reps": 1,
+     "baseline": 767.38,
+     "band": [
+      743.39,
+      775.38
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       143.56,
+       743.39,
+       319.53,
+       775.38
+      ]
+     ],
+     "label_box": [
+      31.57,
+      743.39,
+      143.56,
+      775.38
+     ],
+     "tall": false
+    },
+    {
+     "id": "math_deriv",
+     "part": "3",
+     "kind": "math",
+     "text": "f'(x) = 4x − 3",
+     "label": "§Mf'(x) = 4x − 3",
+     "name": "",
+     "reps": 1,
+     "baseline": 767.38,
+     "band": [
+      743.39,
+      775.38
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       399.52,
+       743.39,
+       543.49,
+       775.38
+      ]
+     ],
+     "label_box": [
+      319.53,
+      743.39,
+      399.52,
+      775.38
+     ],
+     "tall": false
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "header": "Schriftprobe Sang · SP-v2 · Seite 4/6",
+   "bg_sha256": "9acc0e00baf64d6b78ec5e2d5fe02b8613bff2abe4fbc9051a9679681d39efd8",
+   "printed": [
+    {
+     "kind": "heading",
+     "text": "Teil 4: Wörter",
+     "baseline": 287.51
+    }
+   ],
+   "items": [
+    {
+     "id": "math_exp",
+     "part": "3",
+     "kind": "math",
+     "text": "f(x) = 3·e⁻²ˣ    x = ln(5)/2",
+     "label": "§Mf(x) = 3·e⁻²ˣ    x = ln(5)/2",
+     "name": "",
+     "reps": 1,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       159.55,
+       87.55,
+       383.52,
+       119.55
+      ]
+     ],
+     "label_box": [
+      31.57,
+      87.55,
+      159.55,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "math_stoch",
+     "part": "3",
+     "kind": "math",
+     "text": "P(X ≤ 3) ≈ 0,65",
+     "label": "§MP(X ≤ 3) ≈ 0,65",
+     "name": "",
+     "reps": 1,
+     "baseline": 143.54,
+     "band": [
+      119.55,
+      151.54
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       111.56,
+       119.55,
+       255.54,
+       151.54
+      ]
+     ],
+     "label_box": [
+      31.57,
+      119.55,
+      111.56,
+      151.54
+     ],
+     "tall": false
+    },
+    {
+     "id": "math_logic",
+     "part": "3",
+     "kind": "math",
+     "text": "2x = 4 ⇔ x = 2    π ≈ 3,14",
+     "label": "§M2x = 4 ⇔ x = 2    π ≈ 3,14",
+     "name": "",
+     "reps": 1,
+     "baseline": 175.53,
+     "band": [
+      151.54,
+      183.53
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       175.55,
+       151.54,
+       399.52,
+       183.53
+      ]
+     ],
+     "label_box": [
+      31.57,
+      151.54,
+      175.55,
+      183.53
+     ],
+     "tall": false
+    },
+    {
+     "id": "math_phys",
+     "part": "3",
+     "kind": "math",
+     "text": "F = q·E    W = q·U",
+     "label": "§MF = q·E    W = q·U",
+     "name": "",
+     "reps": 1,
+     "baseline": 207.53,
+     "band": [
+      183.53,
+      215.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       183.53,
+       287.53,
+       215.52
+      ]
+     ],
+     "label_box": [
+      31.57,
+      183.53,
+      127.56,
+      215.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "math_const",
+     "part": "3",
+     "kind": "math",
+     "text": "ε₀    μ₀    λ = 500 nm",
+     "label": "§Mε₀    μ₀    λ = 500 nm",
+     "name": "",
+     "reps": 1,
+     "baseline": 207.53,
+     "band": [
+      183.53,
+      215.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       399.52,
+       183.53,
+       575.49,
+       215.52
+      ]
+     ],
+     "label_box": [
+      287.53,
+      183.53,
+      399.52,
+      215.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "math_units",
+     "part": "3",
+     "kind": "math",
+     "text": "km²    m/s²    20 °C",
+     "label": "§Mkm²    m/s²    20 °C",
+     "name": "",
+     "reps": 1,
+     "baseline": 239.52,
+     "band": [
+      215.52,
+      247.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       215.52,
+       303.53,
+       247.52
+      ]
+     ],
+     "label_box": [
+      31.57,
+      215.52,
+      127.56,
+      247.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_der",
+     "part": "4",
+     "kind": "word",
+     "text": "der",
+     "label": "der",
+     "name": "",
+     "reps": 2,
+     "baseline": 319.5,
+     "band": [
+      295.5,
+      327.5
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       295.5,
+       111.56,
+       327.5
+      ],
+      [
+       111.56,
+       295.5,
+       159.55,
+       327.5
+      ]
+     ],
+     "label_box": [
+      31.57,
+      295.5,
+      63.57,
+      327.5
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_die",
+     "part": "4",
+     "kind": "word",
+     "text": "die",
+     "label": "die",
+     "name": "",
+     "reps": 2,
+     "baseline": 319.5,
+     "band": [
+      295.5,
+      327.5
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       191.55,
+       295.5,
+       239.54,
+       327.5
+      ],
+      [
+       239.54,
+       295.5,
+       287.53,
+       327.5
+      ]
+     ],
+     "label_box": [
+      159.55,
+      295.5,
+      191.55,
+      327.5
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_das",
+     "part": "4",
+     "kind": "word",
+     "text": "das",
+     "label": "das",
+     "name": "",
+     "reps": 1,
+     "baseline": 319.5,
+     "band": [
+      295.5,
+      327.5
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       319.53,
+       295.5,
+       367.52,
+       327.5
+      ]
+     ],
+     "label_box": [
+      287.53,
+      295.5,
+      319.53,
+      327.5
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_und",
+     "part": "4",
+     "kind": "word",
+     "text": "und",
+     "label": "und",
+     "name": "",
+     "reps": 2,
+     "baseline": 319.5,
+     "band": [
+      295.5,
+      327.5
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       399.52,
+       295.5,
+       447.51,
+       327.5
+      ],
+      [
+       447.51,
+       295.5,
+       495.5,
+       327.5
+      ]
+     ],
+     "label_box": [
+      367.52,
+      295.5,
+      399.52,
+      327.5
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_ist",
+     "part": "4",
+     "kind": "word",
+     "text": "ist",
+     "label": "ist",
+     "name": "",
+     "reps": 2,
+     "baseline": 351.49,
+     "band": [
+      327.49,
+      359.49
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       327.49,
+       111.56,
+       359.49
+      ],
+      [
+       111.56,
+       327.49,
+       159.55,
+       359.49
+      ]
+     ],
+     "label_box": [
+      31.57,
+      327.49,
+      63.57,
+      359.49
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_nicht",
+     "part": "4",
+     "kind": "word",
+     "text": "nicht",
+     "label": "nicht",
+     "name": "",
+     "reps": 2,
+     "baseline": 351.49,
+     "band": [
+      327.49,
+      359.49
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       191.55,
+       327.49,
+       255.54,
+       359.49
+      ],
+      [
+       255.54,
+       327.49,
+       319.53,
+       359.49
+      ]
+     ],
+     "label_box": [
+      159.55,
+      327.49,
+      191.55,
+      359.49
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_mit",
+     "part": "4",
+     "kind": "word",
+     "text": "mit",
+     "label": "mit",
+     "name": "",
+     "reps": 2,
+     "baseline": 351.49,
+     "band": [
+      327.49,
+      359.49
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       351.52,
+       327.49,
+       399.52,
+       359.49
+      ],
+      [
+       399.52,
+       327.49,
+       447.51,
+       359.49
+      ]
+     ],
+     "label_box": [
+      319.53,
+      327.49,
+      351.52,
+      359.49
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_von",
+     "part": "4",
+     "kind": "word",
+     "text": "von",
+     "label": "von",
+     "name": "",
+     "reps": 1,
+     "baseline": 351.49,
+     "band": [
+      327.49,
+      359.49
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       479.5,
+       327.49,
+       527.5,
+       359.49
+      ]
+     ],
+     "label_box": [
+      447.51,
+      327.49,
+      479.5,
+      359.49
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_zu",
+     "part": "4",
+     "kind": "word",
+     "text": "zu",
+     "label": "zu",
+     "name": "",
+     "reps": 1,
+     "baseline": 383.48,
+     "band": [
+      359.48,
+      391.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       359.48,
+       111.56,
+       391.48
+      ]
+     ],
+     "label_box": [
+      31.57,
+      359.48,
+      63.57,
+      391.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_auf",
+     "part": "4",
+     "kind": "word",
+     "text": "auf",
+     "label": "auf",
+     "name": "",
+     "reps": 1,
+     "baseline": 383.48,
+     "band": [
+      359.48,
+      391.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       143.56,
+       359.48,
+       191.55,
+       391.48
+      ]
+     ],
+     "label_box": [
+      111.56,
+      359.48,
+      143.56,
+      391.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_für",
+     "part": "4",
+     "kind": "word",
+     "text": "für",
+     "label": "für",
+     "name": "",
+     "reps": 2,
+     "baseline": 383.48,
+     "band": [
+      359.48,
+      391.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       223.54,
+       359.48,
+       271.54,
+       391.48
+      ],
+      [
+       271.54,
+       359.48,
+       319.53,
+       391.48
+      ]
+     ],
+     "label_box": [
+      191.55,
+      359.48,
+      223.54,
+      391.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_ein",
+     "part": "4",
+     "kind": "word",
+     "text": "ein",
+     "label": "ein",
+     "name": "",
+     "reps": 1,
+     "baseline": 383.48,
+     "band": [
+      359.48,
+      391.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       351.52,
+       359.48,
+       399.52,
+       391.48
+      ]
+     ],
+     "label_box": [
+      319.53,
+      359.48,
+      351.52,
+      391.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_eine",
+     "part": "4",
+     "kind": "word",
+     "text": "eine",
+     "label": "eine",
+     "name": "",
+     "reps": 1,
+     "baseline": 383.48,
+     "band": [
+      359.48,
+      391.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       431.51,
+       359.48,
+       495.5,
+       391.48
+      ]
+     ],
+     "label_box": [
+      399.52,
+      359.48,
+      431.51,
+      391.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_sich",
+     "part": "4",
+     "kind": "word",
+     "text": "sich",
+     "label": "sich",
+     "name": "",
+     "reps": 1,
+     "baseline": 415.47,
+     "band": [
+      391.48,
+      423.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       391.48,
+       127.56,
+       423.47
+      ]
+     ],
+     "label_box": [
+      31.57,
+      391.48,
+      63.57,
+      423.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_auch",
+     "part": "4",
+     "kind": "word",
+     "text": "auch",
+     "label": "auch",
+     "name": "",
+     "reps": 1,
+     "baseline": 415.47,
+     "band": [
+      391.48,
+      423.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       159.55,
+       391.48,
+       223.54,
+       423.47
+      ]
+     ],
+     "label_box": [
+      127.56,
+      391.48,
+      159.55,
+      423.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_wird",
+     "part": "4",
+     "kind": "word",
+     "text": "wird",
+     "label": "wird",
+     "name": "",
+     "reps": 1,
+     "baseline": 415.47,
+     "band": [
+      391.48,
+      423.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       255.54,
+       391.48,
+       319.53,
+       423.47
+      ]
+     ],
+     "label_box": [
+      223.54,
+      391.48,
+      255.54,
+      423.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_werden",
+     "part": "4",
+     "kind": "word",
+     "text": "werden",
+     "label": "werden",
+     "name": "",
+     "reps": 1,
+     "baseline": 415.47,
+     "band": [
+      391.48,
+      423.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       391.48,
+       447.51,
+       423.47
+      ]
+     ],
+     "label_box": [
+      319.53,
+      391.48,
+      367.52,
+      423.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_sind",
+     "part": "4",
+     "kind": "word",
+     "text": "sind",
+     "label": "sind",
+     "name": "",
+     "reps": 1,
+     "baseline": 415.47,
+     "band": [
+      391.48,
+      423.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       479.5,
+       391.48,
+       543.49,
+       423.47
+      ]
+     ],
+     "label_box": [
+      447.51,
+      391.48,
+      479.5,
+      423.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_den",
+     "part": "4",
+     "kind": "word",
+     "text": "den",
+     "label": "den",
+     "name": "",
+     "reps": 1,
+     "baseline": 447.46,
+     "band": [
+      423.47,
+      455.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       423.47,
+       111.56,
+       455.46
+      ]
+     ],
+     "label_box": [
+      31.57,
+      423.47,
+      63.57,
+      455.46
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_dem",
+     "part": "4",
+     "kind": "word",
+     "text": "dem",
+     "label": "dem",
+     "name": "",
+     "reps": 1,
+     "baseline": 447.46,
+     "band": [
+      423.47,
+      455.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       143.56,
+       423.47,
+       191.55,
+       455.46
+      ]
+     ],
+     "label_box": [
+      111.56,
+      423.47,
+      143.56,
+      455.46
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_des",
+     "part": "4",
+     "kind": "word",
+     "text": "des",
+     "label": "des",
+     "name": "",
+     "reps": 1,
+     "baseline": 447.46,
+     "band": [
+      423.47,
+      455.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       223.54,
+       423.47,
+       271.54,
+       455.46
+      ]
+     ],
+     "label_box": [
+      191.55,
+      423.47,
+      223.54,
+      455.46
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_im",
+     "part": "4",
+     "kind": "word",
+     "text": "im",
+     "label": "im",
+     "name": "",
+     "reps": 1,
+     "baseline": 447.46,
+     "band": [
+      423.47,
+      455.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       303.53,
+       423.47,
+       351.52,
+       455.46
+      ]
+     ],
+     "label_box": [
+      271.54,
+      423.47,
+      303.53,
+      455.46
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_als",
+     "part": "4",
+     "kind": "word",
+     "text": "als",
+     "label": "als",
+     "name": "",
+     "reps": 1,
+     "baseline": 447.46,
+     "band": [
+      423.47,
+      455.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       383.52,
+       423.47,
+       431.51,
+       455.46
+      ]
+     ],
+     "label_box": [
+      351.52,
+      423.47,
+      383.52,
+      455.46
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_bei",
+     "part": "4",
+     "kind": "word",
+     "text": "bei",
+     "label": "bei",
+     "name": "",
+     "reps": 1,
+     "baseline": 447.46,
+     "band": [
+      423.47,
+      455.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       463.51,
+       423.47,
+       511.5,
+       455.46
+      ]
+     ],
+     "label_box": [
+      431.51,
+      423.47,
+      463.51,
+      455.46
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_nach",
+     "part": "4",
+     "kind": "word",
+     "text": "nach",
+     "label": "nach",
+     "name": "",
+     "reps": 1,
+     "baseline": 479.46,
+     "band": [
+      455.46,
+      487.45
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       455.46,
+       127.56,
+       487.45
+      ]
+     ],
+     "label_box": [
+      31.57,
+      455.46,
+      63.57,
+      487.45
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_oder",
+     "part": "4",
+     "kind": "word",
+     "text": "oder",
+     "label": "oder",
+     "name": "",
+     "reps": 1,
+     "baseline": 479.46,
+     "band": [
+      455.46,
+      487.45
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       159.55,
+       455.46,
+       223.54,
+       487.45
+      ]
+     ],
+     "label_box": [
+      127.56,
+      455.46,
+      159.55,
+      487.45
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_wie",
+     "part": "4",
+     "kind": "word",
+     "text": "wie",
+     "label": "wie",
+     "name": "",
+     "reps": 1,
+     "baseline": 479.46,
+     "band": [
+      455.46,
+      487.45
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       255.54,
+       455.46,
+       303.53,
+       487.45
+      ]
+     ],
+     "label_box": [
+      223.54,
+      455.46,
+      255.54,
+      487.45
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_aus",
+     "part": "4",
+     "kind": "word",
+     "text": "aus",
+     "label": "aus",
+     "name": "",
+     "reps": 1,
+     "baseline": 479.46,
+     "band": [
+      455.46,
+      487.45
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       335.53,
+       455.46,
+       383.52,
+       487.45
+      ]
+     ],
+     "label_box": [
+      303.53,
+      455.46,
+      335.53,
+      487.45
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_es",
+     "part": "4",
+     "kind": "word",
+     "text": "es",
+     "label": "es",
+     "name": "",
+     "reps": 1,
+     "baseline": 479.46,
+     "band": [
+      455.46,
+      487.45
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       399.52,
+       455.46,
+       447.51,
+       487.45
+      ]
+     ],
+     "label_box": [
+      383.52,
+      455.46,
+      399.52,
+      487.45
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_an",
+     "part": "4",
+     "kind": "word",
+     "text": "an",
+     "label": "an",
+     "name": "",
+     "reps": 1,
+     "baseline": 479.46,
+     "band": [
+      455.46,
+      487.45
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       479.5,
+       455.46,
+       527.5,
+       487.45
+      ]
+     ],
+     "label_box": [
+      447.51,
+      455.46,
+      479.5,
+      487.45
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_so",
+     "part": "4",
+     "kind": "word",
+     "text": "so",
+     "label": "so",
+     "name": "",
+     "reps": 1,
+     "baseline": 511.45,
+     "band": [
+      487.45,
+      519.45
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       487.45,
+       95.56,
+       519.45
+      ]
+     ],
+     "label_box": [
+      31.57,
+      487.45,
+      47.57,
+      519.45
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_dass",
+     "part": "4",
+     "kind": "word",
+     "text": "dass",
+     "label": "dass",
+     "name": "",
+     "reps": 1,
+     "baseline": 511.45,
+     "band": [
+      487.45,
+      519.45
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       487.45,
+       191.55,
+       519.45
+      ]
+     ],
+     "label_box": [
+      95.56,
+      487.45,
+      127.56,
+      519.45
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_wenn",
+     "part": "4",
+     "kind": "word",
+     "text": "wenn",
+     "label": "wenn",
+     "name": "",
+     "reps": 1,
+     "baseline": 511.45,
+     "band": [
+      487.45,
+      519.45
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       223.54,
+       487.45,
+       287.53,
+       519.45
+      ]
+     ],
+     "label_box": [
+      191.55,
+      487.45,
+      223.54,
+      519.45
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_aber",
+     "part": "4",
+     "kind": "word",
+     "text": "aber",
+     "label": "aber",
+     "name": "",
+     "reps": 1,
+     "baseline": 511.45,
+     "band": [
+      487.45,
+      519.45
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       319.53,
+       487.45,
+       383.52,
+       519.45
+      ]
+     ],
+     "label_box": [
+      287.53,
+      487.45,
+      319.53,
+      519.45
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_noch",
+     "part": "4",
+     "kind": "word",
+     "text": "noch",
+     "label": "noch",
+     "name": "",
+     "reps": 1,
+     "baseline": 511.45,
+     "band": [
+      487.45,
+      519.45
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       415.51,
+       487.45,
+       479.5,
+       519.45
+      ]
+     ],
+     "label_box": [
+      383.52,
+      487.45,
+      415.51,
+      519.45
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_man",
+     "part": "4",
+     "kind": "word",
+     "text": "man",
+     "label": "man",
+     "name": "",
+     "reps": 1,
+     "baseline": 511.45,
+     "band": [
+      487.45,
+      519.45
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       511.5,
+       487.45,
+       559.49,
+       519.45
+      ]
+     ],
+     "label_box": [
+      479.5,
+      487.45,
+      511.5,
+      519.45
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_kann",
+     "part": "4",
+     "kind": "word",
+     "text": "kann",
+     "label": "kann",
+     "name": "",
+     "reps": 1,
+     "baseline": 543.44,
+     "band": [
+      519.44,
+      551.44
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       519.44,
+       127.56,
+       551.44
+      ]
+     ],
+     "label_box": [
+      31.57,
+      519.44,
+      63.57,
+      551.44
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_muss",
+     "part": "4",
+     "kind": "word",
+     "text": "muss",
+     "label": "muss",
+     "name": "",
+     "reps": 1,
+     "baseline": 543.44,
+     "band": [
+      519.44,
+      551.44
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       159.55,
+       519.44,
+       223.54,
+       551.44
+      ]
+     ],
+     "label_box": [
+      127.56,
+      519.44,
+      159.55,
+      551.44
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_hat",
+     "part": "4",
+     "kind": "word",
+     "text": "hat",
+     "label": "hat",
+     "name": "",
+     "reps": 1,
+     "baseline": 543.44,
+     "band": [
+      519.44,
+      551.44
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       255.54,
+       519.44,
+       303.53,
+       551.44
+      ]
+     ],
+     "label_box": [
+      223.54,
+      519.44,
+      255.54,
+      551.44
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_haben",
+     "part": "4",
+     "kind": "word",
+     "text": "haben",
+     "label": "haben",
+     "name": "",
+     "reps": 1,
+     "baseline": 543.44,
+     "band": [
+      519.44,
+      551.44
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       351.52,
+       519.44,
+       415.51,
+       551.44
+      ]
+     ],
+     "label_box": [
+      303.53,
+      519.44,
+      351.52,
+      551.44
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_war",
+     "part": "4",
+     "kind": "word",
+     "text": "war",
+     "label": "war",
+     "name": "",
+     "reps": 1,
+     "baseline": 543.44,
+     "band": [
+      519.44,
+      551.44
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       447.51,
+       519.44,
+       495.5,
+       551.44
+      ]
+     ],
+     "label_box": [
+      415.51,
+      519.44,
+      447.51,
+      551.44
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_wir",
+     "part": "4",
+     "kind": "word",
+     "text": "wir",
+     "label": "wir",
+     "name": "",
+     "reps": 1,
+     "baseline": 543.44,
+     "band": [
+      519.44,
+      551.44
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       527.5,
+       519.44,
+       575.49,
+       551.44
+      ]
+     ],
+     "label_box": [
+      495.5,
+      519.44,
+      527.5,
+      551.44
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_ich",
+     "part": "4",
+     "kind": "word",
+     "text": "ich",
+     "label": "ich",
+     "name": "",
+     "reps": 1,
+     "baseline": 575.43,
+     "band": [
+      551.44,
+      583.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       551.44,
+       111.56,
+       583.43
+      ]
+     ],
+     "label_box": [
+      31.57,
+      551.44,
+      63.57,
+      583.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_du",
+     "part": "4",
+     "kind": "word",
+     "text": "du",
+     "label": "du",
+     "name": "",
+     "reps": 1,
+     "baseline": 575.43,
+     "band": [
+      551.44,
+      583.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       143.56,
+       551.44,
+       191.55,
+       583.43
+      ]
+     ],
+     "label_box": [
+      111.56,
+      551.44,
+      143.56,
+      583.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_sie",
+     "part": "4",
+     "kind": "word",
+     "text": "sie",
+     "label": "sie",
+     "name": "",
+     "reps": 1,
+     "baseline": 575.43,
+     "band": [
+      551.44,
+      583.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       223.54,
+       551.44,
+       271.54,
+       583.43
+      ]
+     ],
+     "label_box": [
+      191.55,
+      551.44,
+      223.54,
+      583.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_er",
+     "part": "4",
+     "kind": "word",
+     "text": "er",
+     "label": "er",
+     "name": "",
+     "reps": 1,
+     "baseline": 575.43,
+     "band": [
+      551.44,
+      583.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       287.53,
+       551.44,
+       335.53,
+       583.43
+      ]
+     ],
+     "label_box": [
+      271.54,
+      551.44,
+      287.53,
+      583.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_zum",
+     "part": "4",
+     "kind": "word",
+     "text": "zum",
+     "label": "zum",
+     "name": "",
+     "reps": 1,
+     "baseline": 575.43,
+     "band": [
+      551.44,
+      583.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       551.44,
+       415.51,
+       583.43
+      ]
+     ],
+     "label_box": [
+      335.53,
+      551.44,
+      367.52,
+      583.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_zur",
+     "part": "4",
+     "kind": "word",
+     "text": "zur",
+     "label": "zur",
+     "name": "",
+     "reps": 1,
+     "baseline": 575.43,
+     "band": [
+      551.44,
+      583.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       447.51,
+       551.44,
+       495.5,
+       583.43
+      ]
+     ],
+     "label_box": [
+      415.51,
+      551.44,
+      447.51,
+      583.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_über",
+     "part": "4",
+     "kind": "word",
+     "text": "über",
+     "label": "über",
+     "name": "",
+     "reps": 1,
+     "baseline": 607.42,
+     "band": [
+      583.43,
+      615.42
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       583.43,
+       127.56,
+       615.42
+      ]
+     ],
+     "label_box": [
+      31.57,
+      583.43,
+      63.57,
+      615.42
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_durch",
+     "part": "4",
+     "kind": "word",
+     "text": "durch",
+     "label": "durch",
+     "name": "",
+     "reps": 1,
+     "baseline": 607.42,
+     "band": [
+      583.43,
+      615.42
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       175.55,
+       583.43,
+       239.54,
+       615.42
+      ]
+     ],
+     "label_box": [
+      127.56,
+      583.43,
+      175.55,
+      615.42
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_hier",
+     "part": "4",
+     "kind": "word",
+     "text": "hier",
+     "label": "hier",
+     "name": "",
+     "reps": 1,
+     "baseline": 607.42,
+     "band": [
+      583.43,
+      615.42
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       271.54,
+       583.43,
+       335.53,
+       615.42
+      ]
+     ],
+     "label_box": [
+      239.54,
+      583.43,
+      271.54,
+      615.42
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_also",
+     "part": "4",
+     "kind": "word",
+     "text": "also",
+     "label": "also",
+     "name": "",
+     "reps": 1,
+     "baseline": 607.42,
+     "band": [
+      583.43,
+      615.42
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       583.43,
+       431.51,
+       615.42
+      ]
+     ],
+     "label_box": [
+      335.53,
+      583.43,
+      367.52,
+      615.42
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_weil",
+     "part": "4",
+     "kind": "word",
+     "text": "weil",
+     "label": "weil",
+     "name": "",
+     "reps": 1,
+     "baseline": 607.42,
+     "band": [
+      583.43,
+      615.42
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       463.51,
+       583.43,
+       527.5,
+       615.42
+      ]
+     ],
+     "label_box": [
+      431.51,
+      583.43,
+      463.51,
+      615.42
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_sehr",
+     "part": "4",
+     "kind": "word",
+     "text": "sehr",
+     "label": "sehr",
+     "name": "",
+     "reps": 1,
+     "baseline": 639.42,
+     "band": [
+      615.42,
+      647.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       615.42,
+       127.56,
+       647.41
+      ]
+     ],
+     "label_box": [
+      31.57,
+      615.42,
+      63.57,
+      647.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_mehr",
+     "part": "4",
+     "kind": "word",
+     "text": "mehr",
+     "label": "mehr",
+     "name": "",
+     "reps": 1,
+     "baseline": 639.42,
+     "band": [
+      615.42,
+      647.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       159.55,
+       615.42,
+       223.54,
+       647.41
+      ]
+     ],
+     "label_box": [
+      127.56,
+      615.42,
+      159.55,
+      647.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_gibt",
+     "part": "4",
+     "kind": "word",
+     "text": "gibt",
+     "label": "gibt",
+     "name": "",
+     "reps": 1,
+     "baseline": 639.42,
+     "band": [
+      615.42,
+      647.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       255.54,
+       615.42,
+       319.53,
+       647.41
+      ]
+     ],
+     "label_box": [
+      223.54,
+      615.42,
+      255.54,
+      647.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_immer",
+     "part": "4",
+     "kind": "word",
+     "text": "immer",
+     "label": "immer",
+     "name": "",
+     "reps": 1,
+     "baseline": 639.42,
+     "band": [
+      615.42,
+      647.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       615.42,
+       431.51,
+       647.41
+      ]
+     ],
+     "label_box": [
+      319.53,
+      615.42,
+      367.52,
+      647.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_schon",
+     "part": "4",
+     "kind": "word",
+     "text": "schon",
+     "label": "schon",
+     "name": "",
+     "reps": 1,
+     "baseline": 639.42,
+     "band": [
+      615.42,
+      647.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       479.5,
+       615.42,
+       543.49,
+       647.41
+      ]
+     ],
+     "label_box": [
+      431.51,
+      615.42,
+      479.5,
+      647.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_nur",
+     "part": "4",
+     "kind": "word",
+     "text": "nur",
+     "label": "nur",
+     "name": "",
+     "reps": 1,
+     "baseline": 671.41,
+     "band": [
+      647.41,
+      679.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       647.41,
+       111.56,
+       679.41
+      ]
+     ],
+     "label_box": [
+      31.57,
+      647.41,
+      63.57,
+      679.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Funktion",
+     "part": "4",
+     "kind": "word",
+     "text": "Funktion",
+     "label": "Funktion",
+     "name": "",
+     "reps": 1,
+     "baseline": 671.41,
+     "band": [
+      647.41,
+      679.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       159.55,
+       647.41,
+       255.54,
+       679.41
+      ]
+     ],
+     "label_box": [
+      111.56,
+      647.41,
+      159.55,
+      679.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Ableitung",
+     "part": "4",
+     "kind": "word",
+     "text": "Ableitung",
+     "label": "Ableitung",
+     "name": "",
+     "reps": 1,
+     "baseline": 671.41,
+     "band": [
+      647.41,
+      679.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       319.53,
+       647.41,
+       415.51,
+       679.41
+      ]
+     ],
+     "label_box": [
+      255.54,
+      647.41,
+      319.53,
+      679.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Integral",
+     "part": "4",
+     "kind": "word",
+     "text": "Integral",
+     "label": "Integral",
+     "name": "",
+     "reps": 1,
+     "baseline": 671.41,
+     "band": [
+      647.41,
+      679.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       463.51,
+       647.41,
+       559.49,
+       679.41
+      ]
+     ],
+     "label_box": [
+      415.51,
+      647.41,
+      463.51,
+      679.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Gleichung",
+     "part": "4",
+     "kind": "word",
+     "text": "Gleichung",
+     "label": "Gleichung",
+     "name": "",
+     "reps": 1,
+     "baseline": 703.4,
+     "band": [
+      679.4,
+      711.4
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       95.56,
+       679.4,
+       191.55,
+       711.4
+      ]
+     ],
+     "label_box": [
+      31.57,
+      679.4,
+      95.56,
+      711.4
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Ebene",
+     "part": "4",
+     "kind": "word",
+     "text": "Ebene",
+     "label": "Ebene",
+     "name": "",
+     "reps": 1,
+     "baseline": 703.4,
+     "band": [
+      679.4,
+      711.4
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       239.54,
+       679.4,
+       303.53,
+       711.4
+      ]
+     ],
+     "label_box": [
+      191.55,
+      679.4,
+      239.54,
+      711.4
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Gerade",
+     "part": "4",
+     "kind": "word",
+     "text": "Gerade",
+     "label": "Gerade",
+     "name": "",
+     "reps": 1,
+     "baseline": 703.4,
+     "band": [
+      679.4,
+      711.4
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       351.52,
+       679.4,
+       431.51,
+       711.4
+      ]
+     ],
+     "label_box": [
+      303.53,
+      679.4,
+      351.52,
+      711.4
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Wahrscheinlichkeit",
+     "part": "4",
+     "kind": "word",
+     "text": "Wahrscheinlichkeit",
+     "label": "Wahrscheinlichkeit",
+     "name": "",
+     "reps": 1,
+     "baseline": 735.39,
+     "band": [
+      711.39,
+      743.39
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       711.39,
+       303.53,
+       743.39
+      ]
+     ],
+     "label_box": [
+      31.57,
+      711.39,
+      127.56,
+      743.39
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Feldlinien",
+     "part": "4",
+     "kind": "word",
+     "text": "Feldlinien",
+     "label": "Feldlinien",
+     "name": "",
+     "reps": 1,
+     "baseline": 735.39,
+     "band": [
+      711.39,
+      743.39
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       711.39,
+       479.5,
+       743.39
+      ]
+     ],
+     "label_box": [
+      303.53,
+      711.39,
+      367.52,
+      743.39
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Ladung",
+     "part": "4",
+     "kind": "word",
+     "text": "Ladung",
+     "label": "Ladung",
+     "name": "",
+     "reps": 1,
+     "baseline": 767.38,
+     "band": [
+      743.39,
+      775.38
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       79.57,
+       743.39,
+       159.55,
+       775.38
+      ]
+     ],
+     "label_box": [
+      31.57,
+      743.39,
+      79.57,
+      775.38
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Spannung",
+     "part": "4",
+     "kind": "word",
+     "text": "Spannung",
+     "label": "Spannung",
+     "name": "",
+     "reps": 1,
+     "baseline": 767.38,
+     "band": [
+      743.39,
+      775.38
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       223.54,
+       743.39,
+       319.53,
+       775.38
+      ]
+     ],
+     "label_box": [
+      159.55,
+      743.39,
+      223.54,
+      775.38
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Kraft",
+     "part": "4",
+     "kind": "word",
+     "text": "Kraft",
+     "label": "Kraft",
+     "name": "",
+     "reps": 1,
+     "baseline": 767.38,
+     "band": [
+      743.39,
+      775.38
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       351.52,
+       743.39,
+       415.51,
+       775.38
+      ]
+     ],
+     "label_box": [
+      319.53,
+      743.39,
+      351.52,
+      775.38
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Energie",
+     "part": "4",
+     "kind": "word",
+     "text": "Energie",
+     "label": "Energie",
+     "name": "",
+     "reps": 1,
+     "baseline": 767.38,
+     "band": [
+      743.39,
+      775.38
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       463.51,
+       743.39,
+       543.49,
+       775.38
+      ]
+     ],
+     "label_box": [
+      415.51,
+      743.39,
+      463.51,
+      775.38
+     ],
+     "tall": false
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "header": "Schriftprobe Sang · SP-v2 · Seite 5/6",
+   "bg_sha256": "160140af518283efb8920355ecb2f008b7f6f86efb152b7737cf9a7d4d831b0b",
+   "printed": [
+    {
+     "kind": "heading",
+     "text": "Abkürzungen",
+     "baseline": 735.39
+    }
+   ],
+   "items": [
+    {
+     "id": "word_Physik",
+     "part": "4",
+     "kind": "word",
+     "text": "Physik",
+     "label": "Physik",
+     "name": "",
+     "reps": 1,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       79.57,
+       87.55,
+       159.55,
+       119.55
+      ]
+     ],
+     "label_box": [
+      31.57,
+      87.55,
+      79.57,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Fläche",
+     "part": "4",
+     "kind": "word",
+     "text": "Fläche",
+     "label": "Fläche",
+     "name": "",
+     "reps": 1,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       87.55,
+       287.53,
+       119.55
+      ]
+     ],
+     "label_box": [
+      159.55,
+      87.55,
+      207.55,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Stärke",
+     "part": "4",
+     "kind": "word",
+     "text": "Stärke",
+     "label": "Stärke",
+     "name": "",
+     "reps": 1,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       335.53,
+       87.55,
+       415.51,
+       119.55
+      ]
+     ],
+     "label_box": [
+      287.53,
+      87.55,
+      335.53,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Migration",
+     "part": "4",
+     "kind": "word",
+     "text": "Migration",
+     "label": "Migration",
+     "name": "",
+     "reps": 1,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       479.5,
+       87.55,
+       575.49,
+       119.55
+      ]
+     ],
+     "label_box": [
+      415.51,
+      87.55,
+      479.5,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Klimawandel",
+     "part": "4",
+     "kind": "word",
+     "text": "Klimawandel",
+     "label": "Klimawandel",
+     "name": "",
+     "reps": 1,
+     "baseline": 143.54,
+     "band": [
+      119.55,
+      151.54
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       111.56,
+       119.55,
+       239.54,
+       151.54
+      ]
+     ],
+     "label_box": [
+      31.57,
+      119.55,
+      111.56,
+      151.54
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Begründung",
+     "part": "4",
+     "kind": "word",
+     "text": "Begründung",
+     "label": "Begründung",
+     "name": "",
+     "reps": 1,
+     "baseline": 143.54,
+     "band": [
+      119.55,
+      151.54
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       303.53,
+       119.55,
+       415.51,
+       151.54
+      ]
+     ],
+     "label_box": [
+      239.54,
+      119.55,
+      303.53,
+      151.54
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Ergebnis",
+     "part": "4",
+     "kind": "word",
+     "text": "Ergebnis",
+     "label": "Ergebnis",
+     "name": "",
+     "reps": 1,
+     "baseline": 143.54,
+     "band": [
+      119.55,
+      151.54
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       463.51,
+       119.55,
+       559.49,
+       151.54
+      ]
+     ],
+     "label_box": [
+      415.51,
+      119.55,
+      463.51,
+      151.54
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Lösung",
+     "part": "4",
+     "kind": "word",
+     "text": "Lösung",
+     "label": "Lösung",
+     "name": "",
+     "reps": 1,
+     "baseline": 175.53,
+     "band": [
+      151.54,
+      183.53
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       79.57,
+       151.54,
+       159.55,
+       183.53
+      ]
+     ],
+     "label_box": [
+      31.57,
+      151.54,
+      79.57,
+      183.53
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Frequenz",
+     "part": "4",
+     "kind": "word",
+     "text": "Frequenz",
+     "label": "Frequenz",
+     "name": "",
+     "reps": 1,
+     "baseline": 175.53,
+     "band": [
+      151.54,
+      183.53
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       223.54,
+       151.54,
+       319.53,
+       183.53
+      ]
+     ],
+     "label_box": [
+      159.55,
+      151.54,
+      223.54,
+      183.53
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Quadrat",
+     "part": "4",
+     "kind": "word",
+     "text": "Quadrat",
+     "label": "Quadrat",
+     "name": "",
+     "reps": 1,
+     "baseline": 175.53,
+     "band": [
+      151.54,
+      183.53
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       151.54,
+       447.51,
+       183.53
+      ]
+     ],
+     "label_box": [
+      319.53,
+      151.54,
+      367.52,
+      183.53
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Januar",
+     "part": "4",
+     "kind": "word",
+     "text": "Januar",
+     "label": "Januar",
+     "name": "",
+     "reps": 1,
+     "baseline": 175.53,
+     "band": [
+      151.54,
+      183.53
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       495.5,
+       151.54,
+       575.49,
+       183.53
+      ]
+     ],
+     "label_box": [
+      447.51,
+      151.54,
+      495.5,
+      183.53
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_China",
+     "part": "4",
+     "kind": "word",
+     "text": "China",
+     "label": "China",
+     "name": "",
+     "reps": 1,
+     "baseline": 207.53,
+     "band": [
+      183.53,
+      215.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       79.57,
+       183.53,
+       143.56,
+       215.52
+      ]
+     ],
+     "label_box": [
+      31.57,
+      183.53,
+      79.57,
+      215.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Änderung",
+     "part": "4",
+     "kind": "word",
+     "text": "Änderung",
+     "label": "Änderung",
+     "name": "",
+     "reps": 1,
+     "baseline": 207.53,
+     "band": [
+      183.53,
+      215.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       183.53,
+       303.53,
+       215.52
+      ]
+     ],
+     "label_box": [
+      143.56,
+      183.53,
+      207.55,
+      215.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Ökologie",
+     "part": "4",
+     "kind": "word",
+     "text": "Ökologie",
+     "label": "Ökologie",
+     "name": "",
+     "reps": 1,
+     "baseline": 207.53,
+     "band": [
+      183.53,
+      215.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       351.52,
+       183.53,
+       447.51,
+       215.52
+      ]
+     ],
+     "label_box": [
+      303.53,
+      183.53,
+      351.52,
+      215.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Übung",
+     "part": "4",
+     "kind": "word",
+     "text": "Übung",
+     "label": "Übung",
+     "name": "",
+     "reps": 1,
+     "baseline": 207.53,
+     "band": [
+      183.53,
+      215.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       495.5,
+       183.53,
+       559.49,
+       215.52
+      ]
+     ],
+     "label_box": [
+      447.51,
+      183.53,
+      495.5,
+      215.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Vektor",
+     "part": "4",
+     "kind": "word",
+     "text": "Vektor",
+     "label": "Vektor",
+     "name": "",
+     "reps": 1,
+     "baseline": 239.52,
+     "band": [
+      215.52,
+      247.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       79.57,
+       215.52,
+       159.55,
+       247.52
+      ]
+     ],
+     "label_box": [
+      31.57,
+      215.52,
+      79.57,
+      247.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Oktaeder",
+     "part": "4",
+     "kind": "word",
+     "text": "Oktaeder",
+     "label": "Oktaeder",
+     "name": "",
+     "reps": 1,
+     "baseline": 239.52,
+     "band": [
+      215.52,
+      247.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       223.54,
+       215.52,
+       319.53,
+       247.52
+      ]
+     ],
+     "label_box": [
+      159.55,
+      215.52,
+      223.54,
+      247.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Tourismus",
+     "part": "4",
+     "kind": "word",
+     "text": "Tourismus",
+     "label": "Tourismus",
+     "name": "",
+     "reps": 1,
+     "baseline": 239.52,
+     "band": [
+      215.52,
+      247.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       383.52,
+       215.52,
+       479.5,
+       247.52
+      ]
+     ],
+     "label_box": [
+      319.53,
+      215.52,
+      383.52,
+      247.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Urteil",
+     "part": "4",
+     "kind": "word",
+     "text": "Urteil",
+     "label": "Urteil",
+     "name": "",
+     "reps": 1,
+     "baseline": 271.51,
+     "band": [
+      247.51,
+      279.51
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       247.51,
+       143.56,
+       279.51
+      ]
+     ],
+     "label_box": [
+      31.57,
+      247.51,
+      63.57,
+      279.51
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Zahlen",
+     "part": "4",
+     "kind": "word",
+     "text": "Zahlen",
+     "label": "Zahlen",
+     "name": "",
+     "reps": 1,
+     "baseline": 271.51,
+     "band": [
+      247.51,
+      279.51
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       191.55,
+       247.51,
+       271.54,
+       279.51
+      ]
+     ],
+     "label_box": [
+      143.56,
+      247.51,
+      191.55,
+      279.51
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_richtige",
+     "part": "4",
+     "kind": "word",
+     "text": "richtige",
+     "label": "richtige",
+     "name": "",
+     "reps": 1,
+     "baseline": 271.51,
+     "band": [
+      247.51,
+      279.51
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       319.53,
+       247.51,
+       415.51,
+       279.51
+      ]
+     ],
+     "label_box": [
+      271.54,
+      247.51,
+      319.53,
+      279.51
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Antwort",
+     "part": "4",
+     "kind": "word",
+     "text": "Antwort",
+     "label": "Antwort",
+     "name": "",
+     "reps": 1,
+     "baseline": 271.51,
+     "band": [
+      247.51,
+      279.51
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       463.51,
+       247.51,
+       543.49,
+       279.51
+      ]
+     ],
+     "label_box": [
+      415.51,
+      247.51,
+      463.51,
+      279.51
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Probe",
+     "part": "4",
+     "kind": "word",
+     "text": "Probe",
+     "label": "Probe",
+     "name": "",
+     "reps": 1,
+     "baseline": 303.5,
+     "band": [
+      279.51,
+      311.5
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       79.57,
+       279.51,
+       143.56,
+       311.5
+      ]
+     ],
+     "label_box": [
+      31.57,
+      279.51,
+      79.57,
+      311.5
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_jetzt",
+     "part": "4",
+     "kind": "word",
+     "text": "jetzt",
+     "label": "jetzt",
+     "name": "",
+     "reps": 1,
+     "baseline": 303.5,
+     "band": [
+      279.51,
+      311.5
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       175.55,
+       279.51,
+       239.54,
+       311.5
+      ]
+     ],
+     "label_box": [
+      143.56,
+      279.51,
+      175.55,
+      311.5
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Informatik",
+     "part": "4",
+     "kind": "word",
+     "text": "Informatik",
+     "label": "Informatik",
+     "name": "",
+     "reps": 1,
+     "baseline": 303.5,
+     "band": [
+      279.51,
+      311.5
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       303.53,
+       279.51,
+       415.51,
+       311.5
+      ]
+     ],
+     "label_box": [
+      239.54,
+      279.51,
+      303.53,
+      311.5
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Skizze",
+     "part": "4",
+     "kind": "word",
+     "text": "Skizze",
+     "label": "Skizze",
+     "name": "",
+     "reps": 1,
+     "baseline": 303.5,
+     "band": [
+      279.51,
+      311.5
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       463.51,
+       279.51,
+       543.49,
+       311.5
+      ]
+     ],
+     "label_box": [
+      415.51,
+      279.51,
+      463.51,
+      311.5
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_verläuft",
+     "part": "4",
+     "kind": "word",
+     "text": "verläuft",
+     "label": "verläuft",
+     "name": "",
+     "reps": 1,
+     "baseline": 335.49,
+     "band": [
+      311.5,
+      343.49
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       79.57,
+       311.5,
+       175.55,
+       343.49
+      ]
+     ],
+     "label_box": [
+      31.57,
+      311.5,
+      79.57,
+      343.49
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Name",
+     "part": "4",
+     "kind": "word",
+     "text": "Name",
+     "label": "Name",
+     "name": "",
+     "reps": 1,
+     "baseline": 335.49,
+     "band": [
+      311.5,
+      343.49
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       223.54,
+       311.5,
+       287.53,
+       343.49
+      ]
+     ],
+     "label_box": [
+      175.55,
+      311.5,
+      223.54,
+      343.49
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Bahn",
+     "part": "4",
+     "kind": "word",
+     "text": "Bahn",
+     "label": "Bahn",
+     "name": "",
+     "reps": 1,
+     "baseline": 335.49,
+     "band": [
+      311.5,
+      343.49
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       319.53,
+       311.5,
+       383.52,
+       343.49
+      ]
+     ],
+     "label_box": [
+      287.53,
+      311.5,
+      319.53,
+      343.49
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Arbeitsblatt",
+     "part": "4",
+     "kind": "word",
+     "text": "Arbeitsblatt",
+     "label": "Arbeitsblatt",
+     "name": "",
+     "reps": 1,
+     "baseline": 335.49,
+     "band": [
+      311.5,
+      343.49
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       447.51,
+       311.5,
+       575.49,
+       343.49
+      ]
+     ],
+     "label_box": [
+      383.52,
+      311.5,
+      447.51,
+      343.49
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Brücke",
+     "part": "4",
+     "kind": "word",
+     "text": "Brücke",
+     "label": "Brücke",
+     "name": "",
+     "reps": 1,
+     "baseline": 367.48,
+     "band": [
+      343.49,
+      375.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       79.57,
+       343.49,
+       159.55,
+       375.48
+      ]
+     ],
+     "label_box": [
+      31.57,
+      343.49,
+      79.57,
+      375.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Fazit",
+     "part": "4",
+     "kind": "word",
+     "text": "Fazit",
+     "label": "Fazit",
+     "name": "",
+     "reps": 1,
+     "baseline": 367.48,
+     "band": [
+      343.49,
+      375.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       191.55,
+       343.49,
+       255.54,
+       375.48
+      ]
+     ],
+     "label_box": [
+      159.55,
+      343.49,
+      191.55,
+      375.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Subjekt",
+     "part": "4",
+     "kind": "word",
+     "text": "Subjekt",
+     "label": "Subjekt",
+     "name": "",
+     "reps": 1,
+     "baseline": 367.48,
+     "band": [
+      343.49,
+      375.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       303.53,
+       343.49,
+       383.52,
+       375.48
+      ]
+     ],
+     "label_box": [
+      255.54,
+      343.49,
+      303.53,
+      375.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_wählt",
+     "part": "4",
+     "kind": "word",
+     "text": "wählt",
+     "label": "wählt",
+     "name": "",
+     "reps": 1,
+     "baseline": 367.48,
+     "band": [
+      343.49,
+      375.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       415.51,
+       343.49,
+       479.5,
+       375.48
+      ]
+     ],
+     "label_box": [
+      383.52,
+      343.49,
+      415.51,
+      375.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_liegt",
+     "part": "4",
+     "kind": "word",
+     "text": "liegt",
+     "label": "liegt",
+     "name": "",
+     "reps": 1,
+     "baseline": 367.48,
+     "band": [
+      343.49,
+      375.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       511.5,
+       343.49,
+       575.49,
+       375.48
+      ]
+     ],
+     "label_box": [
+      479.5,
+      343.49,
+      511.5,
+      375.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Völkerrecht",
+     "part": "4",
+     "kind": "word",
+     "text": "Völkerrecht",
+     "label": "Völkerrecht",
+     "name": "",
+     "reps": 1,
+     "baseline": 399.48,
+     "band": [
+      375.48,
+      407.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       95.56,
+       375.48,
+       223.54,
+       407.48
+      ]
+     ],
+     "label_box": [
+      31.57,
+      375.48,
+      95.56,
+      407.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_zwei",
+     "part": "4",
+     "kind": "word",
+     "text": "zwei",
+     "label": "zwei",
+     "name": "",
+     "reps": 1,
+     "baseline": 399.48,
+     "band": [
+      375.48,
+      407.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       255.54,
+       375.48,
+       319.53,
+       407.48
+      ]
+     ],
+     "label_box": [
+      223.54,
+      375.48,
+      255.54,
+      407.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Spitze",
+     "part": "4",
+     "kind": "word",
+     "text": "Spitze",
+     "label": "Spitze",
+     "name": "",
+     "reps": 1,
+     "baseline": 399.48,
+     "band": [
+      375.48,
+      407.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       375.48,
+       447.51,
+       407.48
+      ]
+     ],
+     "label_box": [
+      319.53,
+      375.48,
+      367.52,
+      407.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Der",
+     "part": "4",
+     "kind": "word",
+     "text": "Der",
+     "label": "Der",
+     "name": "",
+     "reps": 1,
+     "baseline": 399.48,
+     "band": [
+      375.48,
+      407.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       479.5,
+       375.48,
+       527.5,
+       407.48
+      ]
+     ],
+     "label_box": [
+      447.51,
+      375.48,
+      479.5,
+      407.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Das",
+     "part": "4",
+     "kind": "word",
+     "text": "Das",
+     "label": "Das",
+     "name": "",
+     "reps": 1,
+     "baseline": 431.47,
+     "band": [
+      407.47,
+      439.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       407.47,
+       111.56,
+       439.47
+      ]
+     ],
+     "label_box": [
+      31.57,
+      407.47,
+      63.57,
+      439.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Es",
+     "part": "4",
+     "kind": "word",
+     "text": "Es",
+     "label": "Es",
+     "name": "",
+     "reps": 1,
+     "baseline": 431.47,
+     "band": [
+      407.47,
+      439.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       407.47,
+       175.55,
+       439.47
+      ]
+     ],
+     "label_box": [
+      111.56,
+      407.47,
+      127.56,
+      439.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_In",
+     "part": "4",
+     "kind": "word",
+     "text": "In",
+     "label": "In",
+     "name": "",
+     "reps": 1,
+     "baseline": 431.47,
+     "band": [
+      407.47,
+      439.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       191.55,
+       407.47,
+       239.54,
+       439.47
+      ]
+     ],
+     "label_box": [
+      175.55,
+      407.47,
+      191.55,
+      439.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Warum",
+     "part": "4",
+     "kind": "word",
+     "text": "Warum",
+     "label": "Warum",
+     "name": "",
+     "reps": 1,
+     "baseline": 431.47,
+     "band": [
+      407.47,
+      439.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       287.53,
+       407.47,
+       351.52,
+       439.47
+      ]
+     ],
+     "label_box": [
+      239.54,
+      407.47,
+      287.53,
+      439.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Koordinaten",
+     "part": "4",
+     "kind": "word",
+     "text": "Koordinaten",
+     "label": "Koordinaten",
+     "name": "",
+     "reps": 1,
+     "baseline": 431.47,
+     "band": [
+      407.47,
+      439.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       415.51,
+       407.47,
+       543.49,
+       439.47
+      ]
+     ],
+     "label_box": [
+      351.52,
+      407.47,
+      415.51,
+      439.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Kante",
+     "part": "4",
+     "kind": "word",
+     "text": "Kante",
+     "label": "Kante",
+     "name": "",
+     "reps": 1,
+     "baseline": 463.46,
+     "band": [
+      439.46,
+      471.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       79.57,
+       439.46,
+       143.56,
+       471.46
+      ]
+     ],
+     "label_box": [
+      31.57,
+      439.46,
+      79.57,
+      471.46
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Winkel",
+     "part": "4",
+     "kind": "word",
+     "text": "Winkel",
+     "label": "Winkel",
+     "name": "",
+     "reps": 1,
+     "baseline": 463.46,
+     "band": [
+      439.46,
+      471.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       191.55,
+       439.46,
+       271.54,
+       471.46
+      ]
+     ],
+     "label_box": [
+      143.56,
+      439.46,
+      191.55,
+      471.46
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Schritt",
+     "part": "4",
+     "kind": "word",
+     "text": "Schritt",
+     "label": "Schritt",
+     "name": "",
+     "reps": 1,
+     "baseline": 463.46,
+     "band": [
+      439.46,
+      471.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       319.53,
+       439.46,
+       399.52,
+       471.46
+      ]
+     ],
+     "label_box": [
+      271.54,
+      439.46,
+      319.53,
+      471.46
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Seite",
+     "part": "4",
+     "kind": "word",
+     "text": "Seite",
+     "label": "Seite",
+     "name": "",
+     "reps": 1,
+     "baseline": 463.46,
+     "band": [
+      439.46,
+      471.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       431.51,
+       439.46,
+       495.5,
+       471.46
+      ]
+     ],
+     "label_box": [
+      399.52,
+      439.46,
+      431.51,
+      471.46
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Magnetfeld",
+     "part": "4",
+     "kind": "word",
+     "text": "Magnetfeld",
+     "label": "Magnetfeld",
+     "name": "",
+     "reps": 1,
+     "baseline": 495.45,
+     "band": [
+      471.46,
+      503.45
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       95.56,
+       471.46,
+       207.55,
+       503.45
+      ]
+     ],
+     "label_box": [
+      31.57,
+      471.46,
+      95.56,
+      503.45
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Normalenvektor",
+     "part": "4",
+     "kind": "word",
+     "text": "Normalenvektor",
+     "label": "Normalenvektor",
+     "name": "",
+     "reps": 1,
+     "baseline": 495.45,
+     "band": [
+      471.46,
+      503.45
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       303.53,
+       471.46,
+       447.51,
+       503.45
+      ]
+     ],
+     "label_box": [
+      207.55,
+      471.46,
+      303.53,
+      503.45
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Europa",
+     "part": "4",
+     "kind": "word",
+     "text": "Europa",
+     "label": "Europa",
+     "name": "",
+     "reps": 1,
+     "baseline": 495.45,
+     "band": [
+      471.46,
+      503.45
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       495.5,
+       471.46,
+       575.49,
+       503.45
+      ]
+     ],
+     "label_box": [
+      447.51,
+      471.46,
+      495.5,
+      503.45
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Ursache",
+     "part": "4",
+     "kind": "word",
+     "text": "Ursache",
+     "label": "Ursache",
+     "name": "",
+     "reps": 1,
+     "baseline": 527.44,
+     "band": [
+      503.45,
+      535.44
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       79.57,
+       503.45,
+       159.55,
+       535.44
+      ]
+     ],
+     "label_box": [
+      31.57,
+      503.45,
+      79.57,
+      535.44
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Beispiel",
+     "part": "4",
+     "kind": "word",
+     "text": "Beispiel",
+     "label": "Beispiel",
+     "name": "",
+     "reps": 1,
+     "baseline": 527.44,
+     "band": [
+      503.45,
+      535.44
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       503.45,
+       303.53,
+       535.44
+      ]
+     ],
+     "label_box": [
+      159.55,
+      503.45,
+      207.55,
+      535.44
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Entwicklung",
+     "part": "4",
+     "kind": "word",
+     "text": "Entwicklung",
+     "label": "Entwicklung",
+     "name": "",
+     "reps": 1,
+     "baseline": 527.44,
+     "band": [
+      503.45,
+      535.44
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       503.45,
+       495.5,
+       535.44
+      ]
+     ],
+     "label_box": [
+      303.53,
+      503.45,
+      367.52,
+      535.44
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_einfach",
+     "part": "4",
+     "kind": "word",
+     "text": "einfach",
+     "label": "einfach",
+     "name": "",
+     "reps": 1,
+     "baseline": 559.44,
+     "band": [
+      535.44,
+      567.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       79.57,
+       535.44,
+       159.55,
+       567.43
+      ]
+     ],
+     "label_box": [
+      31.57,
+      535.44,
+      79.57,
+      567.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Punkt",
+     "part": "4",
+     "kind": "word",
+     "text": "Punkt",
+     "label": "Punkt",
+     "name": "",
+     "reps": 1,
+     "baseline": 559.44,
+     "band": [
+      535.44,
+      567.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       535.44,
+       271.54,
+       567.43
+      ]
+     ],
+     "label_box": [
+      159.55,
+      535.44,
+      207.55,
+      567.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_senkrecht",
+     "part": "4",
+     "kind": "word",
+     "text": "senkrecht",
+     "label": "senkrecht",
+     "name": "",
+     "reps": 1,
+     "baseline": 559.44,
+     "band": [
+      535.44,
+      567.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       335.53,
+       535.44,
+       431.51,
+       567.43
+      ]
+     ],
+     "label_box": [
+      271.54,
+      535.44,
+      335.53,
+      567.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_zusammen",
+     "part": "4",
+     "kind": "word",
+     "text": "zusammen",
+     "label": "zusammen",
+     "name": "",
+     "reps": 1,
+     "baseline": 591.43,
+     "band": [
+      567.43,
+      599.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       95.56,
+       567.43,
+       191.55,
+       599.43
+      ]
+     ],
+     "label_box": [
+      31.57,
+      567.43,
+      95.56,
+      599.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Angriff",
+     "part": "4",
+     "kind": "word",
+     "text": "Angriff",
+     "label": "Angriff",
+     "name": "",
+     "reps": 1,
+     "baseline": 591.43,
+     "band": [
+      567.43,
+      599.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       239.54,
+       567.43,
+       319.53,
+       599.43
+      ]
+     ],
+     "label_box": [
+      191.55,
+      567.43,
+      239.54,
+      599.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_groß",
+     "part": "4",
+     "kind": "word",
+     "text": "groß",
+     "label": "groß",
+     "name": "",
+     "reps": 1,
+     "baseline": 591.43,
+     "band": [
+      567.43,
+      599.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       351.52,
+       567.43,
+       415.51,
+       599.43
+      ]
+     ],
+     "label_box": [
+      319.53,
+      567.43,
+      351.52,
+      599.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_heißt",
+     "part": "4",
+     "kind": "word",
+     "text": "heißt",
+     "label": "heißt",
+     "name": "",
+     "reps": 1,
+     "baseline": 591.43,
+     "band": [
+      567.43,
+      599.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       447.51,
+       567.43,
+       511.5,
+       599.43
+      ]
+     ],
+     "label_box": [
+      415.51,
+      567.43,
+      447.51,
+      599.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Würfel",
+     "part": "4",
+     "kind": "word",
+     "text": "Würfel",
+     "label": "Würfel",
+     "name": "",
+     "reps": 1,
+     "baseline": 623.42,
+     "band": [
+      599.42,
+      631.42
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       79.57,
+       599.42,
+       159.55,
+       631.42
+      ]
+     ],
+     "label_box": [
+      31.57,
+      599.42,
+      79.57,
+      631.42
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Länge",
+     "part": "4",
+     "kind": "word",
+     "text": "Länge",
+     "label": "Länge",
+     "name": "",
+     "reps": 1,
+     "baseline": 623.42,
+     "band": [
+      599.42,
+      631.42
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       599.42,
+       271.54,
+       631.42
+      ]
+     ],
+     "label_box": [
+      159.55,
+      599.42,
+      207.55,
+      631.42
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Richtung",
+     "part": "4",
+     "kind": "word",
+     "text": "Richtung",
+     "label": "Richtung",
+     "name": "",
+     "reps": 1,
+     "baseline": 623.42,
+     "band": [
+      599.42,
+      631.42
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       319.53,
+       599.42,
+       415.51,
+       631.42
+      ]
+     ],
+     "label_box": [
+      271.54,
+      599.42,
+      319.53,
+      631.42
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Abstand",
+     "part": "4",
+     "kind": "word",
+     "text": "Abstand",
+     "label": "Abstand",
+     "name": "",
+     "reps": 1,
+     "baseline": 623.42,
+     "band": [
+      599.42,
+      631.42
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       463.51,
+       599.42,
+       543.49,
+       631.42
+      ]
+     ],
+     "label_box": [
+      415.51,
+      599.42,
+      463.51,
+      631.42
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Erdkunde",
+     "part": "4",
+     "kind": "word",
+     "text": "Erdkunde",
+     "label": "Erdkunde",
+     "name": "",
+     "reps": 1,
+     "baseline": 655.41,
+     "band": [
+      631.41,
+      663.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       95.56,
+       631.41,
+       191.55,
+       663.41
+      ]
+     ],
+     "label_box": [
+      31.57,
+      631.41,
+      95.56,
+      663.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Sozialkunde",
+     "part": "4",
+     "kind": "word",
+     "text": "Sozialkunde",
+     "label": "Sozialkunde",
+     "name": "",
+     "reps": 1,
+     "baseline": 655.41,
+     "band": [
+      631.41,
+      663.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       255.54,
+       631.41,
+       383.52,
+       663.41
+      ]
+     ],
+     "label_box": [
+      191.55,
+      631.41,
+      255.54,
+      663.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Englisch",
+     "part": "4",
+     "kind": "word",
+     "text": "Englisch",
+     "label": "Englisch",
+     "name": "",
+     "reps": 1,
+     "baseline": 655.41,
+     "band": [
+      631.41,
+      663.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       431.51,
+       631.41,
+       527.5,
+       663.41
+      ]
+     ],
+     "label_box": [
+      383.52,
+      631.41,
+      431.51,
+      663.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Deutsch",
+     "part": "4",
+     "kind": "word",
+     "text": "Deutsch",
+     "label": "Deutsch",
+     "name": "",
+     "reps": 1,
+     "baseline": 687.4,
+     "band": [
+      663.41,
+      695.4
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       79.57,
+       663.41,
+       159.55,
+       695.4
+      ]
+     ],
+     "label_box": [
+      31.57,
+      663.41,
+      79.57,
+      695.4
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Mathe",
+     "part": "4",
+     "kind": "word",
+     "text": "Mathe",
+     "label": "Mathe",
+     "name": "",
+     "reps": 1,
+     "baseline": 687.4,
+     "band": [
+      663.41,
+      695.4
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       663.41,
+       271.54,
+       695.4
+      ]
+     ],
+     "label_box": [
+      159.55,
+      663.41,
+      207.55,
+      695.4
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_ca.",
+     "part": "4",
+     "kind": "word",
+     "text": "ca.",
+     "label": "ca.",
+     "name": "",
+     "reps": 1,
+     "baseline": 767.38,
+     "band": [
+      743.39,
+      775.38
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       743.39,
+       111.56,
+       775.38
+      ]
+     ],
+     "label_box": [
+      31.57,
+      743.39,
+      63.57,
+      775.38
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_(Z. 12–15)",
+     "part": "4",
+     "kind": "word",
+     "text": "(Z. 12–15)",
+     "label": "(Z. 12–15)",
+     "name": "",
+     "reps": 1,
+     "baseline": 767.38,
+     "band": [
+      743.39,
+      775.38
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       175.55,
+       743.39,
+       287.53,
+       775.38
+      ]
+     ],
+     "label_box": [
+      111.56,
+      743.39,
+      175.55,
+      775.38
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_S. 260",
+     "part": "4",
+     "kind": "word",
+     "text": "S. 260",
+     "label": "S. 260",
+     "name": "",
+     "reps": 1,
+     "baseline": 767.38,
+     "band": [
+      743.39,
+      775.38
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       335.53,
+       743.39,
+       415.51,
+       775.38
+      ]
+     ],
+     "label_box": [
+      287.53,
+      743.39,
+      335.53,
+      775.38
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_bzw.",
+     "part": "4",
+     "kind": "word",
+     "text": "bzw.",
+     "label": "bzw.",
+     "name": "",
+     "reps": 1,
+     "baseline": 767.38,
+     "band": [
+      743.39,
+      775.38
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       447.51,
+       743.39,
+       511.5,
+       775.38
+      ]
+     ],
+     "label_box": [
+      415.51,
+      743.39,
+      447.51,
+      775.38
+     ],
+     "tall": false
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "header": "Schriftprobe Sang · SP-v2 · Seite 6/6",
+   "bg_sha256": "3bb7675294e1ac85f07c0a26a57a3d45e0dff77a3efaf392325d8be4b5dd863f",
+   "printed": [
+    {
+     "kind": "heading",
+     "text": "Großbuchstaben-Wörter und Bindestriche",
+     "baseline": 191.53
+    },
+    {
+     "kind": "heading",
+     "text": "Englisch",
+     "baseline": 335.49
+    }
+   ],
+   "items": [
+    {
+     "id": "word_usw.",
+     "part": "4",
+     "kind": "word",
+     "text": "usw.",
+     "label": "usw.",
+     "name": "",
+     "reps": 1,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       87.55,
+       127.56,
+       119.55
+      ]
+     ],
+     "label_box": [
+      31.57,
+      87.55,
+      63.57,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Mio.",
+     "part": "4",
+     "kind": "word",
+     "text": "Mio.",
+     "label": "Mio.",
+     "name": "",
+     "reps": 1,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       159.55,
+       87.55,
+       223.54,
+       119.55
+      ]
+     ],
+     "label_box": [
+      127.56,
+      87.55,
+      159.55,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Mrd.",
+     "part": "4",
+     "kind": "word",
+     "text": "Mrd.",
+     "label": "Mrd.",
+     "name": "",
+     "reps": 1,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       255.54,
+       87.55,
+       319.53,
+       119.55
+      ]
+     ],
+     "label_box": [
+      223.54,
+      87.55,
+      255.54,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Nr. 7",
+     "part": "4",
+     "kind": "word",
+     "text": "Nr. 7",
+     "label": "Nr. 7",
+     "name": "",
+     "reps": 1,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       351.52,
+       87.55,
+       415.51,
+       119.55
+      ]
+     ],
+     "label_box": [
+      319.53,
+      87.55,
+      351.52,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_z.B.",
+     "part": "4",
+     "kind": "word",
+     "text": "z.B.",
+     "label": "z.B.",
+     "name": "",
+     "reps": 1,
+     "baseline": 111.55,
+     "band": [
+      87.55,
+      119.55
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       447.51,
+       87.55,
+       511.5,
+       119.55
+      ]
+     ],
+     "label_box": [
+      415.51,
+      87.55,
+      447.51,
+      119.55
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_d.h.",
+     "part": "4",
+     "kind": "word",
+     "text": "d.h.",
+     "label": "d.h.",
+     "name": "",
+     "reps": 1,
+     "baseline": 143.54,
+     "band": [
+      119.55,
+      151.54
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       119.55,
+       127.56,
+       151.54
+      ]
+     ],
+     "label_box": [
+      31.57,
+      119.55,
+      63.57,
+      151.54
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_NATO",
+     "part": "4",
+     "kind": "word",
+     "text": "NATO",
+     "label": "NATO",
+     "name": "",
+     "reps": 1,
+     "baseline": 223.52,
+     "band": [
+      199.53,
+      231.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       199.53,
+       127.56,
+       231.52
+      ]
+     ],
+     "label_box": [
+      31.57,
+      199.53,
+      63.57,
+      231.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_USA",
+     "part": "4",
+     "kind": "word",
+     "text": "USA",
+     "label": "USA",
+     "name": "",
+     "reps": 1,
+     "baseline": 223.52,
+     "band": [
+      199.53,
+      231.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       159.55,
+       199.53,
+       207.55,
+       231.52
+      ]
+     ],
+     "label_box": [
+      127.56,
+      199.53,
+      159.55,
+      231.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_EU",
+     "part": "4",
+     "kind": "word",
+     "text": "EU",
+     "label": "EU",
+     "name": "",
+     "reps": 1,
+     "baseline": 223.52,
+     "band": [
+      199.53,
+      231.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       239.54,
+       199.53,
+       287.53,
+       231.52
+      ]
+     ],
+     "label_box": [
+      207.55,
+      199.53,
+      239.54,
+      231.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_UN",
+     "part": "4",
+     "kind": "word",
+     "text": "UN",
+     "label": "UN",
+     "name": "",
+     "reps": 1,
+     "baseline": 223.52,
+     "band": [
+      199.53,
+      231.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       319.53,
+       199.53,
+       367.52,
+       231.52
+      ]
+     ],
+     "label_box": [
+      287.53,
+      199.53,
+      319.53,
+      231.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_CO₂",
+     "part": "4",
+     "kind": "word",
+     "text": "CO₂",
+     "label": "CO₂",
+     "name": "",
+     "reps": 1,
+     "baseline": 223.52,
+     "band": [
+      199.53,
+      231.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       399.52,
+       199.53,
+       447.51,
+       231.52
+      ]
+     ],
+     "label_box": [
+      367.52,
+      199.53,
+      399.52,
+      231.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_ABCD",
+     "part": "4",
+     "kind": "word",
+     "text": "ABCD",
+     "label": "ABCD",
+     "name": "",
+     "reps": 1,
+     "baseline": 223.52,
+     "band": [
+      199.53,
+      231.52
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       479.5,
+       199.53,
+       543.49,
+       231.52
+      ]
+     ],
+     "label_box": [
+      447.51,
+      199.53,
+      479.5,
+      231.52
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_IQB",
+     "part": "4",
+     "kind": "word",
+     "text": "IQB",
+     "label": "IQB",
+     "name": "",
+     "reps": 1,
+     "baseline": 255.51,
+     "band": [
+      231.52,
+      263.51
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       231.52,
+       111.56,
+       263.51
+      ]
+     ],
+     "label_box": [
+      31.57,
+      231.52,
+      63.57,
+      263.51
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_x-Achse",
+     "part": "4",
+     "kind": "word",
+     "text": "x-Achse",
+     "label": "x-Achse",
+     "name": "",
+     "reps": 1,
+     "baseline": 255.51,
+     "band": [
+      231.52,
+      263.51
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       159.55,
+       231.52,
+       239.54,
+       263.51
+      ]
+     ],
+     "label_box": [
+      111.56,
+      231.52,
+      159.55,
+      263.51
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_Push-Pull-Modell",
+     "part": "4",
+     "kind": "word",
+     "text": "Push-Pull-Modell",
+     "label": "Push-Pull-Modell",
+     "name": "",
+     "reps": 1,
+     "baseline": 255.51,
+     "band": [
+      231.52,
+      263.51
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       335.53,
+       231.52,
+       495.5,
+       263.51
+      ]
+     ],
+     "label_box": [
+      239.54,
+      231.52,
+      335.53,
+      263.51
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_US-Dollar",
+     "part": "4",
+     "kind": "word",
+     "text": "US-Dollar",
+     "label": "US-Dollar",
+     "name": "",
+     "reps": 1,
+     "baseline": 287.51,
+     "band": [
+      263.51,
+      295.5
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       95.56,
+       263.51,
+       191.55,
+       295.5
+      ]
+     ],
+     "label_box": [
+      31.57,
+      263.51,
+      95.56,
+      295.5
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_EU-Mission",
+     "part": "4",
+     "kind": "word",
+     "text": "EU-Mission",
+     "label": "EU-Mission",
+     "name": "",
+     "reps": 1,
+     "baseline": 287.51,
+     "band": [
+      263.51,
+      295.5
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       255.54,
+       263.51,
+       367.52,
+       295.5
+      ]
+     ],
+     "label_box": [
+      191.55,
+      263.51,
+      255.54,
+      295.5
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_the",
+     "part": "4",
+     "kind": "word",
+     "text": "the",
+     "label": "the",
+     "name": "",
+     "reps": 1,
+     "baseline": 367.48,
+     "band": [
+      343.49,
+      375.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       343.49,
+       111.56,
+       375.48
+      ]
+     ],
+     "label_box": [
+      31.57,
+      343.49,
+      63.57,
+      375.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_and",
+     "part": "4",
+     "kind": "word",
+     "text": "and",
+     "label": "and",
+     "name": "",
+     "reps": 2,
+     "baseline": 367.48,
+     "band": [
+      343.49,
+      375.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       143.56,
+       343.49,
+       191.55,
+       375.48
+      ],
+      [
+       191.55,
+       343.49,
+       239.54,
+       375.48
+      ]
+     ],
+     "label_box": [
+      111.56,
+      343.49,
+      143.56,
+      375.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_of",
+     "part": "4",
+     "kind": "word",
+     "text": "of",
+     "label": "of",
+     "name": "",
+     "reps": 2,
+     "baseline": 367.48,
+     "band": [
+      343.49,
+      375.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       255.54,
+       343.49,
+       303.53,
+       375.48
+      ],
+      [
+       303.53,
+       343.49,
+       351.52,
+       375.48
+      ]
+     ],
+     "label_box": [
+      239.54,
+      343.49,
+      255.54,
+      375.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_to",
+     "part": "4",
+     "kind": "word",
+     "text": "to",
+     "label": "to",
+     "name": "",
+     "reps": 2,
+     "baseline": 367.48,
+     "band": [
+      343.49,
+      375.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       343.49,
+       415.51,
+       375.48
+      ],
+      [
+       415.51,
+       343.49,
+       463.51,
+       375.48
+      ]
+     ],
+     "label_box": [
+      351.52,
+      343.49,
+      367.52,
+      375.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_is",
+     "part": "4",
+     "kind": "word",
+     "text": "is",
+     "label": "is",
+     "name": "",
+     "reps": 2,
+     "baseline": 367.48,
+     "band": [
+      343.49,
+      375.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       479.5,
+       343.49,
+       527.5,
+       375.48
+      ],
+      [
+       527.5,
+       343.49,
+       575.49,
+       375.48
+      ]
+     ],
+     "label_box": [
+      463.51,
+      343.49,
+      479.5,
+      375.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_that",
+     "part": "4",
+     "kind": "word",
+     "text": "that",
+     "label": "that",
+     "name": "",
+     "reps": 1,
+     "baseline": 399.48,
+     "band": [
+      375.48,
+      407.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       375.48,
+       127.56,
+       407.48
+      ]
+     ],
+     "label_box": [
+      31.57,
+      375.48,
+      63.57,
+      407.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_it",
+     "part": "4",
+     "kind": "word",
+     "text": "it",
+     "label": "it",
+     "name": "",
+     "reps": 1,
+     "baseline": 399.48,
+     "band": [
+      375.48,
+      407.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       143.56,
+       375.48,
+       191.55,
+       407.48
+      ]
+     ],
+     "label_box": [
+      127.56,
+      375.48,
+      143.56,
+      407.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_for",
+     "part": "4",
+     "kind": "word",
+     "text": "for",
+     "label": "for",
+     "name": "",
+     "reps": 1,
+     "baseline": 399.48,
+     "band": [
+      375.48,
+      407.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       223.54,
+       375.48,
+       271.54,
+       407.48
+      ]
+     ],
+     "label_box": [
+      191.55,
+      375.48,
+      223.54,
+      407.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_as",
+     "part": "4",
+     "kind": "word",
+     "text": "as",
+     "label": "as",
+     "name": "",
+     "reps": 1,
+     "baseline": 399.48,
+     "band": [
+      375.48,
+      407.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       287.53,
+       375.48,
+       335.53,
+       407.48
+      ]
+     ],
+     "label_box": [
+      271.54,
+      375.48,
+      287.53,
+      407.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_with",
+     "part": "4",
+     "kind": "word",
+     "text": "with",
+     "label": "with",
+     "name": "",
+     "reps": 1,
+     "baseline": 399.48,
+     "band": [
+      375.48,
+      407.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       375.48,
+       431.51,
+       407.48
+      ]
+     ],
+     "label_box": [
+      335.53,
+      375.48,
+      367.52,
+      407.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_are",
+     "part": "4",
+     "kind": "word",
+     "text": "are",
+     "label": "are",
+     "name": "",
+     "reps": 1,
+     "baseline": 399.48,
+     "band": [
+      375.48,
+      407.48
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       463.51,
+       375.48,
+       511.5,
+       407.48
+      ]
+     ],
+     "label_box": [
+      431.51,
+      375.48,
+      463.51,
+      407.48
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_this",
+     "part": "4",
+     "kind": "word",
+     "text": "this",
+     "label": "this",
+     "name": "",
+     "reps": 1,
+     "baseline": 431.47,
+     "band": [
+      407.47,
+      439.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       407.47,
+       127.56,
+       439.47
+      ]
+     ],
+     "label_box": [
+      31.57,
+      407.47,
+      63.57,
+      439.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_be",
+     "part": "4",
+     "kind": "word",
+     "text": "be",
+     "label": "be",
+     "name": "",
+     "reps": 1,
+     "baseline": 431.47,
+     "band": [
+      407.47,
+      439.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       159.55,
+       407.47,
+       207.55,
+       439.47
+      ]
+     ],
+     "label_box": [
+      127.56,
+      407.47,
+      159.55,
+      439.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_on",
+     "part": "4",
+     "kind": "word",
+     "text": "on",
+     "label": "on",
+     "name": "",
+     "reps": 1,
+     "baseline": 431.47,
+     "band": [
+      407.47,
+      439.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       239.54,
+       407.47,
+       287.53,
+       439.47
+      ]
+     ],
+     "label_box": [
+      207.55,
+      407.47,
+      239.54,
+      439.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_by",
+     "part": "4",
+     "kind": "word",
+     "text": "by",
+     "label": "by",
+     "name": "",
+     "reps": 1,
+     "baseline": 431.47,
+     "band": [
+      407.47,
+      439.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       319.53,
+       407.47,
+       367.52,
+       439.47
+      ]
+     ],
+     "label_box": [
+      287.53,
+      407.47,
+      319.53,
+      439.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_which",
+     "part": "4",
+     "kind": "word",
+     "text": "which",
+     "label": "which",
+     "name": "",
+     "reps": 1,
+     "baseline": 431.47,
+     "band": [
+      407.47,
+      439.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       415.51,
+       407.47,
+       479.5,
+       439.47
+      ]
+     ],
+     "label_box": [
+      367.52,
+      407.47,
+      415.51,
+      439.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_not",
+     "part": "4",
+     "kind": "word",
+     "text": "not",
+     "label": "not",
+     "name": "",
+     "reps": 1,
+     "baseline": 431.47,
+     "band": [
+      407.47,
+      439.47
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       511.5,
+       407.47,
+       559.49,
+       439.47
+      ]
+     ],
+     "label_box": [
+      479.5,
+      407.47,
+      511.5,
+      439.47
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_or",
+     "part": "4",
+     "kind": "word",
+     "text": "or",
+     "label": "or",
+     "name": "",
+     "reps": 1,
+     "baseline": 463.46,
+     "band": [
+      439.46,
+      471.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       47.57,
+       439.46,
+       95.56,
+       471.46
+      ]
+     ],
+     "label_box": [
+      31.57,
+      439.46,
+      47.57,
+      471.46
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_have",
+     "part": "4",
+     "kind": "word",
+     "text": "have",
+     "label": "have",
+     "name": "",
+     "reps": 1,
+     "baseline": 463.46,
+     "band": [
+      439.46,
+      471.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       127.56,
+       439.46,
+       191.55,
+       471.46
+      ]
+     ],
+     "label_box": [
+      95.56,
+      439.46,
+      127.56,
+      471.46
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_because",
+     "part": "4",
+     "kind": "word",
+     "text": "because",
+     "label": "because",
+     "name": "",
+     "reps": 1,
+     "baseline": 463.46,
+     "band": [
+      439.46,
+      471.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       239.54,
+       439.46,
+       319.53,
+       471.46
+      ]
+     ],
+     "label_box": [
+      191.55,
+      439.46,
+      239.54,
+      471.46
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_would",
+     "part": "4",
+     "kind": "word",
+     "text": "would",
+     "label": "would",
+     "name": "",
+     "reps": 1,
+     "baseline": 463.46,
+     "band": [
+      439.46,
+      471.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       367.52,
+       439.46,
+       431.51,
+       471.46
+      ]
+     ],
+     "label_box": [
+      319.53,
+      439.46,
+      367.52,
+      471.46
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_they",
+     "part": "4",
+     "kind": "word",
+     "text": "they",
+     "label": "they",
+     "name": "",
+     "reps": 1,
+     "baseline": 463.46,
+     "band": [
+      439.46,
+      471.46
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       463.51,
+       439.46,
+       527.5,
+       471.46
+      ]
+     ],
+     "label_box": [
+      431.51,
+      439.46,
+      463.51,
+      471.46
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_their",
+     "part": "4",
+     "kind": "word",
+     "text": "their",
+     "label": "their",
+     "name": "",
+     "reps": 1,
+     "baseline": 495.45,
+     "band": [
+      471.46,
+      503.45
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       471.46,
+       127.56,
+       503.45
+      ]
+     ],
+     "label_box": [
+      31.57,
+      471.46,
+      63.57,
+      503.45
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_there",
+     "part": "4",
+     "kind": "word",
+     "text": "there",
+     "label": "there",
+     "name": "",
+     "reps": 1,
+     "baseline": 495.45,
+     "band": [
+      471.46,
+      503.45
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       159.55,
+       471.46,
+       223.54,
+       503.45
+      ]
+     ],
+     "label_box": [
+      127.56,
+      471.46,
+      159.55,
+      503.45
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_however",
+     "part": "4",
+     "kind": "word",
+     "text": "however",
+     "label": "however",
+     "name": "",
+     "reps": 1,
+     "baseline": 495.45,
+     "band": [
+      471.46,
+      503.45
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       271.54,
+       471.46,
+       351.52,
+       503.45
+      ]
+     ],
+     "label_box": [
+      223.54,
+      471.46,
+      271.54,
+      503.45
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_although",
+     "part": "4",
+     "kind": "word",
+     "text": "although",
+     "label": "although",
+     "name": "",
+     "reps": 1,
+     "baseline": 495.45,
+     "band": [
+      471.46,
+      503.45
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       399.52,
+       471.46,
+       495.5,
+       503.45
+      ]
+     ],
+     "label_box": [
+      351.52,
+      471.46,
+      399.52,
+      503.45
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_should",
+     "part": "4",
+     "kind": "word",
+     "text": "should",
+     "label": "should",
+     "name": "",
+     "reps": 1,
+     "baseline": 527.44,
+     "band": [
+      503.45,
+      535.44
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       79.57,
+       503.45,
+       159.55,
+       535.44
+      ]
+     ],
+     "label_box": [
+      31.57,
+      503.45,
+      79.57,
+      535.44
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_while",
+     "part": "4",
+     "kind": "word",
+     "text": "while",
+     "label": "while",
+     "name": "",
+     "reps": 1,
+     "baseline": 527.44,
+     "band": [
+      503.45,
+      535.44
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       191.55,
+       503.45,
+       255.54,
+       535.44
+      ]
+     ],
+     "label_box": [
+      159.55,
+      503.45,
+      191.55,
+      535.44
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_people",
+     "part": "4",
+     "kind": "word",
+     "text": "people",
+     "label": "people",
+     "name": "",
+     "reps": 1,
+     "baseline": 527.44,
+     "band": [
+      503.45,
+      535.44
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       303.53,
+       503.45,
+       383.52,
+       535.44
+      ]
+     ],
+     "label_box": [
+      255.54,
+      503.45,
+      303.53,
+      535.44
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_control",
+     "part": "4",
+     "kind": "word",
+     "text": "control",
+     "label": "control",
+     "name": "",
+     "reps": 1,
+     "baseline": 527.44,
+     "band": [
+      503.45,
+      535.44
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       431.51,
+       503.45,
+       511.5,
+       535.44
+      ]
+     ],
+     "label_box": [
+      383.52,
+      503.45,
+      431.51,
+      535.44
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_extreme",
+     "part": "4",
+     "kind": "word",
+     "text": "extreme",
+     "label": "extreme",
+     "name": "",
+     "reps": 1,
+     "baseline": 559.44,
+     "band": [
+      535.44,
+      567.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       79.57,
+       535.44,
+       159.55,
+       567.43
+      ]
+     ],
+     "label_box": [
+      31.57,
+      535.44,
+      79.57,
+      567.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_pollution",
+     "part": "4",
+     "kind": "word",
+     "text": "pollution",
+     "label": "pollution",
+     "name": "",
+     "reps": 1,
+     "baseline": 559.44,
+     "band": [
+      535.44,
+      567.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       207.55,
+       535.44,
+       303.53,
+       567.43
+      ]
+     ],
+     "label_box": [
+      159.55,
+      535.44,
+      207.55,
+      567.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_keep",
+     "part": "4",
+     "kind": "word",
+     "text": "keep",
+     "label": "keep",
+     "name": "",
+     "reps": 1,
+     "baseline": 559.44,
+     "band": [
+      535.44,
+      567.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       335.53,
+       535.44,
+       399.52,
+       567.43
+      ]
+     ],
+     "label_box": [
+      303.53,
+      535.44,
+      335.53,
+      567.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_against",
+     "part": "4",
+     "kind": "word",
+     "text": "against",
+     "label": "against",
+     "name": "",
+     "reps": 1,
+     "baseline": 559.44,
+     "band": [
+      535.44,
+      567.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       447.51,
+       535.44,
+       527.5,
+       567.43
+      ]
+     ],
+     "label_box": [
+      399.52,
+      535.44,
+      447.51,
+      567.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_difficulty",
+     "part": "4",
+     "kind": "word",
+     "text": "difficulty",
+     "label": "difficulty",
+     "name": "",
+     "reps": 1,
+     "baseline": 591.43,
+     "band": [
+      567.43,
+      599.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       79.57,
+       567.43,
+       191.55,
+       599.43
+      ]
+     ],
+     "label_box": [
+      31.57,
+      567.43,
+      79.57,
+      599.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_expensive",
+     "part": "4",
+     "kind": "word",
+     "text": "expensive",
+     "label": "expensive",
+     "name": "",
+     "reps": 1,
+     "baseline": 591.43,
+     "band": [
+      567.43,
+      599.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       255.54,
+       567.43,
+       351.52,
+       599.43
+      ]
+     ],
+     "label_box": [
+      191.55,
+      567.43,
+      255.54,
+      599.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_said",
+     "part": "4",
+     "kind": "word",
+     "text": "said",
+     "label": "said",
+     "name": "",
+     "reps": 1,
+     "baseline": 591.43,
+     "band": [
+      567.43,
+      599.43
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       383.52,
+       567.43,
+       447.51,
+       599.43
+      ]
+     ],
+     "label_box": [
+      351.52,
+      567.43,
+      383.52,
+      599.43
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_approach",
+     "part": "4",
+     "kind": "word",
+     "text": "approach",
+     "label": "approach",
+     "name": "",
+     "reps": 1,
+     "baseline": 623.42,
+     "band": [
+      599.42,
+      631.42
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       95.56,
+       599.42,
+       191.55,
+       631.42
+      ]
+     ],
+     "label_box": [
+      31.57,
+      599.42,
+      95.56,
+      631.42
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_evidence",
+     "part": "4",
+     "kind": "word",
+     "text": "evidence",
+     "label": "evidence",
+     "name": "",
+     "reps": 1,
+     "baseline": 623.42,
+     "band": [
+      599.42,
+      631.42
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       255.54,
+       599.42,
+       351.52,
+       631.42
+      ]
+     ],
+     "label_box": [
+      191.55,
+      599.42,
+      255.54,
+      631.42
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_The",
+     "part": "4",
+     "kind": "word",
+     "text": "The",
+     "label": "The",
+     "name": "",
+     "reps": 1,
+     "baseline": 623.42,
+     "band": [
+      599.42,
+      631.42
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       383.52,
+       599.42,
+       431.51,
+       631.42
+      ]
+     ],
+     "label_box": [
+      351.52,
+      599.42,
+      383.52,
+      631.42
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_While",
+     "part": "4",
+     "kind": "word",
+     "text": "While",
+     "label": "While",
+     "name": "",
+     "reps": 1,
+     "baseline": 623.42,
+     "band": [
+      599.42,
+      631.42
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       463.51,
+       599.42,
+       527.5,
+       631.42
+      ]
+     ],
+     "label_box": [
+      431.51,
+      599.42,
+      463.51,
+      631.42
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_change",
+     "part": "4",
+     "kind": "word",
+     "text": "change",
+     "label": "change",
+     "name": "",
+     "reps": 1,
+     "baseline": 655.41,
+     "band": [
+      631.41,
+      663.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       79.57,
+       631.41,
+       159.55,
+       663.41
+      ]
+     ],
+     "label_box": [
+      31.57,
+      631.41,
+      79.57,
+      663.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_technology",
+     "part": "4",
+     "kind": "word",
+     "text": "technology",
+     "label": "technology",
+     "name": "",
+     "reps": 1,
+     "baseline": 655.41,
+     "band": [
+      631.41,
+      663.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       223.54,
+       631.41,
+       335.53,
+       663.41
+      ]
+     ],
+     "label_box": [
+      159.55,
+      631.41,
+      223.54,
+      663.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_something",
+     "part": "4",
+     "kind": "word",
+     "text": "something",
+     "label": "something",
+     "name": "",
+     "reps": 1,
+     "baseline": 655.41,
+     "band": [
+      631.41,
+      663.41
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       399.52,
+       631.41,
+       495.5,
+       663.41
+      ]
+     ],
+     "label_box": [
+      335.53,
+      631.41,
+      399.52,
+      663.41
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_using",
+     "part": "4",
+     "kind": "word",
+     "text": "using",
+     "label": "using",
+     "name": "",
+     "reps": 1,
+     "baseline": 687.4,
+     "band": [
+      663.41,
+      695.4
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       63.57,
+       663.41,
+       127.56,
+       695.4
+      ]
+     ],
+     "label_box": [
+      31.57,
+      663.41,
+      63.57,
+      695.4
+     ],
+     "tall": false
+    },
+    {
+     "id": "word_used",
+     "part": "4",
+     "kind": "word",
+     "text": "used",
+     "label": "used",
+     "name": "",
+     "reps": 1,
+     "baseline": 687.4,
+     "band": [
+      663.41,
+      695.4
+     ],
+     "anchor": "baseline",
+     "boxes": [
+      [
+       159.55,
+       663.41,
+       223.54,
+       695.4
+      ]
+     ],
+     "label_box": [
+      127.56,
+      663.41,
+      159.55,
+      695.4
+     ],
+     "tall": false
+    },
+    {
+     "id": "calib_p6",
+     "part": "K",
+     "kind": "calib",
+     "text": "Kalibrierpunkt",
+     "center": [
+      543.49,
+      817.37
+     ],
+     "boxes": [
+      [
+       531.49,
+       805.37,
+       555.49,
+       829.37
+      ]
+     ],
+     "label": "",
+     "name": "",
+     "reps": 1,
+     "baseline": 817.37,
+     "band": [
+      805.37,
+      829.37
+     ],
+     "anchor": "center",
+     "label_box": null,
+     "tall": false
+    }
+   ]
+  }
+ ]
+}
