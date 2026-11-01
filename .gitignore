@@ -1,2 +1,7 @@
 __pycache__/
 *.pyc
+handschrift/bibliothek/*.pkl
+handschrift/bibliothek/*.npy
+handschrift/bibliothek/debug_fields.png
+handschrift/bibliothek/loes_p1.png
+handschrift/bibliothek/stoch_p1.png
