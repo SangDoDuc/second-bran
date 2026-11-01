@@ -134,6 +134,7 @@ Bei Englisch-Aufgaben **zuerst die passende Datei lesen**, dann antworten.
 | Foer – „We Are the Weather“ (Workbook S. 54–55) | [`englisch/foer-we-are-the-weather.md`](englisch/foer-we-are-the-weather.md) |
 | Climate Change – Ursachen, Lösungen, Muster-Assessment | [`englisch/climate-causes-assessment.md`](englisch/climate-causes-assessment.md) |
 | Obama, Rede Paris 2015 (S. 116–117) – Outline der Gefahren + Analyse | [`englisch/obama-paris-2015-analyse.md`](englisch/obama-paris-2015-analyse.md) |
+| **Klausur 02.11.2026** – Lernplan 2 Std. + Schablonen Summary/Analysis/Comment, 12 Stilmittel, Argument-Bank | [`englisch/klausur-lernplan-2026-11-02.md`](englisch/klausur-lernplan-2026-11-02.md) |
 | Sprechen – Fehlerliste & Lernplan | [`englisch/sprechen-fehlerliste.md`](englisch/sprechen-fehlerliste.md) |
 | Vokabel-HÜ Unit 4 – meine Ergebnisse | [`uebungen/englisch-unit4-vokabel-hue.md`](uebungen/englisch-unit4-vokabel-hue.md) |
 | Assessment Climate Change (HA 25.10.) – mein Teil, Korrektur, Fortsetzung | [`uebungen/englisch-assessment-climate-causes.md`](uebungen/englisch-assessment-climate-causes.md) |
