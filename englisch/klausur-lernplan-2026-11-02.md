@@ -153,3 +153,43 @@ Pflicht: mindestens **ein Beispiel, das nicht im Text steht**. Sonst wird es nur
   - Fazit
 - **Comment:** Position → 2 Argumente mit Beispiel → Gegenargument („Admittedly … However …“) → klare Meinung.
 - **Top-Wirkungssätze:** creates a sense of urgency · makes the audience feel responsible · emphasizes the key message · makes the problem easy to imagine · makes the speaker credible.
+
+---
+
+## 10. Nachtrag 01.11. abends – Umbrella Sentence, Vokabeln, Satzanfänge, Comment
+
+### Umbrella Sentence – was rein muss
+Pflicht:
+- Sprecher (+ Rolle)
+- Textsorte (speech)
+- Titel, falls vorhanden
+- Anlass/Ort + Datum
+- Publikum
+- **Kernaussage**
+
+Hauptverb im Präsens, keine Meinung, ein Satz.
+
+> In his speech at the UN climate conference in Paris on 30 November 2015, US President Barack Obama addresses world leaders and warns that climate change is a serious threat, but that it can still be stopped if all nations act together now.
+
+> In his speech at the COP28 climate conference in Dubai on 1 December 2023, King Charles III urges the delegates to take immediate action, because climate change is already causing dangerous damage all over the world.
+
+### Comment – Schablone
+| Absatz | Satzanfänge |
+|---|---|
+| Einleitung | The question whether … is highly controversial. In my opinion, … |
+| Argument 1 | First of all, … This is because … For example, … |
+| Argument 2 | Furthermore, … This shows that … |
+| Gegenargument | Admittedly, … However, … |
+| Schluss | To sum up, I strongly believe that … Therefore, … (kein neues Argument) |
+
+Muster-Comment „Only governments, not individuals, can stop climate change“: siehe Chat 01.11.2026. Kurzform:
+- Meinung: Regierungen am wichtigsten, Einzelne trotzdem nötig.
+- Argument 1: Gesetze, CO₂-Preis, ÖPNV wirken auf Millionen.
+- Argument 2: Konzerne kontrollieren, Beispiel Lliuya v. RWE.
+- Gegenargument: Fridays for Future.
+- Schluss: Regierungen müssen führen, wir sollten das unterstützen.
+
+### Satzanfänge Analysis (Abwechslung)
+Siehe Chat 01.11.2026. Wichtig:
+- statt *says*: states, points out, stresses, warns, claims, describes, appeals to, calls on
+- statt *this effects*: This **emphasizes / highlights / creates / makes the audience …** („effect“ ist ein Nomen, „affect“ ein Verb)
