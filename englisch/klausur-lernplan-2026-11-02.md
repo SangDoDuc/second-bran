@@ -193,3 +193,27 @@ Muster-Comment „Only governments, not individuals, can stop climate change“:
 Siehe Chat 01.11.2026. Wichtig:
 - statt *says*: states, points out, stresses, warns, claims, describes, appeals to, calls on
 - statt *this effects*: This **emphasizes / highlights / creates / makes the audience …** („effect“ ist ein Nomen, „affect“ ein Verb)
+
+---
+
+## 11. Comment-Argumente Climate Change (Nachtrag 02.11.)
+
+**Beispiele außerhalb des Textes (passen fast immer):**
+- **Ahr valley flood (July 2021, Rheinland-Pfalz):** extreme rain → many deaths, towns destroyed → climate change is already here, also in Germany.
+- **Westerwald forests:** dry summers + bark beetles killed many spruce trees → local example, near Altenkirchen.
+- **Fridays for Future (since 2018):** young people put pressure on politicians.
+- **Lliuya v. RWE (Hamm, 2025):** dismissed, but big emitters can in principle be held responsible.
+- **Deutschlandticket (since 2023):** cheap public transport → politics can make green choices easy.
+- **Paris Agreement 2015:** almost all countries agreed to limit global warming.
+- **Germany's coal exit (by 2038 at the latest).**
+
+| Frage | Pro (Satz) | Contra (Satz) |
+|---|---|---|
+| Individuals or governments? | Governments can change the rules for millions of people at once. | Individuals create demand and pressure, e.g. Fridays for Future. |
+| Rich countries pay most? | They caused most of the CO₂ in the past and have the money. | Today China and India also emit a lot, so all must act. |
+| Protection vs. economy? | Renewable energy creates new jobs and makes countries independent from gas and oil imports. | Coal regions lose jobs, prices rise – people need help. |
+| Ban/limit flights or meat? | Short flights could be replaced by trains. | Bans make people angry; better: cheaper trains, better alternatives. |
+| Is technology enough? | Solar, wind, e-cars cut emissions fast. | Technology takes time; we also have to change habits. |
+| Are radical protests OK? | They make the problem visible. | Blocking roads makes many people angry and hurts support. |
+
+**Musterabsatz:** First of all, climate change is not a problem of the future, but already affects our lives today. This is because extreme weather events are becoming more frequent. For example, in July 2021 a terrible flood hit the Ahr valley in Rhineland-Palatinate, and many people died. This shows that we cannot wait any longer.
