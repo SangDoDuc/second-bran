@@ -2,7 +2,7 @@
 
 Arbeitsblatt Schroedel aktuell (Politik, März 2026, Autor Veit Straßner). Hausaufgabe 28.10.2026.
 Zeilen wie auf dem Blatt: M2 Z. 1–35, M3a Z. 1–15, **M3b Z. 17–55**, M4a Z. 1–35, **M4b Z. 37–46**, **M4c Z. 47–88** (die Leerzeile vor b) zählt mit).
-Fakten außerhalb des Blatts wurden am 28.10.2026 geprüft (Quellen unten). Handschriftliche Fassung als GoodNotes-Datei (Stichpunkte).
+Fakten außerhalb des Blatts wurden am 28.10.2026 geprüft (Quellen unten). Handschriftliche Fassung als GoodNotes-Datei (Stichpunkte); am 03.11.2026 neu in der aktuellen Handschrift (render_font, 4 Karo-Seiten).
 
 Grundwissen dazu: [`nato-mindmap.md`](nato-mindmap.md) (Art. 5, Konsensprinzip, keine Hoheitsrechte).
 
