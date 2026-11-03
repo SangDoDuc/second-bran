@@ -69,3 +69,20 @@ Idealtypisches Modell: x = Zeit, y = Anzahl der Touristen, S-förmige Kurve, waa
 - **Butler:** Touristenzahl über Zeit, S-Kurve, 6 Phasen (Erkundung → Erschließung → Entwicklung → Konsolidierung → Stagnation → Erneuerung/Verfall), Grenze = Tragfähigkeit.
 - **vs. Produktlebenszyklus:** gleiche Logik (Einführung–Wachstum–Reife–Schrumpfung), aber y = Gewinn, Produkt verlagerbar, Destination ortsgebunden; Butler endet offen.
 - **Mallorca:** 19. Jh. Erkundung · 1950er Erschließung · 1960–73 Entwicklung · 80er Stagnation · dann mehrfach Erneuerung/Boom (1986, 90er, 2000er) · heute Stagnation → Erneuerungsversuch (Qualitätsoffensive) · Corona = externer Schock.
+
+---
+
+## Zusatz 03.11.2026: Vergleich Butler-Modell Arbeitsblatt ↔ Buch S. 285 (M9, M10)
+Handschrift-Fassung als GoodNotes/PDF (2 Karo-Seiten).
+
+| | Arbeitsblatt | Buch S. 285 (M9) |
+|---|---|---|
+| Phasen | 6 | 7 – zusätzlich **6 Neuorientierung** (Zahlen sinken, Defizite analysiert, aktives Gegensteuern → neuer Anstieg) |
+| Kurve | glatte S-Kurve bis Plateau | S-Kurve mit **Delle** nach der Stagnation (Rückgang + neuer Anstieg) |
+| Szenarien | 6a Erneuerung, gebremstes Wachstum, Stabilisierung, Niedergang, 6b Verfall | gleiche fünf, als 7.1–7.5 nummeriert |
+| y-Achse | Anzahl der Touristen | Besucherzahlen |
+| Einbettung | nur Modell | ausdrücklicher Bezug zum Produktlebenszyklus (S. 249) + Übertragung auf Angebote (M10) |
+
+**Gemeinsam:** Butler-Modell, S-Kurve, Phasen 1–5 inhaltlich gleich, kritische Zone der Tragfähigkeit, offenes Ende.
+**M10 (nur Buch):** Lebenszyklen europäischer Tourismusangebote 1860–heute (u. a. Sommerurlaub, alpiner Tourismus, Strandurlaub, Wintersport, Städtereisen, Fernreisen; Beschriftungen aus dem Foto gelesen, klein) – Kurven überlappen, neue Angebote lösen alte ab, Weltkriege als Einbrüche.
+**Bewertung:** Buchmodell realistischer (Gegensteuern möglich) und passt besser zu Mallorca (Neuorientierung nach den 80ern und Ende der 90er, danach neue Booms); beide idealtypisch, externe Schocks fehlen.
