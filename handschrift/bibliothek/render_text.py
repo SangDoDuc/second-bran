@@ -1,7 +1,7 @@
 """Stichpunkte in Sangs Handschrift (Bibliothek SP-k1) auf Karo-Seiten 1414 x 2000 px, mit Zeilenumbruch.
 
 python3 render_text.py TEXTMODUL AUSGABEPRÄFIX
-TEXTMODUL (im selben Ordner oder auf sys.path) definiert TITLE und LINES = [(art, text), ...]:
+TEXTMODUL (im selben Ordner oder auf sys.path) definiert TITLE, LINES und optional HEADER_LEFT/HEADER_RIGHT = [(art, text), ...]:
   art "h"  Überschrift (unterstrichen), "b" Stichpunkt mit Strich, "+"/"−" Pro/Contra, ">" Folgerung mit Pfeil, "s" eingerückter Unterpunkt,
   "p" normale Zeile, "" Leerzeile.
 Ergebnis: PRÄFIX_p1_alpha.npy, PRÄFIX_p2_alpha.npy … und Vorschau-PNGs; weiter mit ../werkzeug/kuli.py.
@@ -41,6 +41,12 @@ def render(mod, seed=7):
         return GRID0 + row * GRID
 
     new_page()
+    if getattr(mod, "HEADER_LEFT", ""):                       # Kopfzeile wie in Sangs Präsentationen
+        hp, _ = h.run(mod.HEADER_LEFT)
+        paste(canvas, hp, X0, GRID0 + 1 * GRID)
+    if getattr(mod, "HEADER_RIGHT", ""):
+        hp, hw = h.run(mod.HEADER_RIGHT)
+        paste(canvas, hp, X_MAX - hw, GRID0 + 1 * GRID)
     parts, w = h.run(mod.TITLE)
     paste(canvas, parts, X0, line_y())
     g = h.pick("FRACBAR")

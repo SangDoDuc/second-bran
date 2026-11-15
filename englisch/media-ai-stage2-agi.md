@@ -3,6 +3,7 @@
 Camden Town, p. 84, ex. 4a (Group work: poster on one stage of AI). 15.11.2026.
 Handschrift-Fassung: `Englisch_AI_Stage2_AGI_A4.goodnotes` (1 Karo-Seite, daneben PDF und Vorschau).
 Aufbau nach den drei Punkten der Aufgabe: characteristics, examples, impact on society.
+Format wie bei der Präsentation Statistic C (`media-ai-statistic-c.md`): Kopfzeile „Englisch“ links, Datum rechts, nummerierte Überschriften. Statistic C ist als Beleg bei „impact on society“ eingebaut.
 
 ## Stichpunkte (Englisch, so auf der Seite)
 
@@ -11,8 +12,7 @@ Aufbau nach den drei Punkten der Aufgabe: characteristics, examples, impact on s
 **1. Characteristics**
 - strong form of AI: machine intelligence
 - humanlike abilities: thinks, learns and makes decisions
-- general: not only one task, but (almost) every task a human can do
-- transfers knowledge from one area to another
+- general: (almost) every task a human can do, transfers knowledge
 - understands context, plans and solves new problems on its own
 - level of a human, not better (better than humans = ASI, stage 3)
 - still hypothetical: no real AGI yet, experts disagree when it will come
@@ -32,7 +32,8 @@ Aufbau nach den drei Punkten der Aufgabe: characteristics, examples, impact on s
 - − power in the hands of a few big companies
 - − misuse: fake news, cyber attacks, weapons
 - − ethical questions: who is responsible? rights for machines?
-- → rules needed: laws (e.g. EU AI Act) and international control
+- Statistic C: 74 % worried if AI makes life decisions for people
+- → AI as a helper, not a decision-maker: rules needed (e.g. EU AI Act)
 
 ## Erklärung auf Deutsch (wofür die Punkte stehen)
 
@@ -47,7 +48,8 @@ Aufbau nach den drei Punkten der Aufgabe: characteristics, examples, impact on s
 | examples | Weil es keine echte AGI gibt, nennt man Ziele von Firmen (OpenAI und Google DeepMind haben AGI ausdrücklich als Ziel) und Beispiele aus Filmen und Serien. |
 | + impact | Chancen: schnellere Forschung und Medizin, Hilfe bei großen Problemen, Maschinen übernehmen gefährliche oder langweilige Arbeit. |
 | − impact | Risiken: Jobverlust, Kontrollverlust, Macht bei wenigen Firmen, Missbrauch, offene ethische Fragen (Haftung, Rechte). |
-| → rules needed | Überleitung zu Teil b) der Aufgabe (ethische Probleme und Maßnahmen, Zitate von Hawking und Musk). Der EU AI Act ist das KI-Gesetz der EU. |
+| Statistic C | Beleg aus p. 83: 74 % der US-Erwachsenen (2021) wären besorgt, wenn KI wichtige Lebensentscheidungen trifft. Genau das könnte AGI. |
+| → rules needed | Fazit wie bei Statistic C: KI als Helfer, nicht als Entscheider. Überleitung zu Teil b) der Aufgabe (ethische Probleme und Maßnahmen, Zitate von Hawking und Musk). Der EU AI Act ist das KI-Gesetz der EU. |
 
 ## Kurzversion zum Vortragen (3 Sätze)
 
