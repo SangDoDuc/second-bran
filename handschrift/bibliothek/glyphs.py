@@ -35,6 +35,31 @@ def _cut(fid, ranks=None, xr=None):
             "ranks": ranks, "xr": xr}
 
 
+def _small(g, xh=13):
+    """Großbuchstabe auf x-Höhe verkleinern (für v), Unterkante bleibt auf der Grundlinie."""
+    from PIL import Image
+    a = g["alpha"]
+    f = xh / a.shape[0]
+    im = Image.fromarray(a.astype(np.float32), "F").resize((max(1, round(a.shape[1] * f)), xh), Image.BILINEAR)
+    b = np.asarray(im)
+    return dict(g, alpha=b, top=float(g["top"] + a.shape[0] - xh))
+
+
+def _f_with_bar(f, bar, width=14):
+    """f ohne Querstrich + Querstrich auf x-Höhe. Mindestens 14 px breit, sonst schneidet kuli.py ihn als Spore weg."""
+    from PIL import Image
+    a = f["alpha"]
+    b = bar["alpha"]
+    b = np.asarray(Image.fromarray(b.astype(np.float32), "F").resize((width, max(2, b.shape[0])), Image.BILINEAR))
+    pad = max(0, width - a.shape[1]) // 2 + 2        # Platz links und rechts, damit der Strich nicht abgeschnitten wird
+    a = np.pad(a, ((0, 0), (pad, pad)))
+    y = int(round(-11 - f["top"]))                  # 11 px über der Grundlinie
+    x = max(0, (a.shape[1] - width) // 2 - 1)
+    sub = a[y:y + b.shape[0], x:x + width]
+    np.maximum(sub, b[:sub.shape[0], :sub.shape[1]], out=sub)
+    return dict(f, alpha=a)
+
+
 def _iso(prefix, ch):
     return _cut(f"{prefix}_U+{ord(ch):04X}") if prefix != "upper" else _cut(f"upper_{ch}")
 
@@ -102,7 +127,6 @@ def build():
     add("c", _cut("sent0_w09", [0], (834, 844)))          # Dei-c-h
     add("c", _cut("sent1_w09", [1], (652, 661)))          # dur-c-h
     add("c", _cut("word_Gleichung", [4], (95, 106)))      # Glei-c-hung
-    add("h", _cut("sent0_w09", [0], (847, 865)))          # Deic-h
     add("h", _cut("sent1_w09", [1], (663, 679)))          # durc-h
     add("h", _cut("sent1_w08", [0], (569, 582)))          # ge-h-t
     add("h", _cut("word_Gleichung", [4], (108, 120)))     # Gleic-h-ung
@@ -111,15 +135,25 @@ def build():
     add("g", _cut("word_Gleichung", [5], (146, 163)))     # Gleichun-g
     add("l", _cut("sent1_w01", [0]))                      # l-iegen
     add("l", _cut("word_Gleichung", [1]))                 # G-l-eichung
-    add("s", _cut("word_dass", [2]))                      # das-s
-    add("s", _cut("word_dass", [1], (52, 62)))            # da-s-s
     add("s", _cut("sent2_w06", [0], (373, 384)))          # s-eit
-    add("u", _cut("sent0_w04", [1], (421, 432)))          # q-u-er
-    add("u", _cut("sent1_w09", [0], (629, 642)))          # d-u-rch
-    add("u", _cut("word_Gleichung", [5], (120, 134)))     # Gleich-u-ng
     add("ö", _cut("sent0_w00", [1, 2]))                   # Zw-ö-lf
     add(".", _cut("sent0_w09", [2]))                      # Deich-.
     add(".", _cut("sent2_w08", [2]))                      # ca-.
+    # Ergänzung 15.11.2026 (Englisch-Stichpunkte): f j q w y z ü ß aus den Sätzen, v aus V auf x-Höhe
+    add("j", _cut("sent0_w02", [0, 1], (240, 250)))       # j-agen
+    add("u", _cut("sent0_w05", [0]))                      # ü-ber ohne Punkte
+    add("u", _small(_cut("word_und", None, (21, 36))))    # u-nd, auf x-Höhe
+    # f: Bogen und Schaft aus „Zwölf“, Querstrich = Sangs eigener Minusstrich (Boxkämpfer-f verliert ihn beim Umwandeln)
+    for bar in G["−"][:2]:
+        add("f", _f_with_bar(_cut("sent0_w00", [4]), bar))
+    add("q", _cut("sent0_w04", [0]))                      # q-uer
+    add("w", _cut("sent0_w00", [0], (29, 41)))            # Z-w-ölf
+    add("y", _cut("sent0_w08", [0], (727, 738)))          # S-y-lter
+    add("z", _cut("sent2_w09", [7]))                      # z.B.
+    add("ü", _cut("sent0_w05", [0, 1]))                   # ü-ber
+    add("ß", _cut("sent0_w07", [1], (636, 648)))          # gro-ß-en
+    for g in G["V"][:1]:
+        add("v", _small(g))
     # ganze Wörter
     W = {"und": _cut("word_und"), "gegenüber": _cut("sent1_w05"), "Diagonale": _cut("sent1_w14", [0, 1, 2, 3, 4]),
          "der": _cut("sent2_w04"), "Würfel": _cut("word_Würfel"), "Vektor": _cut("word_Vektor"),
