@@ -36,3 +36,14 @@ Fortschritt: v' = −2e^(−2x) mit Minus ✓, e^(−2x) ≠ 0 ✓.
 | b | ja, Quader | ✗ | A₂B₂·A₂D₂ = (5\|15\|0)·(−5\|2\|0) = 5 ≠ 0 → kein rechter Winkel → kein Quader |
 | c | Ortsvektoren B₁, F₁ als Richtungen, F₁(5\|15\|7) | ✗ | F₁(5\|15\|8) (Höhe 5 über x₃ = 3); Richtungen = Differenzen: E: x = (5\|0\|3) + r(0\|15\|0) + s(0\|15\|5) → E: x₁ = 5 |
 **Muster:** Richtungsvektor = Spitze − Fuß (nicht Ortsvektor); „Quader“ immer mit Skalarprodukt = 0 prüfen.
+
+## 15.11.2026 – Übungs-Analysis 2 (f_t = (4 − tx²)e^(−x)), a–d
+| Nr. | meine Antwort | richtig? | Erklärung |
+|---|---|---|---|
+| a i | f_t(0) = 4·1 = 4, S(0\|4) | ✓ | e⁰ = 1 sitzt |
+| a ii | x = ±√(4/t) | ✓ | Nullprodukt sitzt |
+| a iii | quadriert: 4/t + 4/t = 8 → t = 1 | ✗ | (√a + √a)² ≠ a + a; erst 2√(4/t) = 2√2 → 4/t = 2 → t = 2 |
+| b | „weil x → ∞ von e^(−x) kommt“ | ~ | e^(−x) → 0 dominiert → f_t → 0 für alle t; x → −∞ fehlt |
+| c | u' = 4 − tx²·2, v' = e^(−x) | ✗ | u' = −2tx (Konstante → 0, Exponent −1), v' = −e^(−x) |
+| d | f'(0) eingesetzt, f'' = 0 gelöst, pq falsch | ✗ | f' = 0: x² − 2x − 8 = 0 → x = −2 (HP), 4 (TP); f'' = 0 wären Wendestellen |
+**Muster (bleibt):** Grundableitungen (Konstante → 0, x² → 2x, e^(−x) → −e^(−x)); Extremstellen-Schema (erst f' = 0); √a + √a = 2√a. pq-Formel: p, q sind Zahlen.
