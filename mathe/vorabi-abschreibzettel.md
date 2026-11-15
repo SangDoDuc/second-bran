@@ -17,11 +17,11 @@ pagetitle: Abschreib-Zettel Mathe
 | e^(−2x) | **−2·e^(−2x)** (innere Ableitung!) |
 | ln(x) | 1/x |
 
-**Produktregel:** (u·v)' = u'·v **+** u·v' → immer **beide** Terme, u, u', v, v' vorher aufschreiben.
+**Produktregel:** (u·v)' = u'·v **+** u·v' → immer **beide** Terme, u, u', v, v' vorher aufschreiben.\
 **Kettenregel:** äußere Ableitung · innere Ableitung.
 
-**Beispiel:** f(x) = (4 − x²)·e^(−x)
-u = 4 − x², u' = −2x · v = e^(−x), v' = −e^(−x)
+**Beispiel:** f(x) = (4 − x²)·e^(−x)\
+u = 4 − x², u' = −2x · v = e^(−x), v' = −e^(−x)\
 f'(x) = −2x·e^(−x) + (4 − x²)·(−e^(−x)) = e^(−x)·(x² − 2x − 4)
 
 ## 2. Gleichungen mit e
