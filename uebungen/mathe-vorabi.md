@@ -20,3 +20,19 @@
 4. **Notwendige Bedingung f' = 0** übersprungen (d).
 5. „Unendlich erstreckende Fläche“ → **uneigentliches Integral** (Grenze → ∞), nicht feste Grenze.
 ✓ Positiv: Produktregel mit beiden Termen und u, u', v, v' sauber notiert.
+
+## 15.11.2026 – Analysis Block 1 (Wiederholung)
+| Nr. | meine Antwort | richtig? | Erklärung |
+|---|---|---|---|
+| 1a | x = ±√(1/t) mit e^(−2x) ≠ 0 | ✓ | Nullprodukt sitzt |
+| 1b | √(1/t) + √(1/t) = √(2/t) → t = 0,125 | ✗ | √a + √a = 2√a → 2√(1/t) = 4 → t = 1/4 |
+| 2a | u' = −2·0,5x², falsch ausgeklammert | ✗ | u' = −x (Exponent −1!); f' = e^(−2x)(x² − x − 2) |
+Fortschritt: v' = −2e^(−2x) mit Minus ✓, e^(−2x) ≠ 0 ✓.
+
+## 15.11.2026 – Teil B Geometrie a–c
+| Nr. | meine Antwort | richtig? | Erklärung |
+|---|---|---|---|
+| a | zwei Geraden schneiden sich in C₂ | ~ | genauer: Gerade durch B₂ mit Richtung A₂D₂ und Gerade durch D₂ mit Richtung A₂B₂ (Parallelogramm ergänzen), Schnitt r = s = 1 → C₂ |
+| b | ja, Quader | ✗ | A₂B₂·A₂D₂ = (5\|15\|0)·(−5\|2\|0) = 5 ≠ 0 → kein rechter Winkel → kein Quader |
+| c | Ortsvektoren B₁, F₁ als Richtungen, F₁(5\|15\|7) | ✗ | F₁(5\|15\|8) (Höhe 5 über x₃ = 3); Richtungen = Differenzen: E: x = (5\|0\|3) + r(0\|15\|0) + s(0\|15\|5) → E: x₁ = 5 |
+**Muster:** Richtungsvektor = Spitze − Fuß (nicht Ortsvektor); „Quader“ immer mit Skalarprodukt = 0 prüfen.
