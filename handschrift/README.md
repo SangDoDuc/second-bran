@@ -26,6 +26,7 @@ Stand: 28.10.2026
 | `render_stochastik.py` | IQB 2026 Stochastik (Zahlencodes): zusätzlich T̄ (Überstrich), `_{A}` (tiefgestellt), Baum-Skizze mit Linien |
 | `zeichenuebersicht.png` | Übersicht aller Zeichen (Stand vor der Ergänzung vom 28.10. abends) |
 | `render_text.py` | **Stichpunkte/Text mit Zeilenumbruch** (seit 15.11.2026): `PYTHONPATH=../texte python3 render_text.py text_MODUL AUSGABE` → `AUSGABE_p1_alpha.npy` …, dann `kuli.py`. Arten: Überschrift, Strich, +/−, Pfeil, Unterpunkt |
+| `ordentlich.py` | **Standard für render_text.py** (seit 15.11.2026, Sangs Wunsch): jeder Buchstabe auf feste Maße (x-Höhe 13 px, Oberlänge/Großbuchstaben 19 px) und exakt auf die Grundlinie, keine Zufallsverschiebung, keine Wortbilder, gleiche Abstände. Ausschalten mit `ORDENTLICH=0` |
 | `../texte/` | Textmodule (TITLE, LINES), z. B. `text_englisch_agi.py` |
 | `../werkzeug/kuli.py` | **Kuli-Umwandlung**: Tinten-Alpha (`*_alpha.npy`) → Mittellinien-Striche → `.goodnotes` + PDF + Vorschau-PNG |
 

@@ -8,8 +8,7 @@ TITLE = "Rollenspiel Magaluf: Carlos Ruiz (R1)"
 LINES = [
     ("h", "1. Wer bin ich?"),
     ("b", "Carlos Ruiz, Mallorquiner, Hotelier"),
-    ("b", "plane ein 5-Sterne-Hotel in Magaluf: Golfplatz, Pool, Spa"),
-    ("b", "Hotel ist ganzjährig geöffnet, nicht nur im Sommer"),
+    ("b", "plane ein 5-Sterne-Hotel in Magaluf (Golf, Pool, Spa), ganzjährig offen"),
     ("b", "liebe Mallorca, ärgere mich über das Partyimage von Magaluf"),
     ("h", "2. Meine Position (das sage ich laut)"),
     ("+", "ich bin für das Hotel"),

@@ -16,6 +16,12 @@ from PIL import Image
 HERE = os.path.dirname(os.path.abspath(__file__)) + "/"
 sys.path.insert(0, HERE)
 from render_loesung import GRID, GRID0, H_PAGE, SPACE, W_PAGE, Hand, paste  # noqa: E402
+import render_loesung  # noqa: E402
+
+if os.environ.get("ORDENTLICH", "1") == "1":       # Standard seit 15.11.2026: gerade, gleich groß, gleiche Abstände
+    import ordentlich  # noqa: E402
+    ordentlich.apply(render_loesung)
+    SPACE = render_loesung.SPACE
 
 X0, X_MAX = 50, 1360
 BULLET_X, TEXT_X, SUB_X = 60, 95, 130
