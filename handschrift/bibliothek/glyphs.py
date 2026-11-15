@@ -60,6 +60,19 @@ def _f_with_bar(f, bar, width=14):
     return dict(f, alpha=a)
 
 
+def _umlaut(base, dots, gap=3):
+    """Buchstabe + Umlautpunkte darüber (mittig)."""
+    a, d = base["alpha"], dots["alpha"]
+    w = max(a.shape[1], d.shape[1])
+    h = d.shape[0] + gap + a.shape[0]
+    out = np.zeros((h, w), np.float32)
+    x = (w - d.shape[1]) // 2
+    out[:d.shape[0], x:x + d.shape[1]] = d
+    x = (w - a.shape[1]) // 2
+    out[d.shape[0] + gap:, x:x + a.shape[1]] = a
+    return dict(base, alpha=out, top=base["top"] - d.shape[0] - gap)
+
+
 def _iso(prefix, ch):
     return _cut(f"{prefix}_U+{ord(ch):04X}") if prefix != "upper" else _cut(f"upper_{ch}")
 
@@ -81,8 +94,8 @@ def build():
     # weitere Varianten aus den Mathe-Ausdrücken
     add("A", _cut("math_vec_ac", [0])); add("C", _cut("math_vec_ac", [2]))
     add("A", _cut("math_abs", [2])); add("C", _cut("math_abs", [3])); add("C", _cut("math_points", [0]))
-    add("1", _cut("math_abs", [8])); add("1", _cut("math_abs", [11])); add("2", _cut("math_abs", [12]))
-    add("2", _cut("math_plane", [3])); add("2", _cut("math_plane", [10])); add("6", _cut("math_plane", [15]))
+    add("1", _cut("math_abs", [8])); add("1", _cut("math_abs", [11]));
+    add("2", _cut("math_plane", [3])); add("6", _cut("math_plane", [15]))
     add("3", _cut("math_points", [3])); add("6", _cut("math_points", [6])); add("9", _cut("math_points", [8]))
     add("3", _cut("math_exp", [3]))
     add("=", _cut("math_vec_ac", [3])); add("=", _cut("math_frac", [1])); add("=", _cut("math_abs", [5, 6]))
@@ -123,7 +136,6 @@ def build():
     add("e", _cut("sent2_w06", [0], (385, 396)))          # s-e-it
     add("e", _cut("sent0_w04", [1], (434, 443)))          # qu-e-r
     add("p", _cut("sent0_w01", [3], (162, 171)))          # Boxkäm-p-fer
-    add("ä", _cut("sent0_w01", [2], (136, 146)))          # Boxk-ä-mpfer
     add("c", _cut("sent0_w09", [0], (834, 844)))          # Dei-c-h
     add("c", _cut("sent1_w09", [1], (652, 661)))          # dur-c-h
     add("c", _cut("word_Gleichung", [4], (95, 106)))      # Glei-c-hung
@@ -152,6 +164,14 @@ def build():
     add("z", _cut("sent2_w09", [7]))                      # z.B.
     add("ü", _cut("sent0_w05", [0, 1]))                   # ü-ber
     add("ß", _cut("sent0_w07", [1], (636, 648)))          # gro-ß-en
+    # ä = Sangs a + zwei Satzpunkte als Umlautpunkte (das ä aus „Boxkämpfer“ wird beim Umwandeln unleserlich)
+    p = G["."][0]["alpha"]                       # zwei eigene Satzpunkte mit 4 px Abstand (die ü-Punkte verschmelzen)
+    two = np.zeros((p.shape[0], 2 * p.shape[1] + 4), np.float32)
+    two[:, :p.shape[1]] = p
+    two[:, p.shape[1] + 4:] = p
+    dots = {"alpha": two}
+    for a in G["a"]:
+        add("ä", _umlaut(a, dots))
     for g in G["V"][:1]:
         add("v", _small(g))
     # ganze Wörter

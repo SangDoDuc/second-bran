@@ -41,6 +41,9 @@ Stand: 28.10.2026
 - Grenzen:
   - Viele Kleinbuchstaben gibt es nur 1–3×.
   - Seit 15.11.2026 vollständig: f (Bogen aus „Zwölf“ + Sangs Minusstrich als Querbalken, mind. 14 px breit, sonst schneidet kuli.py ihn weg), j (jagen), q (quer), w (Zwölf), y (Sylter), z (z.B.), ü (über), ß (großen), v = großes V auf x-Höhe, u aus „über“/„und“.
+  - ä = Sangs a + zwei eigene Satzpunkte (ä aus „Boxkämpfer“ und die ü-Punkte verschmelzen beim Umwandeln). 2 nur noch aus der Einzelprobe und „2x₁“, die anderen schweben über der Linie.
+  - Fehlt weiterhin: Ä Ö Ü als Großbuchstaben, Akzente (á, à, í), €, Apostroph. Im Text umformulieren.
+  - `render_text.py` kennt auch "page" (neue Seite) und setzt Überschriften nie allein unten auf die Seite.
   - Aussortiert, weil nach der Umwandlung unleserlich: h aus „Deich“ (wird zu n), s aus „dass“ (zu groß), u aus „quer“/„durch“ (rechter Strich fehlt), f aus „Boxkämpfer“ (Querstrich fehlt).
   - Mathe-Lösungswege gehen gut. Sangs „m“ (aus „mit“) sieht wie ein „w“ aus, das ist aber seine Form.
 - Erfahrungen:

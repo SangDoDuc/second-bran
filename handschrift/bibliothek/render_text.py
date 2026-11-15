@@ -3,7 +3,7 @@
 python3 render_text.py TEXTMODUL AUSGABEPRÄFIX
 TEXTMODUL (im selben Ordner oder auf sys.path) definiert TITLE, LINES und optional HEADER_LEFT/HEADER_RIGHT = [(art, text), ...]:
   art "h"  Überschrift (unterstrichen), "b" Stichpunkt mit Strich, "+"/"−" Pro/Contra, ">" Folgerung mit Pfeil, "s" eingerückter Unterpunkt,
-  "p" normale Zeile, "" Leerzeile.
+  "p" normale Zeile, "" Leerzeile, "page" neue Seite.
 Ergebnis: PRÄFIX_p1_alpha.npy, PRÄFIX_p2_alpha.npy … und Vorschau-PNGs; weiter mit ../werkzeug/kuli.py.
 """
 import importlib
@@ -56,7 +56,10 @@ def render(mod, seed=7):
         if kind == "":
             row += 1
             continue
-        if row > LAST_LINE:
+        if kind == "page":                                   # erzwungener Seitenumbruch
+            new_page()
+            continue
+        if row > LAST_LINE or (kind == "h" and row > LAST_LINE - 4):   # Überschrift nie allein unten
             new_page()
         if kind == "h":
             parts, w = h.run(text)
