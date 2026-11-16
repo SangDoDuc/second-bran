@@ -92,3 +92,13 @@ Fortschritt: v' = −2e^(−2x) mit Minus ✓, e^(−2x) ≠ 0 ✓.
 | 8 | „Punkt aus dem RV nehmen“ | ✗ | n = u × v (Kreuzprodukt), n₁x₁ + n₂x₂ + n₃x₃ = d, Punkt einsetzen → d |
 | 9 | leer | ✗ | 0 ≤ k ≤ 1 (k = 0 → A, k = 1 → B) |
 **Muster:** Geometrie-Grundformeln (Gerade, Länge, Strecke, Koordinatenform) noch nicht abrufbar → größte Lücke vor dem Vor-Abi.
+
+## 16.11.2026 – Abend: Geometrie Mini-Aufgabe (A(1|0|2), B(4|0|2), D(1|3|3))
+| Nr. | meine Antwort | richtig? | Erklärung |
+|---|---|---|---|
+| a | AB = (3\|0\|0), AD = (0\|3\|1) | ✓ | Spitze − Fuß sitzt |
+| b | A·B = 8, A·D = 7 → kein rechter Winkel | ✗ | Ortsvektoren statt Kantenvektoren; AB·AD = 0 + 0 + 0 = 0 → rechter Winkel bei A |
+| c | Kreuzprodukt A × D | ✗ | Länge: \|AD\| = √(0² + 3² + 1²) = √10 ≈ 3,16 LE |
+| d | g: x = (1\|0\|2) + k(3\|0\|0) | ✓ | |
+| e | E: x = (1\|0\|2) + s(3\|0\|0) + r(0\|3\|1) | ✓ | |
+**Muster (3. Mal):** Ortsvektoren statt Verbindungsvektoren. Winkel/Länge/Seite → immer AB, AD aus a); Ortsvektor nur als Stützvektor.
