@@ -78,3 +78,17 @@ Fortschritt: v' = −2e^(−2x) mit Minus ✓, e^(−2x) ≠ 0 ✓.
 | 4 | α = tan⁻¹(3) ≈ 71,57° | ✓ | Betrag genommen |
 | 5 | y = −3x + 3 | ✓ | Notation: links „3 =“ hinschreiben (y₀ einsetzen), „\|+3“ unnötig |
 **Fortschritt:** Alle drei Fehler aus der Runde davor (e⁰, Faktor, Tangente) direkt behoben.
+
+## 16.11.2026 – Abend: Geometrie Abruffragen
+| Nr. | meine Antwort | richtig? | Erklärung |
+|---|---|---|---|
+| 1 | AB = B − A | ✓ | |
+| 2 | ? | ✗ | g: x = A + k·(B − A) |
+| 3 | E: x = A + r·AB + s·AC; „AB, AC Stützvektor/Richtungsvektor“ | ~ | Formel ✓; A = Stützvektor, AB/AC = Richtungs-(Spann-)vektoren |
+| 4 | u₁v₁ + u₂v₂ + u₃v₃, 0 = rechter Winkel | ✓ | |
+| 5 | ? | ✗ | \|u\| = √(u₁² + u₂² + u₃²) |
+| 6 | cos α = n₁·n₂ / (\|n₁\|·\|n₂\|) | ~ | Aufbau ✓; für Vektoren u, v; Betrag im Zähler für Schnittwinkel |
+| 7 | Skalarprodukt = 0 → rechter Winkel | ✓ | Kanten an einer Ecke (Spitze − Fuß) nehmen |
+| 8 | „Punkt aus dem RV nehmen“ | ✗ | n = u × v (Kreuzprodukt), n₁x₁ + n₂x₂ + n₃x₃ = d, Punkt einsetzen → d |
+| 9 | leer | ✗ | 0 ≤ k ≤ 1 (k = 0 → A, k = 1 → B) |
+**Muster:** Geometrie-Grundformeln (Gerade, Länge, Strecke, Koordinatenform) noch nicht abrufbar → größte Lücke vor dem Vor-Abi.
