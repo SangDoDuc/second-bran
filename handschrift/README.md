@@ -25,6 +25,9 @@ Stand: 28.10.2026
 | `render_loesung.py` | setzt Zeilen daraus zusammen (Spaltenvektor, Pfeil, Wurzelstrich, Bruch, Hoch-/Tiefzahlen) |
 | `render_stochastik.py` | IQB 2026 Stochastik (Zahlencodes): zusätzlich T̄ (Überstrich), `_{A}` (tiefgestellt), Baum-Skizze mit Linien |
 | `zeichenuebersicht.png` | Übersicht aller Zeichen (Stand vor der Ergänzung vom 28.10. abends) |
+| `render_text.py` | **Stichpunkte/Text mit Zeilenumbruch** (seit 15.11.2026): `PYTHONPATH=../texte python3 render_text.py text_MODUL AUSGABE` → `AUSGABE_p1_alpha.npy` …, dann `kuli.py`. Arten: Überschrift, Strich, +/−, Pfeil, Unterpunkt |
+| `ordentlich.py` | **Standard für render_text.py** (seit 15.11.2026, Sangs Wunsch): jeder Buchstabe auf feste Maße (x-Höhe 13 px, Oberlänge/Großbuchstaben 19 px) und exakt auf die Grundlinie, keine Zufallsverschiebung, keine Wortbilder, gleiche Abstände. Ausschalten mit `ORDENTLICH=0` |
+| `../texte/` | Textmodule (TITLE, LINES), z. B. `text_englisch_agi.py` |
 | `../werkzeug/kuli.py` | **Kuli-Umwandlung**: Tinten-Alpha (`*_alpha.npy`) → Mittellinien-Striche → `.goodnotes` + PDF + Vorschau-PNG |
 
 - In der Bibliothek:
@@ -38,7 +41,11 @@ Stand: 28.10.2026
   - Prüfen: `gnverify.py` ist nur eine Decoder-Bibliothek (kein Aufruf); Beispiel-Prüfschleife siehe Git-Historie dieser Sitzung (Striche zählen, LZ4/TPL dekodieren, Koordinatenbereich).
 - Grenzen:
   - Viele Kleinbuchstaben gibt es nur 1–3×.
-  - Noch kein Schnitt für f j q v w y z ü ß (ü nur in ganzen Wörtern: über, gegenüber, für, Würfel). Lange Fließtexte gehen deshalb noch nicht.
+  - Seit 15.11.2026 vollständig: f (Bogen aus „Zwölf“ + Sangs Minusstrich als Querbalken, mind. 14 px breit, sonst schneidet kuli.py ihn weg), j (jagen), q (quer), w (Zwölf), y (Sylter), z (z.B.), ü (über), ß (großen), v = großes V auf x-Höhe, u aus „über“/„und“.
+  - ä = Sangs a + zwei eigene Satzpunkte (ä aus „Boxkämpfer“ und die ü-Punkte verschmelzen beim Umwandeln). 2 nur noch aus der Einzelprobe und „2x₁“, die anderen schweben über der Linie.
+  - Fehlt weiterhin: Ä Ö Ü als Großbuchstaben, Akzente (á, à, í), €, Apostroph. Im Text umformulieren.
+  - `render_text.py` kennt auch "page" (neue Seite) und setzt Überschriften nie allein unten auf die Seite.
+  - Aussortiert, weil nach der Umwandlung unleserlich: h aus „Deich“ (wird zu n), s aus „dass“ (zu groß), u aus „quer“/„durch“ (rechter Strich fehlt), f aus „Boxkämpfer“ (Querstrich fehlt).
   - Mathe-Lösungswege gehen gut. Sangs „m“ (aus „mit“) sieht wie ein „w“ aus, das ist aber seine Form.
 - Erfahrungen:
   - Helle Striche werden um den Faktor 1,35 verstärkt.

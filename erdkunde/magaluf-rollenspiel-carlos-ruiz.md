@@ -1,6 +1,8 @@
 # Erdkunde LK – Rollenspiel „Mallorca 2026: Ein weiteres Luxushotel in Magaluf?“ – Vorbereitung Rolle R1 Carlos Ruiz (Hotelier)
 
 Vorbereitung 11.11.2026. Material: Gemeinsame Materialien M1–M4, Rollenkarten R1–R5, Arbeitsaufträge 1–4.
+
+Handschrift-Fassung für die Diskussion am 16.11.2026: `Erdkunde_Magaluf_Carlos_Ruiz_A4.goodnotes` (+ PDF), 5 Karo-Seiten in dieser Reihenfolge: wer ich bin und Position, These und Argumente, Gegner R3/R2, Gegner R4/R5 mit Auflagen, Rede/Taktik/Sätze. Textquelle: `handschrift/texte/text_erdkunde_carlos.py`.
 Alle Zahlen stammen aus M1–M4. Eigene Rechnungen sind als „Überschlag“ markiert.
 
 **Leitfrage:** Ist ein weiteres Luxushotel mit Golfplatz in Magaluf unter den Bedingungen des Klimawandels und des touristischen Strukturwandels raumverträglich?
