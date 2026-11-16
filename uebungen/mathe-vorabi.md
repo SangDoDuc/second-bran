@@ -68,3 +68,13 @@ Fortschritt: v' = −2e^(−2x) mit Minus ✓, e^(−2x) ≠ 0 ✓.
 | B3 | tan α = 1 | ✗ (Folgefehler) | tan α = \|−2\| = 2 → α ≈ 63,4° |
 | B4 | offen | – | y = −2(x − 0) + 2 = −2x + 2 |
 **Muster:** Minus vor Klammer (2. Mal!), e^(−0) = 1, konstanter Faktor beim Ableiten bleibt stehen.
+
+## 16.11.2026 – Abend: Tangente Wiederholung (f = 3e^(−x), x₀ = 0)
+| Nr. | meine Antwort | richtig? | Erklärung |
+|---|---|---|---|
+| 1 | f(0) = 3, P(0\|3) | ✓ | e⁰ = 1 sitzt jetzt |
+| 2 | f' = −3e^(−x) | ✓ | Faktor 3 bleibt stehen |
+| 3 | m = −3 | ✓ | |
+| 4 | α = tan⁻¹(3) ≈ 71,57° | ✓ | Betrag genommen |
+| 5 | y = −3x + 3 | ✓ | Notation: links „3 =“ hinschreiben (y₀ einsetzen), „\|+3“ unnötig |
+**Fortschritt:** Alle drei Fehler aus der Runde davor (e⁰, Faktor, Tangente) direkt behoben.
