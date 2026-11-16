@@ -57,3 +57,14 @@ Fortschritt: v' = −2e^(−2x) mit Minus ✓, e^(−2x) ≠ 0 ✓.
 | 4 | Ansatz ✓, vereinfacht zu e^(−x)(2x − 2 − x²) | ✗ | (2 − x²)·(−1) = −2 + x² → f' = e^(−x)(x² − 2x − 2) |
 | 5 | Ansatz ✓, vereinfacht zu e^(2x)(x² + x + 1) | ✗ | (x² + 1)·2 = 2x² + 2 → f' = e^(2x)(2x² + 2x + 2) = 2e^(2x)(x² + x + 1) |
 **Muster (neu):** Ableiten selbst sitzt jetzt (u, u', v, v', beide Terme). Punkte gehen beim **Ausklammern** verloren: Minus vor der Klammer nicht in jedes Glied gezogen (4), Faktor 2 beim Ausklammern verloren (5).
+
+## 16.11.2026 – Abend: Ausklammern + Tangente
+| Nr. | meine Antwort | richtig? | Erklärung |
+|---|---|---|---|
+| A1 | e^(−x)(−x² − 2x + 3) | ✗ | (3 − x²)·(−1) = −3 + x² → e^(−x)(x² − 2x − 3) |
+| A2 | 2e^(2x)(x² + x + 3) | ✓ | Faktor 2 diesmal korrekt ausgeklammert |
+| B1 | e^(−0) = −1 → P(0\|−2) | ✗ | −0 = 0 → e⁰ = 1 → P(0\|2); e^(…) ist nie negativ |
+| B2 | f' = −e^(−x), m = 1 | ✗ | Faktor 2 bleibt: f' = −2e^(−x); −e⁰ = −1 → m = −2 |
+| B3 | tan α = 1 | ✗ (Folgefehler) | tan α = \|−2\| = 2 → α ≈ 63,4° |
+| B4 | offen | – | y = −2(x − 0) + 2 = −2x + 2 |
+**Muster:** Minus vor Klammer (2. Mal!), e^(−0) = 1, konstanter Faktor beim Ableiten bleibt stehen.
