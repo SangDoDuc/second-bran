@@ -47,3 +47,13 @@ Fortschritt: v' = −2e^(−2x) mit Minus ✓, e^(−2x) ≠ 0 ✓.
 | c | u' = 4 − tx²·2, v' = e^(−x) | ✗ | u' = −2tx (Konstante → 0, Exponent −1), v' = −e^(−x) |
 | d | f'(0) eingesetzt, f'' = 0 gelöst, pq falsch | ✗ | f' = 0: x² − 2x − 8 = 0 → x = −2 (HP), 4 (TP); f'' = 0 wären Wendestellen |
 **Muster (bleibt):** Grundableitungen (Konstante → 0, x² → 2x, e^(−x) → −e^(−x)); Extremstellen-Schema (erst f' = 0); √a + √a = 2√a. pq-Formel: p, q sind Zahlen.
+
+## 16.11.2026 – Session 1, Block 1: Ableitungs-Drill
+| Nr. | meine Antwort | richtig? | Erklärung |
+|---|---|---|---|
+| 1 | f' = −6x | ✓ | Konstante → 0, x² → 2x sitzt |
+| 2 | f' = −e^(−x) | ✓ | innere Ableitung −1 dabei |
+| 3 | f' = −3e^(−3x) | ✓ | innere Ableitung −3 dabei |
+| 4 | Ansatz ✓, vereinfacht zu e^(−x)(2x − 2 − x²) | ✗ | (2 − x²)·(−1) = −2 + x² → f' = e^(−x)(x² − 2x − 2) |
+| 5 | Ansatz ✓, vereinfacht zu e^(2x)(x² + x + 1) | ✗ | (x² + 1)·2 = 2x² + 2 → f' = e^(2x)(2x² + 2x + 2) = 2e^(2x)(x² + x + 1) |
+**Muster (neu):** Ableiten selbst sitzt jetzt (u, u', v, v', beide Terme). Punkte gehen beim **Ausklammern** verloren: Minus vor der Klammer nicht in jedes Glied gezogen (4), Faktor 2 beim Ausklammern verloren (5).
