@@ -137,6 +137,7 @@ Bei Englisch-Aufgaben **zuerst die passende Datei lesen**, dann antworten.
 | **Klausur 02.11.2026** – Lernplan 2 Std. + Schablonen Summary/Analysis/Comment, 12 Stilmittel, Argument-Bank | [`englisch/klausur-lernplan-2026-11-02.md`](englisch/klausur-lernplan-2026-11-02.md) |
 | Media and AI – Statistic C (p. 83), Präsentation | [`englisch/media-ai-statistic-c.md`](englisch/media-ai-statistic-c.md) |
 | Media and AI p. 84 ex. 4 – Stage 2 AGI (Poster-Stichpunkte, Handschrift-GoodNotes) | [`englisch/media-ai-stage2-agi.md`](englisch/media-ai-stage2-agi.md) |
+| Media and AI pp. 86–87 – Kenan Malik, ChatGPT „fluent bullshit“ (capabilities, issues, language) | [`englisch/media-ai-malik-chatgpt.md`](englisch/media-ai-malik-chatgpt.md) |
 | Sprechen – Fehlerliste & Lernplan | [`englisch/sprechen-fehlerliste.md`](englisch/sprechen-fehlerliste.md) |
 | Vokabel-HÜ Unit 4 – meine Ergebnisse | [`uebungen/englisch-unit4-vokabel-hue.md`](uebungen/englisch-unit4-vokabel-hue.md) |
 | Assessment Climate Change (HA 25.10.) – mein Teil, Korrektur, Fortsetzung | [`uebungen/englisch-assessment-climate-causes.md`](uebungen/englisch-assessment-climate-causes.md) |
